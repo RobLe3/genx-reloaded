@@ -3,6 +3,7 @@
 ## Documentation update, 13 October 2026: podcast player
 
 - Add a responsive, self-contained podcast card to the README. The full card links directly to the public audio episode and opens in the listener's browser.
+- Record the 60 Minutes Australia report that prompted the project and connect it to the tool's practical purpose.
 
 ## Research update, 13 October 2026: reviewer calibration and rehearsal
 

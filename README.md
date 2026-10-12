@@ -4,9 +4,13 @@
 
 ATS-aware CV and career support for people with a long career and plenty left to offer. Recover the strengths you have stopped noticing, translate historical knowledge into present relevance, and produce a focused, truthful application.
 
+## Why this exists
+
+GenX Reloaded began after watching 60 Minutes Australia’s report [*How AI is causing an unemployment crisis among middle aged job seekers*](https://www.youtube.com/watch?v=DA_IhG1ZFl4). The report prompted a practical response: help experienced jobseekers make decades of relevant knowledge visible in modern recruitment while preserving truthful dates, qualifications and contribution.
+
 **Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
 
-[Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
+[Why](#why-this-exists) · [Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
 ## Listen to the podcast
 
