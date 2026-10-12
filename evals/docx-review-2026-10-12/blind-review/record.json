@@ -1,0 +1,18 @@
+{
+  "agent_id": "/root/docx_blind_review",
+  "wrapper": "Perform the condition-label-blinded review described in /var/folders/nw/tfyklmw93lsgsw05b24hpknr0000gn/T/genx-review-42mtunzc/blind-review/instructions.md. Read only that directory and ordinary tool/skill instructions needed to inspect the supplied documents. Do not read repository evaluation records, runtime bundles, project memory or other agents. Save assessment.json in that directory as requested, then report its path and concise findings.",
+  "model": "unknown",
+  "sampling": "unknown",
+  "files": {
+    "instructions.md": "57b08d740fbd8e591b90fc3fcf4ca30016c211609bf100bcf477a9db86b5ed64",
+    "set-1.md": "ece0830dc5d367bbb9f1f699123c6d2e5a34ae817f38b2aa1e1f19ac44da3c36",
+    "set-2.md": "ba2db15a807952354afc067db8192220d26c82b1e834092e3144d05f6f30d328",
+    "set-3.md": "3d6b7becddf1f170eee0f48fef27ac7c95b6cd70b3642b0d75054f754c6c4940",
+    "assessment.json": "e40ef6865f276ea49fd29bc420842ceafdce71aae96a8def99db00617c1d2632"
+  },
+  "input_packages": {
+    "reviewed.docx": "4a63548758f62795c1139819bef4bb03e4c45a9717cb58cbfb6334bd0dfa4072",
+    "clean.docx": "42f44e277c432d2742f8d57d326382bbe1f30b4b878ae9f6d2d6a36b8c237aa6"
+  },
+  "limits": "Fresh condition-label-blinded agent; not human review. Read boundaries instructed, not enforced; style can reveal conditions. New synthetic input packages excluded from Git; none are the prior withheld GX-64 files."
+}

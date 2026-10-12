@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "task_records": 15,
+  "distinct_new_cases": 5,
+  "runtime_matches_frozen_candidate": true,
+  "protocol_matches_freeze": true,
+  "local_input_hashes_match_helper_comparison": true,
+  "reviewer_text_hashes_verified": true,
+  "prior_withheld_bytes_inspected": false,
+  "limits": "Hash/inventory verification only. Local input matching is not proof of complete original execution or network action history. Generated input packages and thumbnails stay outside Git."
+}

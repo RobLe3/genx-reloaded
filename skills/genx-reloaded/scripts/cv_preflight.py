@@ -8,14 +8,18 @@ import sys
 import unicodedata
 import zipfile
 from pathlib import Path
+from urllib.parse import unquote
 from xml.etree import ElementTree as ET
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+CONTENT_TYPES = "{http://schemas.openxmlformats.org/package/2006/content-types}"
+COMMENTS_TYPE = "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml"
+XML_LIMIT = 20_000_000
 EMAIL = re.compile(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", re.UNICODE)
 LIMITATION = (
     "Local extraction and structural observations only. No ATS emulation, "
     "hiring prediction, OCR, or visual certification. Review reading order "
-    "and the rendered document separately."
+    "and the rendered document separately. Not a complete metadata or privacy audit."
 )
 
 
@@ -97,6 +101,22 @@ def add_finding(findings, code, detail):
 
 def inspect_docx(path, findings):
     with zipfile.ZipFile(path) as archive:
+        # Comments are separate package parts, not visible main-body text.
+        # Inspect even unanchored/resolved stored comments without reporting
+        # their contents or authors. Do not extract package paths to disk.
+        comment_parts = {"word/comments.xml"} & set(archive.namelist())
+        metadata_size = 0
+        if "[Content_Types].xml" in archive.namelist():
+            metadata_size = archive.getinfo("[Content_Types].xml").file_size
+            if metadata_size > XML_LIMIT:
+                raise ValueError("DOCX XML is too large for this bounded inspection.")
+            types = ET.fromstring(archive.read("[Content_Types].xml"))
+            for item in types.findall(CONTENT_TYPES + "Override"):
+                if item.get("ContentType") == COMMENTS_TYPE:
+                    name = unquote(item.get("PartName", "")).lstrip("/")
+                    if not name or name not in archive.namelist():
+                        raise ValueError("DOCX declares a missing comments part.")
+                    comment_parts.add(name)
         # Protect inspection from very large decompressed XML packages.
         names = [
             name for name in archive.namelist()
@@ -105,9 +125,14 @@ def inspect_docx(path, findings):
         ]
         if "word/document.xml" not in names:
             raise ValueError("DOCX has no word/document.xml.")
-        if sum(archive.getinfo(name).file_size for name in names) > 20_000_000:
+        selected = set(names) | comment_parts
+        if metadata_size + sum(archive.getinfo(name).file_size for name in selected) > XML_LIMIT:
             raise ValueError("DOCX XML is too large for this bounded inspection.")
         roots = {name: ET.fromstring(archive.read(name)) for name in names}
+        comments = sum(
+            len(list(ET.fromstring(archive.read(name)).iter(W + "comment")))
+            for name in sorted(comment_parts)
+        )
 
     document = roots["word/document.xml"]
     body = document.find(W + "body")
@@ -130,6 +155,10 @@ def inspect_docx(path, findings):
         for item in root.iter()
         if item.tag in (W + "ins", W + "del", W + "moveFrom", W + "moveTo")
     )
+    comment_markers = sum(
+        1 for root in roots.values() for item in root.iter()
+        if item.tag in (W + "commentRangeStart", W + "commentRangeEnd", W + "commentReference")
+    )
     columns = 1
     for item in body.iter(W + "cols"):
         try:
@@ -141,6 +170,9 @@ def inspect_docx(path, findings):
         (boxes, "docx_text_boxes", f"{boxes} text box(es); check essential content."),
         (hidden, "docx_hidden_text", f"{hidden} hidden-text setting(s); resolve before use."),
         (tracked, "docx_tracked_changes", f"{tracked} tracked-change element(s); resolve before use."),
+        (comments or comment_markers, "docx_comments",
+         f"{comments} stored comment(s), {comment_markers} comment marker(s); "
+         "review and delete private comments from a submission copy. Hiding or resolving is not deletion."),
         (columns > 1, "docx_columns", f"Up to {columns} configured columns; inspect extraction order."),
     ]
     for present, code, detail in observations:
@@ -156,6 +188,7 @@ def inspect_docx(path, findings):
         "method": "DOCX main-body XML", "tables": tables, "text_boxes": boxes,
         "configured_columns": columns, "hidden_settings": hidden,
         "tracked_change_elements": tracked, "pages": None,
+        "stored_comments": comments, "comment_markers": comment_markers,
     }
 
 

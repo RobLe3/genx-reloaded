@@ -1,6 +1,8 @@
 # Prospective application-gain comparison
 
-12 October 2026. **The proposed expansion did not demonstrate a substantive advantage over the no-skill condition. Version 0.4.1 remains the released runtime.** All 35 new execution records are available, including the unpromoted candidate. This result is useful evidence against adding redundant instructions; it is not proof that the skill has no value in other settings.
+12 October 2026. **The proposed expansion did not demonstrate a substantive advantage over the no-skill condition. The study retained 0.4.1.** All 35 execution records are available, including the unpromoted candidate. This result is useful evidence against adding redundant instructions; it is not proof that the skill has no value in other settings.
+
+Later update, 12 October 2026: [0.4.2 fixes a separate local Word-comment check](docx-comment-check.md). It does not promote this proposal or change this study's failed gate.
 
 ## What was tested
 

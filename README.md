@@ -4,7 +4,7 @@
 
 ATS-aware CV and career support for people with a long career and plenty left to offer. Recover the strengths you have stopped noticing, translate historical knowledge into present relevance, and produce a focused, truthful application.
 
-**Version 0.4.1, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. A matched comparison of three earlier versions and a no-skill assistant found useful results, a specific ATS warning improvement, and small usability weaknesses. The latest patch reduces unnecessary review boilerplate and respects a pause without inventing future work. A further 35-execution investigation did not justify a proposed expansion, so the released runtime remains lean. Hiring effectiveness and human usability have not been established.
+**Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The latest patch fixes an offline Word check that missed private reviewer comments, including resolved threads. A three-condition comparison found no substantive assistant advantage over no-skill or 0.4.1: all conditions already found the issue with ordinary tools. The improvement is in the local checker, not a measured reduction in candidate effort or a hiring gain. The earlier 0.5.0 expansion remains unpromoted.
 
 [Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Version comparison](docs/skill-comparison.md) · [Application-gain study](docs/application-gains.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
@@ -84,14 +84,16 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Historical-to-current experience translation | Worked examples and CV scenarios | No invented modern tool experience |
 | Accurate handling of conflicting facts | Recorded urgent-rewrite scenario | Finite examples, not universal model reliability |
 | Bilingual application support and private career breaks | German/English scenario, observed defects and focused rerun | Broader languages and markets remain untested |
-| Offline PDF, DOCX, TXT and Markdown preflight | 15 synthetic helper tests | Local extraction, not live ATS behaviour |
+| Offline PDF, DOCX, TXT and Markdown preflight | 21 synthetic helper tests, including private-comment detection | Local extraction and review flags, not live ATS behaviour or full privacy certification |
 | Bias and ATS knowledge | Dated source register with context and limitations | Curated research, not an exhaustive review |
 | Repeatable repository checks | Manifest, links, metadata and Python syntax validator | Structural consistency, not hiring effectiveness |
 | Country-specific starting points | Eight separate market cards, including US, UK, CA, AU/AUS and NZ | Narrow sourced guidance, not complete legal or credential-recognition advice |
 | ATS-specific troubleshooting | [14-product coverage map](research/ats-coverage.md), documented symptoms and correction routes | Lever retrieval and Taleo version limits; no live tenant tests |
-| Research and reproducible trials | 47 claim records, 68 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
+| Research and reproducible trials | 49 claim records, 73 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
 
-The [prospective application-gain study](docs/application-gains.md) adds 33 planned executions and two adaptive follow-ups. Its blinded review found 12 substantive ties and no critical failures. A longer application-preparation module was preserved as experimental evidence and was not promoted. This is a negative result against adding those instructions, not proof of real-world equivalence.
+The [Word-comment correction](docs/docx-comment-check.md) fixes a reproduced local false-negative. Its fifteen task executions include six development runs and nine reserved runs across no-skill, 0.4.1 and the frozen candidate. Blinded review found nine pairwise ties. All 33 unit tests passed without skips. This supports shipping the focused helper patch, not claiming a better application or hiring outcome.
+
+The earlier [prospective application-gain study](docs/application-gains.md) adds 33 planned executions and two adaptive follow-ups. Its blinded review found 12 substantive ties and no critical failures. A longer application-preparation module was preserved as experimental evidence and was not promoted. This is a negative result against adding those instructions, not proof of real-world equivalence.
 
 The [matched comparison](docs/skill-comparison.md) contains 27 planned executions across versions 0.2.0, 0.3.0, 0.4.0 and a no-skill condition, followed by three focused 0.4.1 repair checks. It does not establish general superiority over an assistant without the skill. Read the [validation record](docs/validation.md) for methods, adverse observations, exact scope, and remaining work. Do not infer a measured interview uplift from these checks.
 
@@ -134,7 +136,7 @@ The helper requires Python 3.9 or later. PDF extraction also needs `pypdf`; DOCX
 python skills/genx-reloaded/scripts/cv_preflight.py /path/to/cv.pdf --require "Your Name" --require "Actual Employer"
 ```
 
-It reports extraction and structural concerns. `review_needed` is a completed inspection with observations; `no_local_flags` is not an ATS certificate. Word style inheritance, visual reading order, scanned text, and many PDF appearance issues still require other checks. The JSON report can contain personal strings and file paths, so keep it private along with the CV.
+It reports extraction and structural concerns, including retained Word comments. Comment text and authors stay out of its findings and extracted body text. `review_needed` is a completed inspection with observations; `no_local_flags` is not an ATS or privacy certificate. Word style inheritance, other metadata, visual reading order, scanned text, and many PDF appearance issues still require other checks. The JSON report can contain requested personal strings and file paths, so keep it private along with the CV.
 
 ## Validate the source
 

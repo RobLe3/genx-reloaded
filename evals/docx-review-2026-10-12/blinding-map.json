@@ -1,0 +1,78 @@
+{
+  "seed": 20261012042,
+  "mapping": [
+    {
+      "set": 1,
+      "label": "A",
+      "run": "reserved72-r1-released",
+      "condition": "released",
+      "case_id": "GX-72",
+      "repetition": 1
+    },
+    {
+      "set": 1,
+      "label": "B",
+      "run": "reserved72-r1-none",
+      "condition": "none",
+      "case_id": "GX-72",
+      "repetition": 1
+    },
+    {
+      "set": 1,
+      "label": "C",
+      "run": "reserved72-r1-candidate",
+      "condition": "candidate",
+      "case_id": "GX-72",
+      "repetition": 1
+    },
+    {
+      "set": 2,
+      "label": "A",
+      "run": "reserved72-r2-released",
+      "condition": "released",
+      "case_id": "GX-72",
+      "repetition": 2
+    },
+    {
+      "set": 2,
+      "label": "B",
+      "run": "reserved72-r2-candidate",
+      "condition": "candidate",
+      "case_id": "GX-72",
+      "repetition": 2
+    },
+    {
+      "set": 2,
+      "label": "C",
+      "run": "reserved72-r2-none",
+      "condition": "none",
+      "case_id": "GX-72",
+      "repetition": 2
+    },
+    {
+      "set": 3,
+      "label": "A",
+      "run": "reserved73-none",
+      "condition": "none",
+      "case_id": "GX-73",
+      "repetition": 1
+    },
+    {
+      "set": 3,
+      "label": "B",
+      "run": "reserved73-candidate",
+      "condition": "candidate",
+      "case_id": "GX-73",
+      "repetition": 1
+    },
+    {
+      "set": 3,
+      "label": "C",
+      "run": "reserved73-released",
+      "condition": "released",
+      "case_id": "GX-73",
+      "repetition": 1
+    }
+  ],
+  "transformation": "Only host file citation tokens uniformly replaced with [supplied file]; original responses unchanged. Receipt limited to factual tool information, condition clues omitted."
+}

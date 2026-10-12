@@ -1,0 +1,102 @@
+{
+  "assessor": "Developer agent, unblinded",
+  "runs": [
+    {
+      "run": "dev69-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "dev69-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "dev70-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "dev70-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "dev71-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "dev71-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r1-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r1-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r1-candidate",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r2-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r2-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved72-r2-candidate",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved73-none",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved73-released",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    },
+    {
+      "run": "reserved73-candidate",
+      "critical_failure": false,
+      "substantive_issue": false,
+      "judgment": "Requested deliverable or appropriate correction advice supplied; factual/period/authority boundaries preserved. No sensitive explanation copied into application material."
+    }
+  ],
+  "reserved_comparisons": "No substantive candidate wins or losses against either control in the three triads.",
+  "separate_observations": [
+    "Candidate local checker flags comments where the released checker does not. Ordinary tools already permit all assistant conditions to find them.",
+    "No-skill repetition 1 says layout looks fine. Post-output provenance receipt reports actual Quick Look thumbnail inspection, not full rendered-page QA; original answer not revised.",
+    "Clean-file chronology and optional detail/gap advice vary. No invented gap or forced deletion of older evidence observed."
+  ],
+  "limits": "Agent judgment, not human-effort measurement; complete tool transcripts unavailable."
+}

@@ -1,0 +1,144 @@
+{
+  "primary_task_executions": 15,
+  "development_executions": 6,
+  "reserved_executions": 9,
+  "diagnostic_receipt_followups": 1,
+  "blinded_review_executions": 1,
+  "reserved_triads": 3,
+  "all_pairwise_comparisons": 9,
+  "ties": 9,
+  "candidate_vs_no_skill": {
+    "ties": 3,
+    "wins": 0,
+    "losses": 0
+  },
+  "candidate_vs_released": {
+    "ties": 3,
+    "wins": 0,
+    "losses": 0
+  },
+  "observed_critical_factual_disclosure_or_certification_failures": 0,
+  "original_actions": "Not independently assessed by reviewer; local input hashes match the maintainer comparison and reviewer receipt, but full original tool/network history unavailable.",
+  "helper_gate": "pass: local false-negative fixed; all 33 unit checks pass including six added tests. Required structure/research/frontmatter checks recorded at release preparation.",
+  "release_decision": "Promote focused helper correction as 0.4.2. Do not claim assistant superiority or measured user-effort/hiring benefit. Entry skill unchanged; failed 0.5.0 proposal remains unpromoted.",
+  "adjudication": "Accept all nine substantive tie judgments. Preserve incomplete copy/recheck wording in two controls and thumbnail-scope wording in one no-skill answer as criterion issues, not demonstrated privacy-outcome differences. Developer judgment refined: original actions remain unassessed, rather than treating self-reports as verification.",
+  "comparisons": [
+    {
+      "case_id": "GX-72",
+      "repetition": 1,
+      "conditions": [
+        "released",
+        "none"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both identify the retained private comment and correctly recommend deletion while preserving the neutral label. A explicitly targets a copy; B explicitly includes rechecking. Neither omission reverses the main advice. B's layout wording needs narrower scope, but the supplied receipt prevents treating visual inspection as invented."
+      ],
+      "borderline": "A strict criterion-completeness score would distinguish the different omissions; this review does not convert those complementary process omissions into a consequential winner."
+    },
+    {
+      "case_id": "GX-72",
+      "repetition": 1,
+      "conditions": [
+        "released",
+        "candidate"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both give the same correct privacy finding and removal action. C fully states the copy-and-recheck process; A omits rechecking. C is more complete against the frozen wording, but the extra verification step is not by itself a demonstrated substantive outcome improvement."
+      ],
+      "borderline": "If the evaluation defines omission of a saved-copy recheck as independently consequential, C would win under that alternative threshold."
+    },
+    {
+      "case_id": "GX-72",
+      "repetition": 1,
+      "conditions": [
+        "none",
+        "candidate"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both correctly identify the stored resolved comment and advise removal plus rechecking. C makes the separate-copy target and inspection limits explicit. B's thumbnail-based layout conclusion should be qualified, not recast as fabricated full-page QA."
+      ],
+      "borderline": "A stricter source-copy or layout-scope rubric could favor C; the saved evidence does not show different privacy-removal outcomes."
+    },
+    {
+      "case_id": "GX-72",
+      "repetition": 2,
+      "conditions": [
+        "released",
+        "candidate"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both meet the privacy-content criteria and specify deletion plus verification on a copy. A additionally identifies the real synthetic heading; B provides narrower structural-check scope. These do not establish a difference on the frozen substantive criteria."
+      ],
+      "borderline": "If the whole excerpt including its heading will be merged unchanged, A's heading advice avoids an additional content-transfer error. The saved request does not establish that transfer choice, and the frozen criteria do not test it."
+    },
+    {
+      "case_id": "GX-72",
+      "repetition": 2,
+      "conditions": [
+        "released",
+        "none"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both correctly flag the retained comment, reject resolution as removal and retain the neutral label. A specifies a copy and adds the supported heading-removal instruction; C includes a final-comment recheck. C's copy target could be clearer, but the core privacy advice is usable."
+      ],
+      "borderline": "Strict copy-target completeness or known whole-excerpt transfer would favor A; neither is demonstrated as a different actual outcome here."
+    },
+    {
+      "case_id": "GX-72",
+      "repetition": 2,
+      "conditions": [
+        "candidate",
+        "none"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both identify and correctly address the same privacy defect. B explicitly names a separate saved submission copy; C checks the final application. The extra copy wording is a criterion-completeness advantage, not evidence of a different substantive result."
+      ],
+      "borderline": "A rubric that treats the unstated copy target as independently consequential would favor B."
+    },
+    {
+      "case_id": "GX-73",
+      "repetition": 1,
+      "conditions": [
+        "none",
+        "candidate"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both remove the draft heading, reorder recent work first and retain useful older evidence. A's possible-detail suggestions and B's explicit 2007 reminder or conditional full-CV check do not create a needed substantive correction in the other answer."
+      ],
+      "borderline": null
+    },
+    {
+      "case_id": "GX-73",
+      "repetition": 1,
+      "conditions": [
+        "none",
+        "released"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both preserve older work, avoid inventing facts, recommend recent-first ordering and identify the draft heading. C's explicit advanced-Excel guardrail does not correct an actual advanced-Excel invention in A."
+      ],
+      "borderline": null
+    },
+    {
+      "case_id": "GX-73",
+      "repetition": 1,
+      "conditions": [
+        "candidate",
+        "released"
+      ],
+      "result": "tie",
+      "reasons": [
+        "Both preserve the same dated older evidence and avoid a false employment-gap finding or invented qualification. B's correctly limited structural findings and C's extra specificity suggestions serve different useful functions; neither fixes a consequential error in the other."
+      ],
+      "borderline": null
+    }
+  ]
+}

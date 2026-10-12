@@ -1,0 +1,76 @@
+test_dangling_comment_anchor_requires_review (test_preflight.PreflightTests.test_dangling_comment_anchor_requires_review) ... FAIL
+test_directory_is_an_inspection_failure (test_preflight.PreflightTests.test_directory_is_an_inspection_failure) ... ok
+test_docx_comments_flag_review_without_leaking_notes (test_preflight.PreflightTests.test_docx_comments_flag_review_without_leaking_notes) ... 
+  test_docx_comments_flag_review_without_leaking_notes (test_preflight.PreflightTests.test_docx_comments_flag_review_without_leaking_notes) (part='word/comments.xml') ... FAIL
+  test_docx_comments_flag_review_without_leaking_notes (test_preflight.PreflightTests.test_docx_comments_flag_review_without_leaking_notes) (part='word/reviewer-notes.xml') ... FAIL
+test_docx_flags_header_tables_hidden_and_tracked_changes (test_preflight.PreflightTests.test_docx_flags_header_tables_hidden_and_tracked_changes) ... ok
+test_empty_comments_part_does_not_flag_clean_body (test_preflight.PreflightTests.test_empty_comments_part_does_not_flag_clean_body) ... ERROR
+test_explicit_column_definitions_are_reported (test_preflight.PreflightTests.test_explicit_column_definitions_are_reported) ... ok
+test_hard_link_cannot_overwrite_source (test_preflight.PreflightTests.test_hard_link_cannot_overwrite_source) ... ok
+test_hidden_and_deleted_text_cannot_satisfy_expected_text (test_preflight.PreflightTests.test_hidden_and_deleted_text_cannot_satisfy_expected_text) ... ok
+test_json_and_text_outputs (test_preflight.PreflightTests.test_json_and_text_outputs) ... ok
+test_malformed_comments_are_not_a_clean_inspection (test_preflight.PreflightTests.test_malformed_comments_are_not_a_clean_inspection) ... FAIL
+test_malformed_file_is_not_a_pass (test_preflight.PreflightTests.test_malformed_file_is_not_a_pass) ... ok
+test_missing_phrase_is_a_review_observation (test_preflight.PreflightTests.test_missing_phrase_is_a_review_observation) ... ok
+test_output_aliases_are_rejected_before_writing (test_preflight.PreflightTests.test_output_aliases_are_rejected_before_writing) ... ok
+test_output_cannot_replace_source (test_preflight.PreflightTests.test_output_cannot_replace_source) ... ok
+test_oversized_comments_are_bounded (test_preflight.PreflightTests.test_oversized_comments_are_bounded) ... FAIL
+test_pdf_sparse_page_and_required_text (test_preflight.PreflightTests.test_pdf_sparse_page_and_required_text) ... ok
+test_phrase_does_not_match_inside_another_word (test_preflight.PreflightTests.test_phrase_does_not_match_inside_another_word) ... ok
+test_style_hidden_setting_requires_review (test_preflight.PreflightTests.test_style_hidden_setting_requires_review) ... ok
+test_text_expected_phrases_and_source_preservation (test_preflight.PreflightTests.test_text_expected_phrases_and_source_preservation) ... ok
+test_whitespace_requirement_is_rejected (test_preflight.PreflightTests.test_whitespace_requirement_is_rejected) ... ok
+
+======================================================================
+ERROR: test_empty_comments_part_does_not_flag_clean_body (test_preflight.PreflightTests.test_empty_comments_part_does_not_flag_clean_body)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 270, in test_empty_comments_part_does_not_flag_clean_body
+    self.assertEqual(report["structure"]["stored_comments"], 0)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'stored_comments'
+
+======================================================================
+FAIL: test_dangling_comment_anchor_requires_review (test_preflight.PreflightTests.test_dangling_comment_anchor_requires_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 261, in test_dangling_comment_anchor_requires_review
+    self.assertIn("docx_comments", {f["code"] for f in report["findings"]})
+AssertionError: 'docx_comments' not found in set()
+
+======================================================================
+FAIL: test_docx_comments_flag_review_without_leaking_notes (test_preflight.PreflightTests.test_docx_comments_flag_review_without_leaking_notes) (part='word/comments.xml')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 248, in test_docx_comments_flag_review_without_leaking_notes
+    self.assertIn("docx_comments", {f["code"] for f in report["findings"]})
+AssertionError: 'docx_comments' not found in {'missing_expected_text'}
+
+======================================================================
+FAIL: test_docx_comments_flag_review_without_leaking_notes (test_preflight.PreflightTests.test_docx_comments_flag_review_without_leaking_notes) (part='word/reviewer-notes.xml')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 248, in test_docx_comments_flag_review_without_leaking_notes
+    self.assertIn("docx_comments", {f["code"] for f in report["findings"]})
+AssertionError: 'docx_comments' not found in {'missing_expected_text'}
+
+======================================================================
+FAIL: test_malformed_comments_are_not_a_clean_inspection (test_preflight.PreflightTests.test_malformed_comments_are_not_a_clean_inspection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 275, in test_malformed_comments_are_not_a_clean_inspection
+    self.assertEqual(result.returncode, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_oversized_comments_are_bounded (test_preflight.PreflightTests.test_oversized_comments_are_bounded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/roble/development/genx-reloaded/tests/test_preflight.py", line 281, in test_oversized_comments_are_bounded
+    self.assertEqual(result.returncode, 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.431s
+
+FAILED (failures=5, errors=1)

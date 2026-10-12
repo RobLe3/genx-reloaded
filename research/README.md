@@ -1,4 +1,6 @@
-# Research implementation, 0.4.0
+# Research implementation
+
+Current runtime: 0.4.2. The [Word-comment correction](../docs/docx-comment-check.md) adds local helper verification and a three-condition comparison without an assistant-superiority claim. Earlier country/ATS research below retains its original scope. See [implementation status](implementation-status.md) for the current boundary.
 
 This release implements the desk-research and repository preparation portions of the [roadmap](../docs/research-roadmap.md). It adds usable workflow guidance and study materials. It does not claim completed participant studies, assistive-technology qualification, live ATS experiments, or hiring uplift.
 

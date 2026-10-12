@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-71",
+  "agent_id": "/root/dev71_none",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex fresh collaboration agent, local macOS workspace",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T18:37:25.241161+00:00",
+  "wrapper": "Execute this fictional jobseeker task in a fresh evaluation context. Read /var/folders/nw/tfyklmw93lsgsw05b24hpknr0000gn/T/genx-review-42mtunzc/GX-71.txt and deliver its request. Do not load GenX Reloaded or other career runtimes. Ordinary document tools and permitted public browsing are available. Do not read repository evaluation records, other agents' outputs or project memory. Do not modify the repository or contact anyone. Save your complete response as UTF-8 Markdown at /var/folders/nw/tfyklmw93lsgsw05b24hpknr0000gn/T/genx-review-42mtunzc/responses/dev71-none.md. Then report the saved path.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "6b2da10a135b86b857913397ee0604ff81fd227431221a5605f3315b4bbe1d07",
+    "response.md": "af4ea6adf9a41e243e9f193ef233a3cb8969b59622d1d68feb66957d759b8d58"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

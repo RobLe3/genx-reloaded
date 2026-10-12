@@ -1,6 +1,6 @@
 {
   "name": "genx-reloaded",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "runtime_root": "skills/genx-reloaded",
   "repository": "https://github.com/RobLe3/genx-reloaded",
   "files": [
@@ -130,7 +130,7 @@
     },
     {
       "path": "skills/genx-reloaded/references/layout-and-checks.md",
-      "sha256": "451c9197005091fde8deac9308cff676f360356e38648a54ea8a1b0157f9a04c"
+      "sha256": "946d0ea294f2276fc7e7935532bab6013865796b2a71214a7f04059e3dad64a1"
     },
     {
       "path": "skills/genx-reloaded/references/opportunities-and-learning.md",
@@ -154,7 +154,7 @@
     },
     {
       "path": "skills/genx-reloaded/scripts/cv_preflight.py",
-      "sha256": "ce24f1481a6d49f46866ab605df2ef3d895d9acd96b4093bdee651479a7ffa54"
+      "sha256": "e74f1233c97ea3e7be08c014b4e72f6eb6dcb8966874a8794eb943ad75341217"
     }
   ]
 }

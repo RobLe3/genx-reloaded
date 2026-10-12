@@ -8,6 +8,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -203,6 +204,86 @@ class PreflightTests(unittest.TestCase):
 
     def test_directory_is_an_inspection_failure(self):
         result = self.run_cli(self.work)
+        self.assertEqual(result.returncode, 1)
+        self.assertEqual(json.loads(result.stdout)["status"], "inspection_failed")
+
+    def comment_fixture(self, comments=None, markers=False, part="word/comments.xml", declared=False):
+        """Small OOXML input, not an applicant-style document or rendered CV."""
+        namespace = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        source = self.work / "review.docx"
+        anchor = '<w:commentRangeStart w:id="0"/>' if markers else ""
+        body = (
+            f'<w:document xmlns:w="{namespace}"><w:body><w:p>{anchor}'
+            '<w:r><w:t>Maintained inspection records for two workshops from 2019 to 2025. '
+            'Earlier career break labelled neutrally.</w:t></w:r></w:p></w:body></w:document>'
+        )
+        with zipfile.ZipFile(source, "w") as archive:
+            archive.writestr("word/document.xml", body)
+            if comments is not None:
+                archive.writestr(part, comments)
+            if declared:
+                archive.writestr(
+                    "[Content_Types].xml",
+                    '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
+                    f'<Override PartName="/{part}" ContentType="application/vnd.openxmlformats-'
+                    'officedocument.wordprocessingml.comments+xml"/></Types>',
+                )
+        return source
+
+    def test_docx_comments_flag_review_without_leaking_notes(self):
+        comments = (
+            '<w:comments xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">'
+            '<w:comment w:id="0" w:author="PrivateReviewer"><w:p><w:r>'
+            '<w:t>PrivateMedicalNote</w:t></w:r></w:p></w:comment></w:comments>'
+        )
+        for part, declared in [("word/comments.xml", False), ("word/reviewer-notes.xml", True)]:
+            with self.subTest(part=part):
+                source = self.comment_fixture(comments, part=part, declared=declared)
+                before = source.read_bytes()
+                extracted = self.work / "extracted.txt"
+                result = self.run_cli(source, "--require", "PrivateMedicalNote", "--text-out", extracted)
+                report = json.loads(result.stdout)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual(report["status"], "review_needed")
+                self.assertIn("docx_comments", {f["code"] for f in report["findings"]})
+                self.assertEqual(report["structure"]["stored_comments"], 1)
+                self.assertFalse(report["expected_text"][0]["found_in_main_text"])
+                # The requested string is deliberately echoed in expected_text;
+                # comment content and authors must not leak through observations.
+                self.assertNotIn("PrivateMedicalNote", json.dumps(report["findings"][0]))
+                self.assertNotIn("PrivateReviewer", result.stdout)
+                self.assertNotIn("PrivateMedicalNote", extracted.read_text())
+                self.assertEqual(source.read_bytes(), before)
+
+    def test_dangling_comment_anchor_requires_review(self):
+        source = self.comment_fixture(markers=True)
+        report = json.loads(self.run_cli(source).stdout)
+        self.assertIn("docx_comments", {f["code"] for f in report["findings"]})
+        self.assertEqual(report["structure"]["comment_markers"], 1)
+
+    def test_empty_comments_part_does_not_flag_clean_body(self):
+        source = self.comment_fixture(
+            '<w:comments xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"/>'
+        )
+        report = json.loads(self.run_cli(source).stdout)
+        self.assertEqual(report["status"], "no_local_flags")
+        self.assertEqual(report["structure"]["stored_comments"], 0)
+
+    def test_malformed_comments_are_not_a_clean_inspection(self):
+        source = self.comment_fixture("<broken")
+        result = self.run_cli(source)
+        self.assertEqual(result.returncode, 1)
+        self.assertEqual(json.loads(result.stdout)["status"], "inspection_failed")
+
+    def test_oversized_comments_are_bounded(self):
+        source = self.comment_fixture(" " * 20_000_001)
+        result = self.run_cli(source)
+        self.assertEqual(result.returncode, 1)
+        self.assertEqual(json.loads(result.stdout)["status"], "inspection_failed")
+
+    def test_missing_declared_comments_part_is_an_inspection_failure(self):
+        source = self.comment_fixture(part="word/missing.xml", declared=True)
+        result = self.run_cli(source)
         self.assertEqual(result.returncode, 1)
         self.assertEqual(json.loads(result.stdout)["status"], "inspection_failed")
 

@@ -1,0 +1,135 @@
+{
+  "kind": "deterministic local inspection, no ATS or agent outcome",
+  "inputs": [
+    {
+      "fixture": "development.docx",
+      "file_sha256": "f846ad6bc0f301c59f8eb391e35ea094dc4c8381fe2a8bce2a85b24956996659",
+      "file_bytes": 37331,
+      "source_unchanged": true,
+      "results": {
+        "released": {
+          "status": "no_local_flags",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null
+          },
+          "findings": [],
+          "extraction_sha256": "094be0cd0bcde495900a23123ef611e811eba6be0aec02e8f36ee3c9fd5fa00e",
+          "notes_in_extraction": false
+        },
+        "candidate": {
+          "status": "review_needed",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null,
+            "stored_comments": 1,
+            "comment_markers": 3
+          },
+          "findings": [
+            {
+              "code": "docx_comments",
+              "detail": "1 stored comment(s), 3 comment marker(s); review and delete private comments from a submission copy. Hiding or resolving is not deletion."
+            }
+          ],
+          "extraction_sha256": "094be0cd0bcde495900a23123ef611e811eba6be0aec02e8f36ee3c9fd5fa00e",
+          "notes_in_extraction": false
+        }
+      }
+    },
+    {
+      "fixture": "reviewed.docx",
+      "file_sha256": "4a63548758f62795c1139819bef4bb03e4c45a9717cb58cbfb6334bd0dfa4072",
+      "file_bytes": 37506,
+      "source_unchanged": true,
+      "results": {
+        "released": {
+          "status": "no_local_flags",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null
+          },
+          "findings": [],
+          "extraction_sha256": "d369c555ad4b0b011ce218b36508127d6505c05dd5df2d769a85583b400a8fb7",
+          "notes_in_extraction": false
+        },
+        "candidate": {
+          "status": "review_needed",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null,
+            "stored_comments": 1,
+            "comment_markers": 3
+          },
+          "findings": [
+            {
+              "code": "docx_comments",
+              "detail": "1 stored comment(s), 3 comment marker(s); review and delete private comments from a submission copy. Hiding or resolving is not deletion."
+            }
+          ],
+          "extraction_sha256": "d369c555ad4b0b011ce218b36508127d6505c05dd5df2d769a85583b400a8fb7",
+          "notes_in_extraction": false
+        }
+      }
+    },
+    {
+      "fixture": "clean.docx",
+      "file_sha256": "42f44e277c432d2742f8d57d326382bbe1f30b4b878ae9f6d2d6a36b8c237aa6",
+      "file_bytes": 36734,
+      "source_unchanged": true,
+      "results": {
+        "released": {
+          "status": "no_local_flags",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null
+          },
+          "findings": [],
+          "extraction_sha256": "494b586caa7b00cf18f2eacddaf1907f5ca929f83b3c686735b8ccd8e9b4e4a6",
+          "notes_in_extraction": false
+        },
+        "candidate": {
+          "status": "no_local_flags",
+          "structure": {
+            "method": "DOCX main-body XML",
+            "tables": 0,
+            "text_boxes": 0,
+            "configured_columns": 1,
+            "hidden_settings": 0,
+            "tracked_change_elements": 0,
+            "pages": null,
+            "stored_comments": 0,
+            "comment_markers": 0
+          },
+          "findings": [],
+          "extraction_sha256": "494b586caa7b00cf18f2eacddaf1907f5ca929f83b3c686735b8ccd8e9b4e4a6",
+          "notes_in_extraction": false
+        }
+      }
+    }
+  ]
+}

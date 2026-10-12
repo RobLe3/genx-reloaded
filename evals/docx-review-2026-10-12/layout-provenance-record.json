@@ -1,0 +1,7 @@
+{
+  "agent_id": "/root/reserved72_r1_none",
+  "kind": "Post-output diagnostic receipt, not a new task execution",
+  "wrapper": "For the execution record, without changing your saved response, write a brief factual receipt of the local tools/checks and any browsing you actually performed. Distinguish text/package inspection from rendered-page inspection; list any renderer and rendered files actually inspected, or state none. Save it separately at /var/folders/nw/tfyklmw93lsgsw05b24hpknr0000gn/T/genx-review-42mtunzc/responses/reserved72-r1-none-receipt.md. Do not re-run or add checks now.",
+  "sha256": "eaf6996cecc4d7ddf6ab5be8a59fff0762b3636891ca42922f81b96420d45e66",
+  "limits": "Agent self-report; thumbnail file exists locally; no full transcript or full page rendering."
+}

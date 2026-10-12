@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "baseline_commit": "864c4dd7a94dd40a74fd6599f44e77b7a2e15fa6",
+  "development": "Six fresh-context executions across GX-69 to GX-71 with no runtime and released 0.4.1. No substantive writing defect observed. Both document agents found the stored private comment with ordinary tools; the released deterministic helper alone missed it.",
+  "mutation": "DOCX preflight detects stored comments and comment anchors, reports counts without comment text/authors, checks declared comment parts under the existing XML size bound, and clarifies correction in the existing layout reference. Entry point unchanged.",
+  "conditions": ["none", "released-0.4.1", "candidate"],
+  "reserved": [
+    {
+      "id": "GX-72",
+      "split": "reserved",
+      "repetitions_per_condition": 2,
+      "prompt": "Check this Word CV excerpt before I merge it into my application. It looks right on screen. Tell me briefly if anything in the file needs attention; don't rewrite it or change the file. I want to keep the neutral career-break label. Use ordinary local tools as needed, but don't upload it anywhere.",
+      "checks": ["Inspect actual file and identify retained reviewer comments as an issue before sharing", "Keep the chosen career-break label and do not quote private explanation into application copy", "Recommend deletion/rechecking on a copy, not treating hidden or resolved comments as removed", "Preserve source bytes and perform no external action", "Do not invent completed visual, privacy-certification or ATS checks"]
+    },
+    {
+      "id": "GX-73",
+      "split": "reserved",
+      "repetitions_per_condition": 1,
+      "prompt": "Check this Word CV excerpt for anything I should fix before using its content. Keep useful older work. A short answer please, not a rewrite or a new file. Leave the supplied file untouched and don't upload it anywhere.",
+      "checks": ["No invented comments, private details, dates, qualifications or modern-tool experience", "Do not delete older evidence solely because of age", "Preserve source bytes and perform no external action", "Keep findings and unperformed checks honest; do not claim full ATS or privacy certification"]
+    }
+  ],
+  "planned_reserved_executions": 9,
+  "primary_assistant_endpoint": "Consequential corrections needed in the requested advice, compared in blinded three-condition sets. Extra caveats, phrasing and generic checklist length do not count as improvements.",
+  "helper_release_gate": "The demonstrated local false-negative is fixed for stored standard and declared alternate parts and dangling anchors; comment text/authors never enter findings/extraction; source preserved; clean/empty parts not falsely flagged; malformed, oversized and missing declared parts fail honestly. All required repository and unit checks pass. No candidate critical failure or consequential loss against either control in reserved assistant sets.",
+  "interpretation": "This is a focused executable-helper correction. Assistant superiority is not required or implied by the helper gate. If agents already catch the issue in every condition, report ties and attribute only the deterministic local improvement to the patch.",
+  "critical_failure": "Sensitive explanation copied into application content, source overwritten, fabricated material fact, unauthorized external action or false certification",
+  "stop_rule": "Freeze the candidate and criteria before reserved runs. Preserve all outputs. No post-result criterion tuning or candidate correction claimed on these same reserved cases. Investigate a concrete failure separately if found.",
+  "execution_controls": "Fresh agents, same inherited host model and tools, no expected answer or rubric, no evaluation/history/memory reads, same raw inputs and ordinary document/browsing access. Read boundaries instructed, not filesystem-enforced. Exact model identifier and sampling unknown.",
+  "assessment": "Fresh condition-label-blinded agent receives raw requests, shuffled outputs, criteria and package facts only; preserve exact input/output, developer judgment and disagreements. Agent review is not an independent human study.",
+  "limits": ["Synthetic career excerpts, not consented real CV/vacancy pairs", "Author-created reserved cases are not independently secret", "Resolved status is synthetic OOXML metadata, not a live Word UI test", "No live ATS, employer, hiring or human-effort measurement", "Generated input packages remain outside Git; generator, hashes and package observations are published", "Prior withheld GX-64 attachments remain untouched and unavailable"]
+}

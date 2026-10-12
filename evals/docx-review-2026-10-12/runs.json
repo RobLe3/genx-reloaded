@@ -1,0 +1,118 @@
+{
+  "runs": [
+    {
+      "id": "dev69-none",
+      "case_id": "GX-69",
+      "condition": "none",
+      "phase": "development",
+      "record": "dev69-none/record.json"
+    },
+    {
+      "id": "dev69-released",
+      "case_id": "GX-69",
+      "condition": "released",
+      "phase": "development",
+      "record": "dev69-released/record.json"
+    },
+    {
+      "id": "dev70-none",
+      "case_id": "GX-70",
+      "condition": "none",
+      "phase": "development",
+      "record": "dev70-none/record.json"
+    },
+    {
+      "id": "dev70-released",
+      "case_id": "GX-70",
+      "condition": "released",
+      "phase": "development",
+      "record": "dev70-released/record.json"
+    },
+    {
+      "id": "dev71-none",
+      "case_id": "GX-71",
+      "condition": "none",
+      "phase": "development",
+      "record": "dev71-none/record.json"
+    },
+    {
+      "id": "dev71-released",
+      "case_id": "GX-71",
+      "condition": "released",
+      "phase": "development",
+      "record": "dev71-released/record.json"
+    },
+    {
+      "id": "reserved72-r1-none",
+      "case_id": "GX-72",
+      "condition": "none",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved72-r1-none/record.json"
+    },
+    {
+      "id": "reserved72-r1-released",
+      "case_id": "GX-72",
+      "condition": "released",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved72-r1-released/record.json"
+    },
+    {
+      "id": "reserved72-r1-candidate",
+      "case_id": "GX-72",
+      "condition": "candidate",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved72-r1-candidate/record.json"
+    },
+    {
+      "id": "reserved72-r2-none",
+      "case_id": "GX-72",
+      "condition": "none",
+      "phase": "reserved",
+      "repetition": 2,
+      "record": "reserved72-r2-none/record.json"
+    },
+    {
+      "id": "reserved72-r2-released",
+      "case_id": "GX-72",
+      "condition": "released",
+      "phase": "reserved",
+      "repetition": 2,
+      "record": "reserved72-r2-released/record.json"
+    },
+    {
+      "id": "reserved72-r2-candidate",
+      "case_id": "GX-72",
+      "condition": "candidate",
+      "phase": "reserved",
+      "repetition": 2,
+      "record": "reserved72-r2-candidate/record.json"
+    },
+    {
+      "id": "reserved73-none",
+      "case_id": "GX-73",
+      "condition": "none",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved73-none/record.json"
+    },
+    {
+      "id": "reserved73-released",
+      "case_id": "GX-73",
+      "condition": "released",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved73-released/record.json"
+    },
+    {
+      "id": "reserved73-candidate",
+      "case_id": "GX-73",
+      "condition": "candidate",
+      "phase": "reserved",
+      "repetition": 1,
+      "record": "reserved73-candidate/record.json"
+    }
+  ]
+}

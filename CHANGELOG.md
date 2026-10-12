@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.2, 12 October 2026
+
+- Fix the offline DOCX checker missing retained private comments. Report stored comments and anchors without exposing comment text or authors; include comment parts in bounded XML inspection.
+- Clarify deletion versus hiding/resolving in the existing layout reference. Keep the entry skill unchanged and preserve original files.
+- Record six varied development executions and nine reserved executions comparing no-skill, 0.4.1 and the frozen candidate. Blinded assessment found nine pairwise ties, including no demonstrated candidate advantage over either control.
+- Ship on the reproduced helper correction and passing regression checks, not on assistant superiority. All 33 unit tests passed; update README, manifest and validation together. The earlier 0.5.0 proposal remains unpromoted.
+
 ## Research update, 12 October 2026
 
 - Preserve 35 new executions: 33 planned application-preparation trials and two adaptive attribution checks, with four locally inspected DOCX artifacts and a condition-blinded assessment. Generated attachment publication was withheld after automatic approval review; hashes and findings remain.

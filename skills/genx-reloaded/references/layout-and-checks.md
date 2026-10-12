@@ -39,7 +39,7 @@ The script:
 - Extracts body text from DOCX, text from PDF using pypdf, or reads UTF-8 TXT/Markdown.
 - Checks supplied expected strings after case, Unicode, dash, and whitespace normalisation, with alphanumeric boundaries so SQL does not match NoSQL.
 - Flags little or no extractable text, and sparse PDF pages, for inspection.
-- Reports DOCX tables, columns, text boxes, header/footer-only email or expected text, hidden text, and tracked changes as review observations.
+- Reports DOCX tables, columns, text boxes, header/footer-only email or expected text, hidden text, tracked changes, and stored comments or comment markers as review observations. Comment text and authors stay out of extraction and findings.
 - Excludes directly hidden runs and deleted/moved-from text from the DOCX extraction. Flags hidden settings in styles, but does not resolve full Word style inheritance.
 - Protects the source against output paths that alias it, including symbolic and hard links.
 - Writes a JSON report, with full extracted text only when --text-out is supplied. The report includes the input path and requested strings; handle it as candidate data too.
@@ -52,7 +52,7 @@ Exit code 0 means inspection completed, even if the result is review_needed. Exi
 1. Compare the CV's names, employers, titles, dates, quantities, qualifications, and scope against the source.
 2. Render DOCX/PDF with the applicable artifact skill and inspect every page for legibility, clipping, broken sections, and awkward page breaks.
 3. Read the extracted text from beginning to end. Confirm chronology and associations, not merely that each word is present.
-4. Verify essential facts survived export and no unresolved editorial notes remain.
+4. Verify essential facts survived export. Review and delete private Word comments from a submission copy, preserving the original. Hiding markup or resolving a thread does not delete it. Recheck the saved copy; this helper is not a complete metadata/privacy inspector. Microsoft documents [comment resolution versus deletion](https://support.microsoft.com/en-gb/word/mark-comments-as-done) and [Document Inspector](https://support.microsoft.com/en-gb/office/collab-files/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks?nochrome=true), checked 12 October 2026. Document Inspector availability varies by host.
 5. Check links locally for correct targets. Check live destinations when authorised and relevant, without uploading private CV content.
 6. For a real application, review any populated form fields and all mandatory questions before submission.
 

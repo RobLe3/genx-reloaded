@@ -1042,6 +1042,52 @@
         "GX-61",
         "GX-65"
       ]
+    },
+    {
+      "id": "GX-C48",
+      "workstream": "R11",
+      "statement": "Word files can retain reviewer comments and other hidden personal information outside visible application text.",
+      "source_url": "https://support.microsoft.com/en-gb/office/collab-files/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks?nochrome=true",
+      "source_title": "Remove hidden data and personal information by inspecting documents, presentations, or workbooks",
+      "publisher": "Microsoft",
+      "publication_date": null,
+      "checked_on": "2026-10-12",
+      "evidence_type": "official-guidance",
+      "scope": "Microsoft Word Document Inspector documentation, supported editions listed on page.",
+      "inspection": "Word inspector categories, hidden-data types and copy/reinspection instructions inspected.",
+      "limitations": "Vendor guidance, not a complete privacy certification. No Word UI, employer parser or hiring outcomes tested. Document Inspector availability depends on host.",
+      "candidate_action": "Review a submission copy for private comments and other hidden information; preserve the original.",
+      "mitigation_tested": "Synthetic local OOXML comment detection and source preservation tested; deletion workflow not performed in live Word.",
+      "status": "supported-within-scope",
+      "review_trigger": "Changed Microsoft comment or inspector behaviour, or conflicting actual document observation",
+      "reviewer": "Maintainer agent; no human adjudication",
+      "related_cases": [
+        "GX-71",
+        "GX-72"
+      ]
+    },
+    {
+      "id": "GX-C49",
+      "workstream": "R11",
+      "statement": "Resolving a comment in Word for the web retains it; deleting the thread removes it.",
+      "source_url": "https://support.microsoft.com/en-gb/word/mark-comments-as-done",
+      "source_title": "Resolve comments in Word for the web",
+      "publisher": "Microsoft",
+      "publication_date": null,
+      "checked_on": "2026-10-12",
+      "evidence_type": "official-guidance",
+      "scope": "Word for the web resolved-comment behaviour, not an ATS feature.",
+      "inspection": "Resolved-thread explanation and delete-thread distinction inspected.",
+      "limitations": "Vendor guidance, not a complete privacy certification. No Word UI, employer parser or hiring outcomes tested. Document Inspector availability depends on host.",
+      "candidate_action": "Delete private comments rather than merely hiding or resolving them, then inspect the saved copy.",
+      "mitigation_tested": "Synthetic local OOXML comment detection and source preservation tested; deletion workflow not performed in live Word.",
+      "status": "supported-within-scope",
+      "review_trigger": "Changed Microsoft comment or inspector behaviour, or conflicting actual document observation",
+      "reviewer": "Maintainer agent; no human adjudication",
+      "related_cases": [
+        "GX-71",
+        "GX-72"
+      ]
     }
   ]
 }

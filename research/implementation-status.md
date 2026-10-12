@@ -1,4 +1,4 @@
-# Roadmap implementation status, 0.4.1
+# Roadmap implementation status, 0.4.2
 
 12 October 2026. This is a record of delivered artifacts and observed checks. It is not a declaration that the [research programme](../docs/research-roadmap.md) is complete.
 
@@ -17,7 +17,9 @@
 
 The [October version comparison](../docs/skill-comparison.md) adds 27 planned executions and three focused 0.4.1 checks. It compares output quality and input sensitivity; it does not close the human-usefulness or hiring-effect gates.
 
-The [prospective application-gain investigation](../docs/application-gains.md) adds 35 executions, including two explicitly adaptive follow-ups. All 12 reserved pairs were substantive ties. The longer candidate was not promoted, and 0.4.1 remains the runtime. The claim register now has 47 entries, including a bounded original writing-assistance study; this does not close the hiring-effect gate.
+The earlier [prospective application-gain investigation](../docs/application-gains.md) adds 35 executions, including two explicitly adaptive follow-ups. All 12 reserved pairs were substantive ties. The longer candidate was not promoted, and that study retained 0.4.1. At that point the claim register had 47 entries, including a bounded original writing-assistance study; this did not close the hiring-effect gate.
+
+Later update, 12 October 2026: [0.4.2 corrects the offline DOCX comment check](../docs/docx-comment-check.md), with six development and nine reserved task executions. All three assistant conditions found the retained comments, so no assistant advantage is attributed to the patch. The improvement is deterministic helper detection. The current catalogue has 73 cases and the register 49 claims, including two scoped Microsoft comment/privacy records. Human usefulness, complete document privacy and hiring effects remain unestablished; the 0.5.0 proposal remains unpromoted.
 
 ## Workstream coverage
 
