@@ -23,6 +23,7 @@ The validator requires one output per condition for each participant, different 
 
 ```bash
 python scripts/correction_effort.py validate private/correction-effort/baseline.json
+python scripts/correction_effort.py calibrate private/correction-effort/calibration.json
 python scripts/correction_effort.py analyse private/correction-effort/baseline.json
 python scripts/correction_effort.py power private/correction-effort/pilot.json \
   --iterations 5000 --seed 20261012
@@ -30,6 +31,14 @@ python scripts/correction_effort.py analyse private/correction-effort/confirmato
 ```
 
 Validation errors identify array positions rather than private identifiers. Analysis output is aggregate. Store redirected output in the private study directory until the publication review is complete.
+
+## Reviewer calibration record
+
+The calibration record contains a coded calibration ID, date, two coded reviewer IDs, confirmation that conditions remained hidden and at least twelve synthetic items. Each item stores only its coded ID and both severity ratings. Each reviewer must classify examples spanning all four severity levels.
+
+Calibration qualifies at 80% exact severity agreement and 100% agreement on the critical-or-consequential versus minor-or-preference boundary. The [reviewer handbook](correction-effort-reviewer-handbook.md) defines the counting unit, severity levels and adjudication process.
+
+The calibration command returns exit status 2 when a structurally valid record does not reach the gate. Its JSON output retains the aggregate agreement rates for review.
 
 ## Frozen confirmatory calculation
 
@@ -41,4 +50,12 @@ The pilot power command resamples complete participant blocks. This preserves th
 
 ## Synthetic rehearsal
 
-The unit suite generates balanced fictional baseline, pilot and confirmatory records. It verifies a passing gate, blocking critical and time results, malformed reviews, repeated packets, sample-size simulation and identifier-safe error output. These fixtures contain no participant data.
+Run the complete ephemeral workflow before recruitment:
+
+```bash
+python scripts/rehearse_correction_effort.py
+```
+
+The rehearsal creates fictional operations, contact, calibration, baseline, pilot and confirmatory records in a temporary directory. It exercises validation, aggregate analysis, power simulation, the release-gate calculation and deletion, then reports aggregate step results. It does not create candidate evidence or replace the storage and deletion test for the actual approved environment.
+
+The unit suite also generates balanced fictional records. It verifies a passing gate, blocking critical and time results, malformed reviews, repeated packets, sample-size simulation, reviewer calibration and identifier-safe error output. These fixtures contain no participant data.

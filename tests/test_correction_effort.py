@@ -69,7 +69,47 @@ def study_record(phase="confirmatory", participants=36):
     }
 
 
+def calibration_record():
+    severities = ["critical", "consequential", "minor", "preference"] * 3
+    return {
+        "schema_version": 1,
+        "study_id": "correction-effort-v1",
+        "calibration_id": "CAL-01",
+        "completed_on": "2026-10-13",
+        "reviewer_ids": ["R1", "R2"],
+        "condition_blinded": True,
+        "items": [
+            {"item_id": f"I{index:02d}", "reviewer_1": severity, "reviewer_2": severity}
+            for index, severity in enumerate(severities, start=1)
+        ],
+    }
+
+
 class CorrectionEffortTests(unittest.TestCase):
+    def test_reviewer_calibration_passes_fixed_gate(self):
+        record = calibration_record()
+        self.assertEqual([], MODULE.validate_calibration(record))
+        result = MODULE.analyse_calibration(record)
+        self.assertTrue(result["passed"])
+        self.assertEqual(1.0, result["exact_severity_agreement"])
+
+    def test_reviewer_calibration_requires_scope_and_boundary_agreement(self):
+        record = calibration_record()
+        record["items"][0]["reviewer_2"] = "minor"
+        result = MODULE.analyse_calibration(record)
+        self.assertFalse(result["passed"])
+        self.assertLess(result["critical_or_consequential_boundary_agreement"], 1.0)
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "calibration.json"
+            path.write_text(json.dumps(record), encoding="utf-8")
+            output = io.StringIO()
+            with redirect_stdout(output):
+                status = MODULE.main(["calibrate", str(path)])
+        self.assertEqual(2, status)
+        self.assertEqual("fail", json.loads(output.getvalue())["status"])
+        record["items"] = record["items"][:4]
+        self.assertTrue(any("at least 12" in error for error in MODULE.validate_calibration(record)))
+
     def test_confirmatory_record_validates_and_passes_gate(self):
         record = study_record()
         self.assertEqual([], MODULE.validate_record(record))

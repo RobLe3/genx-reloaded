@@ -35,6 +35,10 @@ python scripts/correction_effort.py power private/correction-effort/pilot.json \
 
 The confirmatory calculation uses participant-paired candidate-minus-control differences, Holm-adjusted one-sided tests and simultaneous one-sided 95% upper bounds. The power simulation resamples complete participant blocks so the observed task assignments and within-participant relationship remain together. A quantitative-methods review is required before confirmatory recruitment, while changes can still be recorded before data collection.
 
+Before baseline review, both reviewers use the [reviewer handbook](correction-effort-reviewer-handbook.md) and independently classify at least twelve synthetic actions spanning all four severities. Continue when exact severity agreement reaches 80% and agreement on the critical-or-consequential boundary reaches 100%. Record the coded ratings privately and run `python scripts/correction_effort.py calibrate private/correction-effort/calibration.json`.
+
+Run `python scripts/rehearse_correction_effort.py` for an ephemeral synthetic check of operations validation, contact/data separation, calibration, phase records, power analysis, release-gate calculation and deletion. Repeat the deletion test in the actual approved private environment before recruitment.
+
 ## Phase 1: discovery
 
 Recruit ten participants for approximately 30 minutes each. Seek variety in occupation, market, qualification route and access needs without requiring sensitive disclosures. Pay €25 or the local equivalent.

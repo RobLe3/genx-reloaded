@@ -32,9 +32,13 @@ The [candidate correction-effort study](../research/correction-effort-study.md) 
 
 The frozen calculation uses participant-paired differences, Holm-adjusted one-sided tests and simultaneous one-sided 95% upper bounds. Synthetic tests cover a passing comparison, critical and time gates, malformed review records, repeated packets, phase-specific samples, power simulation and identifier-safe errors. A quantitative-methods review remains a launch requirement for the confirmatory phase.
 
+The reviewer handbook now fixes the correction unit, four severity levels, independent review and adjudication. The calibration command requires at least twelve synthetic actions, 80% exact severity agreement and complete agreement on the critical-or-consequential boundary. The protocol validator protects those thresholds.
+
+The ephemeral rehearsal created separate fictional contact and coded-study directories, validated synthetic operations and all quantitative phases, exercised aggregate and power calculations, evaluated the release gate, and confirmed deletion of the temporary directory. Its output explicitly excludes a candidate outcome claim. This verifies the local workflow rather than the actual approved storage environment.
+
 Recruitment still requires the maintainer to supply the actual owner, encrypted storage, access list, contact and recruitment routes, withdrawal contact, compensation method, invitation approval and applicable ethics/privacy review outside Git.
 
-The current repository suite passes 48 tests without skips in the pinned test environment, including the protocol, private launch-record and coded measurement cases. These research checks prepare measurement; they do not count as participant observations.
+The current repository suite passes 52 tests without skips in the pinned test environment, including the protocol, private launch-record, reviewer-calibration, rehearsal and coded measurement cases. These research checks prepare measurement; they do not count as participant observations.
 
 ## Historical records and remaining limits
 

@@ -65,6 +65,12 @@ OUTPUT_FIELDS = {
     "actions",
 }
 ACTION_FIELDS = {"action_id", "reviewer_1", "reviewer_2", "adjudicated"}
+CALIBRATION_FIELDS = {
+    "schema_version", "study_id", "calibration_id", "completed_on",
+    "reviewer_ids", "condition_blinded", "items",
+}
+CALIBRATION_ITEM_FIELDS = {"item_id", "reviewer_1", "reviewer_2"}
+HIGH_IMPACT_SEVERITIES = {"critical", "consequential"}
 
 
 def _valid_date(value):
@@ -220,6 +226,70 @@ def validate_record(record):
                 errors.append("Condition order is not counterbalanced.")
                 break
     return errors
+
+
+def validate_calibration(record):
+    """Return privacy-safe errors for a reviewer calibration record."""
+    errors = []
+    if not isinstance(record, dict):
+        return ["Calibration record must be an object."]
+    if set(record) != CALIBRATION_FIELDS:
+        errors.append("Calibration fields differ from the data contract.")
+    if record.get("schema_version") != 1 or record.get("study_id") != "correction-effort-v1":
+        errors.append("Calibration identity or schema version is invalid.")
+    if not isinstance(record.get("calibration_id"), str) or not record["calibration_id"].strip():
+        errors.append("Calibration ID must be non-empty coded text.")
+    if not _valid_date(record.get("completed_on")):
+        errors.append("Calibration date must be a valid ISO calendar date.")
+    reviewers = record.get("reviewer_ids")
+    if not isinstance(reviewers, list) or len(reviewers) != 2 or len(set(reviewers)) != 2 or not all(isinstance(value, str) and value.strip() for value in reviewers):
+        errors.append("Calibration requires two distinct coded reviewers.")
+    if record.get("condition_blinded") is not True:
+        errors.append("Calibration reviewers must not receive condition identities.")
+    items = record.get("items")
+    if not isinstance(items, list) or len(items) < 12:
+        return errors + ["Calibration requires at least 12 independently rated items."]
+    seen = set()
+    ratings = {"reviewer_1": set(), "reviewer_2": set()}
+    for index, item in enumerate(items):
+        prefix = f"items[{index}]"
+        if not isinstance(item, dict) or set(item) != CALIBRATION_ITEM_FIELDS:
+            errors.append(f"{prefix} fields differ from the data contract.")
+            continue
+        item_id = item.get("item_id")
+        if not isinstance(item_id, str) or not item_id.strip() or item_id in seen:
+            errors.append(f"{prefix}.item_id must be unique non-empty coded text.")
+        seen.add(item_id)
+        for reviewer in ("reviewer_1", "reviewer_2"):
+            value = item.get(reviewer)
+            if value not in SEVERITIES:
+                errors.append(f"{prefix}.{reviewer} has an invalid severity.")
+            else:
+                ratings[reviewer].add(value)
+    if any(values != set(SEVERITIES) for values in ratings.values()):
+        errors.append("Each reviewer must classify examples spanning all four severities.")
+    return errors
+
+
+def analyse_calibration(record):
+    """Calculate the fixed reviewer calibration gate."""
+    exact = []
+    boundary = []
+    for item in record["items"]:
+        left = item["reviewer_1"]
+        right = item["reviewer_2"]
+        exact.append(left == right)
+        boundary.append((left in HIGH_IMPACT_SEVERITIES) == (right in HIGH_IMPACT_SEVERITIES))
+    exact_agreement = _rate(exact)
+    boundary_agreement = _rate(boundary)
+    return {
+        "items": len(record["items"]),
+        "exact_severity_agreement": exact_agreement,
+        "critical_or_consequential_boundary_agreement": boundary_agreement,
+        "minimum_exact_severity_agreement": 0.8,
+        "required_boundary_agreement": 1.0,
+        "passed": exact_agreement >= 0.8 and boundary_agreement == 1.0,
+    }
 
 
 def _action_counts(output):
@@ -422,9 +492,9 @@ def _load(path):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="Validate or analyse private coded correction-effort records.")
+    parser = argparse.ArgumentParser(description="Validate, calibrate or analyse private coded correction-effort records.")
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command in ("validate", "analyse"):
+    for command in ("validate", "analyse", "calibrate"):
         child = subparsers.add_parser(command)
         child.add_argument("record", type=Path)
     power = subparsers.add_parser("power")
@@ -434,7 +504,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         record = _load(args.record)
-        errors = validate_record(record)
+        errors = validate_calibration(record) if args.command == "calibrate" else validate_record(record)
         if args.command == "power" and record.get("phase") != "candidate-pilot":
             errors.append("Power simulation requires a candidate-pilot record.")
         if args.command == "power" and not 100 <= args.iterations <= 100000:
@@ -448,6 +518,10 @@ def main(argv=None):
         elif args.command == "analyse":
             payload = {"status": "pass", "analysis": analyse(record)}
             status = 0
+        elif args.command == "calibrate":
+            calibration = analyse_calibration(record)
+            payload = {"status": "pass" if calibration["passed"] else "fail", "calibration": calibration}
+            status = 0 if calibration["passed"] else 2
         else:
             payload = {"status": "pass", "power": simulate_power(record, args.iterations, args.seed)}
             status = 0

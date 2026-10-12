@@ -161,6 +161,10 @@ def validate_study(study):
             errors.append(f"Required study control disabled: {key}")
     if design.get("confirmatory_assignment") != "balanced-incomplete-block" or design.get("same_packet_repeated_for_participant") is not False or design.get("reviewers_per_output") != 2:
         errors.append("Confirmatory assignment, packet reuse or reviewer count changed.")
+    if design.get("reviewer_calibration_minimum_items") != 12 or design.get("reviewer_calibration_minimum_exact_agreement") != 0.8:
+        errors.append("Reviewer calibration sample or exact-agreement gate changed.")
+    if design.get("reviewer_calibration_high_impact_boundary_agreement") != 1.0:
+        errors.append("Reviewer high-impact boundary gate changed.")
 
     analysis = study.get("analysis", {})
     if not isinstance(analysis, dict) or set(analysis) != STUDY_ANALYSIS_FIELDS:

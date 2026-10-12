@@ -71,6 +71,13 @@ class ResearchRecordTests(unittest.TestCase):
         self.assertTrue(any("simulation defaults" in error for error in errors))
         self.assertTrue(any("estimand" in error for error in errors))
 
+    def test_correction_effort_reviewer_calibration_is_fixed(self):
+        self.study["design"]["reviewer_calibration_minimum_items"] = 4
+        self.study["design"]["reviewer_calibration_high_impact_boundary_agreement"] = 0.5
+        errors = MODULE.validate_study(self.study)
+        self.assertTrue(any("calibration sample" in error for error in errors))
+        self.assertTrue(any("boundary gate" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()

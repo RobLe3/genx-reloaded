@@ -44,6 +44,8 @@ The [correction-effort study](research/correction-effort-study.md) fixes the par
 
 Quantitative participant records follow the [coded data contract](research/correction-effort-data-contract.md) and remain in private storage. Validate and aggregate them with `scripts/correction_effort.py`. Reviewers complete their assessments before the condition key is joined to the analysis record.
 
+Use the [reviewer handbook](research/correction-effort-reviewer-handbook.md) and pass the fixed calibration gate before baseline grading. `python scripts/rehearse_correction_effort.py` exercises the fictional end-to-end measurement path without retaining its temporary records.
+
 ## Distribution
 
 The maintainer has not selected a distribution license. Public visibility does not grant an open-source license. Resolve licensing before redistributing the material under new terms or accepting contributions whose terms are incompatible with the maintainer's eventual choice.

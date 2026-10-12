@@ -38,6 +38,7 @@ The skill's own [quality reference](../skills/genx-reloaded/references/quality-a
 
 - Run the [candidate correction-effort study](../research/correction-effort-study.md), beginning with ten discovery participants and the twelve-participant released baseline.
 - Validate and analyse coded quantitative records with `scripts/correction_effort.py`, then review the frozen method before confirmatory recruitment.
+- Calibrate both reviewers with the fixed severity gate and run the ephemeral correction-effort rehearsal before using the approved private study environment.
 - Generated document accessibility and visual checks in multiple hosts.
 - Behaviour on scanned CVs, very long histories and conflicting sources.
 - Broader multilingual and model coverage.

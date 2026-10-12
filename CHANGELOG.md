@@ -1,5 +1,11 @@
 # Changelog
 
+## Research update, 13 October 2026: reviewer calibration and rehearsal
+
+- Add a reviewer handbook and machine-checked calibration gate for correction counting, severity and high-impact agreement.
+- Add an ephemeral fictional rehearsal covering operations validation, separated contact and coded records, calibration, all quantitative phases, power analysis and deletion.
+- Protect the calibration thresholds in research validation and expand the pinned suite to 52 passing tests. Runtime version 0.4.2 remains unchanged.
+
 ## Research update, 12 October 2026: correction-effort measurement
 
 - Reframe the README around practical capabilities, current verification and the participant measurement path.

@@ -51,4 +51,6 @@ Use coded observation rows: task, observation, participant's optional explanatio
 
 For the quantitative phases, use the [coded data contract](correction-effort-data-contract.md). Keep the condition key separate until two blinded reviews and adjudication are complete. Run the offline validator before analysis and store its aggregate output with the private study record.
 
+Both reviewers follow the [reviewer handbook](correction-effort-reviewer-handbook.md) and pass its synthetic calibration gate before baseline outputs are graded. Preserve both original ratings when adjudicating.
+
 The completion gate is a documented set of actual observations supporting prioritised changes. The correction-effort protocol defines when those observations justify a runtime candidate and how that candidate will be measured.
