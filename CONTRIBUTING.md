@@ -48,4 +48,4 @@ Use the [reviewer handbook](research/correction-effort-reviewer-handbook.md) and
 
 ## Distribution
 
-The maintainer has not selected a distribution license. Public visibility does not grant an open-source license. Resolve licensing before redistributing the material under new terms or accepting contributions whose terms are incompatible with the maintainer's eventual choice.
+GenX Reloaded is licensed under the [Apache License 2.0](LICENSE). Unless explicitly stated otherwise, contributions intentionally submitted for inclusion in the project are provided under the same terms. Only contribute material you have the right to license, and identify any third-party material and its terms.

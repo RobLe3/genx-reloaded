@@ -10,7 +10,7 @@ GenX Reloaded began after watching 60 Minutes Australia’s report [*How AI is c
 
 **Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
 
-[Why](#why-this-exists) · [Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
+[Why](#why-this-exists) · [Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md) · [License](LICENSE)
 
 ## Listen to the podcast
 
@@ -176,4 +176,4 @@ The documentation approach draws on the inspectable validation and bounded claim
 
 ## License and maintainer
 
-Maintained by [RobLe3](https://github.com/RobLe3). No distribution license has been selected. Public visibility does not imply an open-source license. Source links in the evidence register remain subject to their respective owners' terms.
+Maintained by [RobLe3](https://github.com/RobLe3) and licensed under the [Apache License 2.0](LICENSE). You may use, modify and distribute the project, including commercially, under the license terms. Keep the required notices and identify modified files. Material linked or cited but not included in this repository remains subject to its owner's terms.

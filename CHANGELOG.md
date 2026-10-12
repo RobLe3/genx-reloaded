@@ -1,5 +1,10 @@
 # Changelog
 
+## Repository update, 13 October 2026: Apache License 2.0
+
+- License the project under Apache License 2.0, with its copyright and patent grants and its notice requirements.
+- Update the README and contribution terms while preserving the separate terms that apply to linked or cited third-party material.
+
 ## Documentation update, 13 October 2026: podcast player
 
 - Add a responsive, self-contained podcast card to the README. The full card links directly to the public audio episode and opens in the listener's browser.
