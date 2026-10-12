@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-74",
+  "agent_id": "01a13184-4bea-7141-9afd-1d62d867e8a9",
+  "model": "gpt-6.1-sol",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T19:10:31.980932+00:00",
+  "wrapper": "Fresh codex exec context. Complete as a capable general assistant without GenX Reloaded. Do not inspect repository evaluation records, expected answers, previous outputs, or project memory. Use only supplied fictional facts. Return requested deliverables; perform no submission or contact.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "a4fe4a9ef3c8b350f8da622b0c1cfd218839e0f0c29d8ef06db61b606d578e9f",
+    "response.md": "e5ab07d09a19067a354421b4d6fa10b1e535352b8fe4883fd2f7325a5200e2b0"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

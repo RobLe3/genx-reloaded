@@ -1,5 +1,12 @@
 # Changelog
 
+## Research update, 12 October 2026: evidence reconciliation
+
+- Test four fictional multi-source application families against a capable no-skill assistant and released 0.4.2 before changing the runtime.
+- Preserve eight fresh executions and a condition-blinded assessment. All four pairs were substantive ties, with no correction recorded in either condition.
+- Stop before creating a candidate or running the reserved suite because the predeclared mutation condition failed. Keep the runtime at 0.4.2.
+- Expand the authored catalogue to 77 cases. Treat explicit synthetic corrections as a limitation, not proof that messy real-world reconciliation is solved.
+
 ## 0.4.2, 12 October 2026
 
 - Fix the offline DOCX checker missing retained private comments. Report stored comments and anchors without exposing comment text or authors; include comment parts in bounded XML inspection.

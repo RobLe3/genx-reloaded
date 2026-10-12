@@ -1,0 +1,96 @@
+{
+  "sets": [
+    {
+      "case_id": "GX-74",
+      "outputs": [
+        {
+          "label": "A",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides all required fields within limits, corrects the employment history and management answer, preserves historical complaint evidence, and excludes private information."
+        },
+        {
+          "label": "B",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides all required fields within limits using supported facts. Accurately preserves the category-level scope of the supplied complaint evidence."
+        }
+      ],
+      "winner": "tie",
+      "reason": "Neither output requires a critical or consequential correction. Neither invents an individual complaint case or safeguarding outcome; B's additional note does not establish a substantive advantage."
+    },
+    {
+      "case_id": "GX-75",
+      "outputs": [
+        {
+          "label": "A",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Corrects titles, dates and qualification, separates SAP training from work, supplies correct screening answers, and includes a 72-word scheduling answer."
+        },
+        {
+          "label": "B",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides the requested resume draft, correct screening answers and a 75-word scheduling answer, with historical planning evidence and course-based SAP experience accurately represented."
+        }
+      ],
+      "winner": "tie",
+      "reason": "Both deliver all requested components without material fabrication, chronology errors or limit breaches. Layout and reconciliation notes are preferences."
+    },
+    {
+      "case_id": "GX-76",
+      "outputs": [
+        {
+          "label": "A",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides a 70-word profile, four bullets and both portal answers. Correctly bounds the fleet figure, identifies historical maintenance work and distinguishes sandbox learning from live CMMS experience."
+        },
+        {
+          "label": "B",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides a 70-word profile, four bullets and both portal answers with corrected titles, dated historical evidence, bounded fleet scope and a truthful No to live CMMS experience."
+        }
+      ],
+      "winner": "tie",
+      "reason": "Both preserve the material facts and satisfy the required limits. Neither claims a diploma, live Maximo experience, invented contractor results or unsupported safety procedures."
+    },
+    {
+      "case_id": "GX-77",
+      "outputs": [
+        {
+          "label": "A",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides all requested German components, with an 865-character application field, corrected employment details, the original qualification and accurate distinctions between audit support and SAP learning."
+        },
+        {
+          "label": "B",
+          "critical": 0,
+          "consequential": 0,
+          "minor": 0,
+          "usable": true,
+          "summary": "Provides all requested German components, with an 812-character application field, correct titles and dates, supported audit duties and clearly separated SAP work and laboratory learning."
+        }
+      ],
+      "winner": "tie",
+      "reason": "Both meet the character limit, preserve IHK Industriekaufmann, exclude private break reasons and avoid fabricated audit ownership or S/4HANA work experience."
+    }
+  ]
+}

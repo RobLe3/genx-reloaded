@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-75",
+  "agent_id": "01a13184-4c1a-7f22-94a3-8e75f521c9c4",
+  "model": "gpt-6.1-sol",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T19:10:32.360141+00:00",
+  "wrapper": "Fresh codex exec context. Use the isolated released GenX Reloaded runtime supplied with the task. Read only relevant runtime references. Do not inspect repository evaluation records, expected answers, previous outputs, or project memory. Use only supplied fictional facts. Return requested deliverables; perform no submission or contact.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "0684054328a70bdf5cdb6c709508a6a37b32e9c89220031b0a0cac62f909c24b",
+    "response.md": "9af90dcc1d446efb19e013e05ffaec053d8c90861ec76b2a172f375a9303403c"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "b8bcba926fa9b0920db632bd3c5eae586abf3bd6a289159e5bc2dfe1440c111d",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

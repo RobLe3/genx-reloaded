@@ -1,0 +1,17 @@
+# Request
+Bitte machen Sie daraus eine passende Bewerbung auf Deutsch: Kurzprofil, vier berufliche Stichpunkte und das Bewerbungsfeld. Verwenden Sie die richtigen Angaben aus meinen Dateien. Das Feld hat höchstens 1.000 Zeichen.
+
+# Vacancy
+Deutscher Industriebetrieb, Sachbearbeitung Qualitätsdokumentation. Anforderungen: gelenkte Anweisungen, Revisionsregister, Mitarbeitereinweisung, Vorbereitung von Audit-Unterlagen. SAP S/4HANA wünschenswert. Bewerbungstext höchstens 1.000 Zeichen. Der Lebenslauf verlangt weder Geburtsdatum noch Foto. Originalqualifikationen werden akzeptiert; eine Gleichwertigkeit wird nicht verlangt.
+
+# Current CV
+Rheinwerk GmbH, Quality Manager, 2006-2014: "owned ISO audits and SAP S/4HANA." Elbe Versand, Office Manager, 2015-Present. "Bachelor of Business Administration equivalent." Enthält "2014-2015 burnout and family care."
+
+# Older CV
+Rheinwerk GmbH, Produktionssachbearbeiter, Mai 2006-Oktober 2014: nummerierte freigegebene Arbeitsanweisungen, führte das Revisionsregister, ersetzte veraltete Exemplare, wies Mitarbeitende in neue Versionen ein; stellte auf Anweisung des Qualitätsmanagers Audit-Ordner zusammen. Nutzte SAP R/3 MM zum Anzeigen von Materialstammdaten und Anlegen von Bestellanforderungen. Elbe Versand, Bürokaufmann, März 2015-Juni 2026: Auftragsunterlagen und Excel-Listen. IHK Industriekaufmann, 1992.
+
+# Candidate notes
+Der aktuelle Lebenslauf wurde von einem Dienstleister umgeschrieben und ist falsch. Die offiziellen Titel und Daten stehen im älteren Lebenslauf; Elbe endete im Juni 2026. Ich unterstützte Audits, war aber weder Auditor noch Qualitätsverantwortlicher. Keine S/4HANA-Praxis im Beruf; im September 2026 absolvierte ich ein Online-Labor. Burnout und Familienpflege sollen privat bleiben. Die Qualifikation bleibt IHK Industriekaufmann, keine Bachelor-Gleichwertigkeit.
+
+# Form notes
+Deutsch; das Zeichenlimit schließt Leerzeichen ein.

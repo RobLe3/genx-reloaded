@@ -1,8 +1,12 @@
 # Agent task trials
 
-For version 0.4.2 use the [evaluation protocol](protocol.md), [73-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). See the [matched version comparison](../docs/skill-comparison.md), [frozen protocol](comparison-2026-10-12/protocol.md) and [run index](comparison-2026-10-12/runs.json). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
+For version 0.4.2 use the [evaluation protocol](protocol.md), [77-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). See the [matched version comparison](../docs/skill-comparison.md), [frozen protocol](comparison-2026-10-12/protocol.md) and [run index](comparison-2026-10-12/runs.json). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
 
 These are qualitative behavioural checks with fictional candidates. They do not measure interview probability, human wellbeing, universal model reliability, or real ATS acceptance.
+
+## Evidence-reconciliation development check
+
+The [development report](../docs/evidence-reconciliation-check.md), [protocol](evidence-reconciliation-2026-10-12/protocol.json) and [eight-run index](evidence-reconciliation-2026-10-12/runs.json) compare no-skill with released 0.4.2 across four fictional multi-source tasks. Blinded review found four ties and no required corrections. The observed-defect condition for a runtime mutation failed, so no candidate or reserved suite was run. GX-74 through GX-77 are exposed development material.
 
 ## Focused 0.4.2 helper correction
 

@@ -1,0 +1,11 @@
+{
+  "agent_id": "01a13186-5a2f-75e1-a4cb-1ed00b91bae0",
+  "model": "gpt-6.1-sol",
+  "sampling_settings": "unknown",
+  "host": "codex-cli 0.162.1 fresh ephemeral context",
+  "condition_blind": true,
+  "input": "development-assessor-input.json",
+  "output": "development-assessment.json",
+  "scope": "Four development output pairs only; no independent human review",
+  "date": "2026-10-12"
+}

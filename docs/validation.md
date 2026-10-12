@@ -18,9 +18,15 @@ The condition-label-blinded assessor found nine substantive pairwise ties across
 
 All fifteen raw task outputs, exact runtime snapshots, criteria, blinding map and adjudication remain in the [run index](../evals/docx-review-2026-10-12/runs.json). One post-output provenance receipt and one reviewer execution are counted separately. The runtime inventory digest is `b8bcba926fa9b0920db632bd3c5eae586abf3bd6a289159e5bc2dfe1440c111d`, identical to the frozen candidate. The original 0.5.0 proposal and its failed gain gate remain unchanged.
 
+## Evidence-reconciliation research addendum
+
+After 0.4.2, four fictional development families tested conflicting CV versions, candidate corrections, older evidence, private facts and separate application fields. Each family ran once with no GenX runtime and once with an isolated 0.4.2 snapshot. A fresh condition-blinded assessor found four substantive ties and recorded no critical, consequential or minor correction in either condition.
+
+The protocol required a recurring consequential defect before a runtime mutation. That condition failed, so no candidate was created and the planned reserved suite was not run. The [development check](evidence-reconciliation-check.md) and [exact records](../evals/evidence-reconciliation-2026-10-12/) preserve the result. Version 0.4.2 and its runtime inventory remain unchanged.
+
 ## Historical records and remaining limits
 
-The catalogue contains 73 authored cases and the research register 49 claims. Thirty-eight distinct catalogue cases have recorded task executions across the preserved series; none of these counts is a reliability or acceptance rate. The new cases are now exposed material, not future unseen holdouts.
+The catalogue contains 77 authored cases and the research register 49 claims. Forty-two distinct catalogue cases have recorded task executions across the preserved series; none of these counts is a reliability or acceptance rate. The executed cases are exposed material, not future unseen holdouts.
 
 The [0.4.1 record](validation-v0.4.1.md), [application-gain study](application-gains.md), [historical-version comparison](skill-comparison.md), and earlier [0.4.0](validation-v0.4.0.md), [0.3.0](validation-v0.3.0.md) and [0.2.0](validation-v0.2.0.md) records retain prior negative findings and coverage limits.
 

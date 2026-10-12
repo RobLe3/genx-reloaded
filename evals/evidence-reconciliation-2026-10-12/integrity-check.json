@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-12",
+  "record_verification": "All eight run directories passed scripts/eval_record.py verify.",
+  "expected_runs": 8,
+  "actual_runs": 8,
+  "unique_case_condition_pairs": 8,
+  "released_runtime_inventory_sha256": "b8bcba926fa9b0920db632bd3c5eae586abf3bd6a289159e5bc2dfe1440c111d",
+  "files": {
+    "protocol.json": "51f4262b03e106af949567cfffd6f6e0032dae961d8f08b1d0c49e25c5745606",
+    "cases.json": "b6350eb78895bf921bc4cf8a90314fbfb0dbd041c9827a4a82ae5cbbdb609935",
+    "development-assessor-input.json": "814b8a9ece636c52551c5e05091e17a852901e80ed4aadf39a956cf923c6a3ed",
+    "development-assessment.json": "551c698ec8e3f25df4a0c2f6072a4386ee758bb7c6cce6ceba972bb176b3ca6b",
+    "development-blinding-map.json": "e5df2caff9d6efe89b571a8d0955df28ad86ac4b098df54152f19911b67a283d",
+    "development-conclusion.json": "32132c4982d2744a893b3f9b5175c290d180f4a1916795b30c1b0e59880268bb",
+    "runs.json": "8e49881cb0b1c38cf59311cf46cde9d65289853248e670bb655afef871a13b81"
+  },
+  "behavioural_result": "Not part of integrity; see development-assessment.json and development-conclusion.json.",
+  "check_artifacts": {
+    "repository-check.json": "a2a5be9e1d24cbe5ba096c47d5b5d0068e5c53b2009ff9123e6c03daf52409e8",
+    "research-check.json": "b99a7bf992311e316875a6b9ac0d0d37637c6d88addac5d82f4b13f18d48e060",
+    "unit-tests.txt": "30955f9b2559de52c292cc2a6f18a386fe717e3072a586d5224776ac984382a4",
+    "frontmatter-check.txt": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0"
+  },
+  "final_status": "pass"
+}

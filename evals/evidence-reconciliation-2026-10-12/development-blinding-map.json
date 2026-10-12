@@ -1,0 +1,45 @@
+{
+  "seed": 20261012,
+  "mapping": [
+    {
+      "case_id": "GX-74",
+      "label": "A",
+      "condition": "none"
+    },
+    {
+      "case_id": "GX-74",
+      "label": "B",
+      "condition": "released"
+    },
+    {
+      "case_id": "GX-75",
+      "label": "A",
+      "condition": "released"
+    },
+    {
+      "case_id": "GX-75",
+      "label": "B",
+      "condition": "none"
+    },
+    {
+      "case_id": "GX-76",
+      "label": "A",
+      "condition": "released"
+    },
+    {
+      "case_id": "GX-76",
+      "label": "B",
+      "condition": "none"
+    },
+    {
+      "case_id": "GX-77",
+      "label": "A",
+      "condition": "released"
+    },
+    {
+      "case_id": "GX-77",
+      "label": "B",
+      "condition": "none"
+    }
+  ]
+}

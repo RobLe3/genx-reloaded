@@ -4,7 +4,7 @@
 
 ATS-aware CV and career support for people with a long career and plenty left to offer. Recover the strengths you have stopped noticing, translate historical knowledge into present relevance, and produce a focused, truthful application.
 
-**Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The latest patch fixes an offline Word check that missed private reviewer comments, including resolved threads. A three-condition comparison found no substantive assistant advantage over no-skill or 0.4.1: all conditions already found the issue with ordinary tools. The improvement is in the local checker, not a measured reduction in candidate effort or a hiring gain. The earlier 0.5.0 expansion remains unpromoted.
+**Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The latest released patch fixes an offline Word check that missed private reviewer comments, including resolved threads. A subsequent evidence-reconciliation check found four more substantive ties between 0.4.2 and a capable general assistant, so no new runtime was justified. The verified improvement remains the local checker correction, not a measured reduction in candidate effort or a hiring gain. The proposed 0.5.0 expansions remain unpromoted.
 
 [Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Version comparison](docs/skill-comparison.md) · [Application-gain study](docs/application-gains.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
@@ -83,17 +83,20 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Optional confidence and strengths coaching | Fictional low-energy scenarios | No human usability or clinical study |
 | Historical-to-current experience translation | Worked examples and CV scenarios | No invented modern tool experience |
 | Accurate handling of conflicting facts | Recorded urgent-rewrite scenario | Finite examples, not universal model reliability |
+| Reconciliation across conflicting CV versions | Four fictional development pairs across UK, Canada, New Zealand and Germany | Four ties; no added workflow or candidate-effort gain established |
 | Bilingual application support and private career breaks | German/English scenario, observed defects and focused rerun | Broader languages and markets remain untested |
 | Offline PDF, DOCX, TXT and Markdown preflight | 21 synthetic helper tests, including private-comment detection | Local extraction and review flags, not live ATS behaviour or full privacy certification |
 | Bias and ATS knowledge | Dated source register with context and limitations | Curated research, not an exhaustive review |
 | Repeatable repository checks | Manifest, links, metadata and Python syntax validator | Structural consistency, not hiring effectiveness |
 | Country-specific starting points | Eight separate market cards, including US, UK, CA, AU/AUS and NZ | Narrow sourced guidance, not complete legal or credential-recognition advice |
 | ATS-specific troubleshooting | [14-product coverage map](research/ats-coverage.md), documented symptoms and correction routes | Lever retrieval and Taleo version limits; no live tenant tests |
-| Research and reproducible trials | 49 claim records, 73 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
+| Research and reproducible trials | 49 claim records, 77 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
 
 The [Word-comment correction](docs/docx-comment-check.md) fixes a reproduced local false-negative. Its fifteen task executions include six development runs and nine reserved runs across no-skill, 0.4.1 and the frozen candidate. Blinded review found nine pairwise ties. All 33 unit tests passed without skips. This supports shipping the focused helper patch, not claiming a better application or hiring outcome.
 
 The earlier [prospective application-gain study](docs/application-gains.md) adds 33 planned executions and two adaptive follow-ups. Its blinded review found 12 substantive ties and no critical failures. A longer application-preparation module was preserved as experimental evidence and was not promoted. This is a negative result against adding those instructions, not proof of real-world equivalence.
+
+The [evidence-reconciliation development check](docs/evidence-reconciliation-check.md) then tested conflicting titles, dates, credentials, tool claims, older evidence, private facts and separate application fields. Across eight fresh executions, blinded review found four more ties and no correction required in either condition. Because the predeclared mutation condition failed, no candidate was created and the 24 reserved executions were not run. This saved activity without weakening the release gate.
 
 The [matched comparison](docs/skill-comparison.md) contains 27 planned executions across versions 0.2.0, 0.3.0, 0.4.0 and a no-skill condition, followed by three focused 0.4.1 repair checks. It does not establish general superiority over an assistant without the skill. Read the [validation record](docs/validation.md) for methods, adverse observations, exact scope, and remaining work. Do not infer a measured interview uplift from these checks.
 

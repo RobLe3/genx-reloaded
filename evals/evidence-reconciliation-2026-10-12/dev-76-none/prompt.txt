@@ -1,0 +1,17 @@
+# Request
+Make this suitable for the Asset Maintenance Coordinator job. Give me a 70-word profile, four CV bullets and the two portal answers. Keep older useful experience if it matters.
+
+# Vacancy
+New Zealand council contractor. Essentials: preventive-maintenance schedules, asset/service records, contractor follow-up, safe handovers. Preferred: Maximo. Portal: live CMMS experience Yes/No; contractor example max 90 words.
+
+# Current CV
+Harbour Community Trust, Facilities Coordinator, April 2010-September 2026: room bookings and contractor calls; "Maximo-ready asset specialist." Metro Bus Depot, Operations Coordinator, 1995-2010, no detail. Claims Diploma in Asset Management.
+
+# Older CV
+Metro Bus Depot, Maintenance Records Clerk, July 1995-March 2010: updated weekly preventive-maintenance board for 42 buses; filed service cards by fleet number; phoned approved repair contractors when booked work was overdue; wrote end-of-shift notes for incoming clerk. Harbour Community Trust, Facilities Administrator, April 2010-September 2026.
+
+# Candidate notes
+Official titles are Maintenance Records Clerk and Facilities Administrator. The 42-bus figure is accurate for 2008-2010 only. Harbour contractor calls were for room repairs, not fleet maintenance. I completed a Maximo guided sandbox in August 2026, never used it live. "Diploma" was a three-day non-credit asset-management workshop in 2018; list as workshop only if useful.
+
+# Form notes
+"Live CMMS" excludes demonstrations, sandboxes and study.

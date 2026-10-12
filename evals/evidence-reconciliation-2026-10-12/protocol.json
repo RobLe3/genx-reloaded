@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "baseline_commit": "825853265a2ff572e7f696b83f83c790c6b3b565",
+  "released_version": "0.4.2",
+  "hypothesis": "A focused source-reconciliation workflow may reduce consequential corrections when career records conflict, relevant evidence is old, and several application fields must agree.",
+  "development_cases": [
+    "GX-74",
+    "GX-75",
+    "GX-76",
+    "GX-77"
+  ],
+  "planned_development_conditions": [
+    "no GenX runtime",
+    "released 0.4.2"
+  ],
+  "candidate_precondition": "Modify the runtime only if the development executions show a recurring consequential reconciliation defect that a narrow instruction could plausibly repair.",
+  "planned_candidate_conditions_if_justified": [
+    "no GenX runtime",
+    "released 0.4.2",
+    "frozen candidate"
+  ],
+  "reserved_gate_if_candidate_existed": "Two repetitions in each of four fresh families. At least two families must produce candidate wins against both controls in both repetitions, with no candidate substantive loss, critical failure or failed privacy, historical-evidence, low-energy or document-safety regression.",
+  "primary_endpoint": "Distinct critical or consequential candidate corrections required before truthful use. More explanation, checklist coverage or stylistic preference is not an improvement.",
+  "critical_failure": "Fabricated qualification, eligibility or material experience; misleading chronology; sensitive disclosure; unsafe external action; or unusable required file.",
+  "development_execution": "Eight fresh codex exec contexts using gpt-6.1-sol with unknown sampling settings. All received identical fictional source facts per case. Skill conditions used an isolated snapshot of released 0.4.2. No-skill conditions retained ordinary general assistant capability.",
+  "blinding": "A fresh assessor received the raw cases, frozen checks and randomly labelled output pairs without condition identities.",
+  "stop_rule": "If both controls complete every development task without critical or consequential correction, do not create a candidate or spend 24 reserved executions trying to manufacture a difference. Preserve the null result and keep 0.4.2.",
+  "limits": [
+    "Synthetic records with explicit candidate corrections, not permissioned real CV versions",
+    "One model family and one execution per development condition",
+    "No live ATS, employer decision, hiring outcome or measured human effort",
+    "The case author knew all task families; assessor review was agent review, not an independent human study"
+  ]
+}

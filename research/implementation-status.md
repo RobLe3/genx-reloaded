@@ -12,7 +12,7 @@
 | GX-R06, occupation examples | Six fictional fact-ledger transformations spanning office and non-office work | No human reviewer comparison or hiring-effect measurement |
 | GX-R07, ATS matrix | Fourteen scoped product cards, cross-surface troubleshooting, official candidate/admin/API sources | Lever retrieval and Taleo release limits remain; no employer-side environment tested |
 | GX-R08, country cards | Eight separate cards: US, UK, Canada, Australia, New Zealand, Germany, Austria and Switzerland | No comprehensive legal/recognition review; Australian AHRC page retrieval incomplete; further markets pending |
-| GX-R09, scenario expansion | 68 authored cases, reserved designations, matched version comparisons and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
+| GX-R09, scenario expansion | 77 authored cases, reserved designations, matched version comparisons and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
 | GX-R10, privacy and end-to-end support | Data-flow/threat inventory, opportunity and learning aid, interview/outreach/work-sample patterns | Full threat-case execution, human usability and prospective outcome tracking not performed |
 
 The [October version comparison](../docs/skill-comparison.md) adds 27 planned executions and three focused 0.4.1 checks. It compares output quality and input sensitivity; it does not close the human-usefulness or hiring-effect gates.
@@ -20,6 +20,8 @@ The [October version comparison](../docs/skill-comparison.md) adds 27 planned ex
 The earlier [prospective application-gain investigation](../docs/application-gains.md) adds 35 executions, including two explicitly adaptive follow-ups. All 12 reserved pairs were substantive ties. The longer candidate was not promoted, and that study retained 0.4.1. At that point the claim register had 47 entries, including a bounded original writing-assistance study; this did not close the hiring-effect gate.
 
 Later update, 12 October 2026: [0.4.2 corrects the offline DOCX comment check](../docs/docx-comment-check.md), with six development and nine reserved task executions. All three assistant conditions found the retained comments, so no assistant advantage is attributed to the patch. The improvement is deterministic helper detection. The current catalogue has 73 cases and the register 49 claims, including two scoped Microsoft comment/privacy records. Human usefulness, complete document privacy and hiring effects remain unestablished; the 0.5.0 proposal remains unpromoted.
+
+Further update, 12 October 2026: the [evidence-reconciliation development check](../docs/evidence-reconciliation-check.md) added four fictional cases and eight fresh executions. Condition-blinded assessment found four ties with no critical, consequential or minor correction recorded in either condition. The predeclared condition for a runtime mutation therefore failed. No candidate or reserved suite was run, 0.4.2 remained current, and the catalogue increased to 77 cases. This result applies to explicit synthetic corrections, not messy real-world records in general.
 
 ## Workstream coverage
 

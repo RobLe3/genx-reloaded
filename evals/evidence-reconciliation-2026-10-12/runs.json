@@ -1,0 +1,68 @@
+{
+  "runs": [
+    {
+      "run_id": "dev-74-none",
+      "case_id": "GX-74",
+      "split": "development",
+      "condition": "none",
+      "repetition": 1,
+      "record": "dev-74-none/record.json"
+    },
+    {
+      "run_id": "dev-74-released",
+      "case_id": "GX-74",
+      "split": "development",
+      "condition": "released-0.4.2",
+      "repetition": 1,
+      "record": "dev-74-released/record.json"
+    },
+    {
+      "run_id": "dev-75-none",
+      "case_id": "GX-75",
+      "split": "development",
+      "condition": "none",
+      "repetition": 1,
+      "record": "dev-75-none/record.json"
+    },
+    {
+      "run_id": "dev-75-released",
+      "case_id": "GX-75",
+      "split": "development",
+      "condition": "released-0.4.2",
+      "repetition": 1,
+      "record": "dev-75-released/record.json"
+    },
+    {
+      "run_id": "dev-76-none",
+      "case_id": "GX-76",
+      "split": "development",
+      "condition": "none",
+      "repetition": 1,
+      "record": "dev-76-none/record.json"
+    },
+    {
+      "run_id": "dev-76-released",
+      "case_id": "GX-76",
+      "split": "development",
+      "condition": "released-0.4.2",
+      "repetition": 1,
+      "record": "dev-76-released/record.json"
+    },
+    {
+      "run_id": "dev-77-none",
+      "case_id": "GX-77",
+      "split": "development",
+      "condition": "none",
+      "repetition": 1,
+      "record": "dev-77-none/record.json"
+    },
+    {
+      "run_id": "dev-77-released",
+      "case_id": "GX-77",
+      "split": "development",
+      "condition": "released-0.4.2",
+      "repetition": 1,
+      "record": "dev-77-released/record.json"
+    }
+  ]
+}

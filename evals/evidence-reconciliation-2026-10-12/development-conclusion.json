@@ -1,0 +1,19 @@
+{
+  "development_executions": 8,
+  "pairs": 4,
+  "no_skill_critical_corrections": 0,
+  "no_skill_consequential_corrections": 0,
+  "released_critical_corrections": 0,
+  "released_consequential_corrections": 0,
+  "substantive_released_wins": 0,
+  "substantive_no_skill_wins": 0,
+  "ties": 4,
+  "candidate_precondition_met": false,
+  "candidate_created": false,
+  "reserved_executions_run": 0,
+  "runtime_changed": false,
+  "version": "0.4.2",
+  "decision": "Stop before runtime mutation and reserved execution. Released 0.4.2 and a capable no-skill assistant both reconciled the supplied conflicts, preserved older evidence, answered screening questions truthfully, respected limits and omitted private explanations in all four development families.",
+  "interpretation": "These cases do not show that source reconciliation is solved generally. They show that explicit candidate corrections and well-bounded fictional records still give a capable general assistant enough information to match the released skill. Adding another reconciliation checklist without an observed defect would not meet the project's improvement standard.",
+  "next_dependency": "A further runtime attempt needs ecologically stronger, permissioned or carefully anonymised multi-version material, or a synthetic reproduction of a real recurring correction burden whose answer is not already stated cleanly in candidate notes."
+}

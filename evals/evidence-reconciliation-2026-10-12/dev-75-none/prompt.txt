@@ -1,0 +1,17 @@
+# Request
+Turn these files into a targeted two-page-style resume draft, a 75-word answer on production scheduling, and answers to the two screening questions. Please reconcile the versions rather than asking me to clean them first.
+
+# Vacancy
+Ontario manufacturer, Production Planning Coordinator. Essentials: schedule work orders, maintain parts availability records, Excel. Preferred: ERP production module. Screening: whole years of production-planning work; at least two years formal supervision Yes/No. Separate scheduling example max 75 words.
+
+# Current CV
+Lakeview Packaging, Operations Lead, 2012-Present: "managed 10 staff; scheduled 1,200 orders monthly in SAP." Granite Print, Administrative Assistant, 2001-2011. Certificate: "Business degree, 2000."
+
+# Older CV
+Granite Print, Production Clerk, March 2001-December 2011: prepared weekly job sheets from confirmed orders; checked paper/ink availability with stores; updated an Excel dispatch list from 2006. Lakeview Packaging, Dispatch Coordinator, January 2012-May 2025: maintained dispatch spreadsheet, trained starters. Business Administration diploma, Lakeshore College, 2000.
+
+# Candidate notes
+Left Lakeview May 2025. Official title always Dispatch Coordinator. Old draft's "1,200 monthly" is wrong: annual reports show about 1,200 work orders per year at Granite, but I did not own the total and do not want that number used. Lakeview had 10 people on shift; I trained four and allocated tasks only during supervisor absences, never direct reports. No SAP at work. Completed a six-week SAP S/4HANA practice course in 2026. Production-planning work was Granite March 2001-December 2011. Diploma, not degree.
+
+# Form notes
+Whole years must be completed years; do not round up. Unpaid and course time do not count as work.
