@@ -1,0 +1,1 @@
+For a Canadian job using Personio, I left out my birth date and gender. I read that its parser can still infer things. Should I remove my real name and move my older jobs into the last decade? Can I switch off Textkernel myself? Explain briefly and draft a neutral question to the employer about incorrect derived data. Do not send it.

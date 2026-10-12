@@ -40,3 +40,48 @@ Some search responses contained unrelated results; these were excluded rather th
 - Lever: official article returned a loading/CSS-error shell. No parser specification adopted.
 
 The older evidence register retains its previous retrieval notes. This pass does not reclassify every legacy item as freshly verified. Proposed mitigation and conversational patterns remain editorial adaptations unless a source actually tests that intervention.
+
+## 0.4.0 international and ATS expansion
+
+12 October 2026, targeted desk research following the requested US/UK/CA/AUS/NZ and vendor-specific coverage. Added 30 records, GX-C17 to GX-C46. No systematic or exhaustive search is claimed. Search engines were used for discovery, then official pages opened and relevant sections inspected. Queries included:
+
+```text
+site.usajobs.gov help resume two pages hours per week 2026
+site.nationalcareers.service.gov.uk careers advice cv sections date birth
+site.jobbank.gc.ca findajob resources write good resume
+site.apsc.gov.au applying APS job pitch selection criteria resume
+USAJOBS two page resume OPM 2025 what include
+Tahatu write CV referees
+site.chrc-ccdp.gc.ca federal provincial territorial human rights complaints jurisdiction
+site.privacy.org.nz recruitment references permission applicant
+site.humanrights.gov.au age discrimination recruitment employment
+site.canada.ca foreign credential recognition regulated profession province territory
+site.workday.com job application candidate FAQ account resume
+site.help.lever.co resume parsing file types candidate
+site.icims.com candidates application FAQ resume support
+site.docs.oracle.com recruiting candidate resume parsing disqualification questions
+site.help.sap.com SuccessFactors Recruiting resume parsing candidate profile
+site.smartrecruiters.com candidate application edit resume support
+site.help.workable.com candidate resume upload application update
+site.ashbyhq.com candidate application resume parsing AI assist matching
+site.support.recruitee.com CV parsing
+site.support.teamtailor.com resume parse
+site.support.personio.de CV parsing candidate profiles English
+site.knowledgeportal.pageuppeople.com applicant resume application update candidate
+```
+
+Retrieval and editorial decisions:
+
+- USAJOBS help URLs redirected to an inaccessible OPM help surface. Retrieved OPM's full one-page applicant guidance instead. The two-page federal limit replaces historical long-resume advice; this is not a universal commercial-resume rule.
+- Job Bank's primary URL timed out; its official regional host returned the full national article. Adopted privacy/reference conventions, not a mandatory 15-year deletion rule or unsupported universal skim-time claim.
+- APSC initially returned 503, then retrieved successfully. Tahatū's current CV page was inspected. Its general ATS description is not adopted as proof of every vendor's scoring behaviour.
+- EEOC, NCS, Cabinet Office, nidirect, CHRC, Canadian credential guidance and NZ Privacy Commissioner sections were inspected. Australian AHRC full-page retrieval failed; the search-only lead remains unknown and is not the basis for procedural advice.
+- Workday public training sections were available; no tenant behaviour tested. SAP's public KBA was inspectable. Oracle Fusion documentation and older Taleo 23D documentation are kept separate.
+- SmartRecruiters sources describe APIs. The workflow explicitly refuses to treat authenticated API operations as candidate UI controls.
+- Greenhouse's three adopted feature pages were rechecked. Ashby's criteria, notice and opt-out sections were inspected. Feature availability does not demonstrate employer deployment or fairness.
+- Workable candidate help, employer auto-disqualification guidance and LinkedIn-origin behaviour were cross-read. The general old-file article's withdrawal suggestion is qualified by the update article's cancellation warning for existing invitations.
+- Recruitee, Teamtailor, Personio and PageUp public help was inspected. Recruiter/admin actions are not presented as candidate permissions. Personio's documented derived attributes do not prove downstream discriminatory use. PageUp's alternative-email recovery suggestion is not used as a default duplicate-application tactic.
+- Lever help repeatedly returned a loading/CSS-error shell, including redirected older URLs. Official search extracts exist but current parser details remain unverified. Third-party optimisation claims were excluded.
+- Some system1 searches returned unrelated pages despite targeted queries. Those results were rejected, and system2 plus direct primary-page retrieval used. Search-engine dates were not substituted for publication dates.
+
+No applicant accounts, employer contacts, uploaded CVs, live parsing tests or automated submissions were used. Local scenarios are fictional. The coverage map explicitly names unresearched follow-ups and does not claim to cover every ATS on the market.

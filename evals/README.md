@@ -1,6 +1,6 @@
 # Agent task trials
 
-For version 0.3.0 use the [evaluation protocol](protocol.md), [36-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
+For version 0.4.0 use the [evaluation protocol](protocol.md), [49-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
 
 These are qualitative behavioural checks with fictional candidates. They do not measure interview probability, human wellbeing, universal model reliability, or real ATS acceptance.
 

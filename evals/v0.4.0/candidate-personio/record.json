@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-45",
+  "agent_id": "/root/v04_personio",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T15:49:17.636094+00:00",
+  "wrapper": "Use GenX Reloaded at /workspace/scratch/32af31dce987/genx-reloaded/skills/genx-reloaded/SKILL.md for the request in /workspace/scratch/32af31dce987/genx-reloaded/evals/v0.4.0/GX-45.txt. Read the skill and only the references needed for the request; do not inspect other repository files. Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/v04-personio-answer.md and return it. Do not modify the skill, contact anyone, or submit an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "83d623a2d5e77a7f50bb0d108c51c79acd052a105958a7f233d97f205e980185",
+    "response.md": "efc82091704f2cf99f2dc407de9de4f8b34d20a46780189a2a77620b1f723261"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

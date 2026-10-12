@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-42",
+  "agent_id": "/root/v04_workable",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T15:49:17.628966+00:00",
+  "wrapper": "Use GenX Reloaded at /workspace/scratch/32af31dce987/genx-reloaded/skills/genx-reloaded/SKILL.md for the request in /workspace/scratch/32af31dce987/genx-reloaded/evals/v0.4.0/GX-42.txt. Read the skill and only the references needed for the request; do not inspect other repository files. Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/v04-workable-answer.md and return it. Do not modify the skill, contact anyone, or submit an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "f3f42336998e3c6a856ffe5b87b6b3aa788399f6f4befb9832d85e4a35f3dbe6",
+    "response.md": "2443edde895f312c0e898f9720d078e588c25409fe6fb3e52ae0dabb10d5989c"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0, 12 October 2026
+
+- Add separate US, UK, Canada, Australia and New Zealand references, preserving DACH support and local jurisdiction boundaries.
+- Add fourteen scoped ATS cards and a cross-surface diagnostic workflow for files, fields, screening, accounts, correction and AI notices.
+- Research official candidate, administrator, integration and public-agency sources; record failed retrieval, older release scope and untested inferences.
+- Expand the claim register to 46 records and the fictional catalogue to 49 cases; publish focused fresh-context runs with exact runtime snapshots.
+- Preserve earlier validation and failed trials. No live ATS compatibility, usability or hiring uplift claimed.
+
 ## 0.3.0, 12 October 2026, research preview
 
 - Added optional low-effort, pause/resume, opportunity, learning, interview and outreach routes, with private-history and host-capability guidance.

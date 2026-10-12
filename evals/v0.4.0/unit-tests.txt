@@ -1,0 +1,32 @@
+test_blank_output_does_not_become_a_run (test_eval_record.EvaluationRecordTests.test_blank_output_does_not_become_a_run) ... ok
+test_changed_response_is_detected (test_eval_record.EvaluationRecordTests.test_changed_response_is_detected) ... ok
+test_changed_snapshot_content_is_detected (test_eval_record.EvaluationRecordTests.test_changed_snapshot_content_is_detected) ... ok
+test_existing_output_is_preserved (test_eval_record.EvaluationRecordTests.test_existing_output_is_preserved) ... ok
+test_no_skill_comparison_does_not_invent_a_runtime (test_eval_record.EvaluationRecordTests.test_no_skill_comparison_does_not_invent_a_runtime) ... ok
+test_parent_path_and_duplicate_path_are_rejected (test_eval_record.EvaluationRecordTests.test_parent_path_and_duplicate_path_are_rejected) ... ok
+test_roundtrip_preserves_raw_artifacts_and_unknown_metadata (test_eval_record.EvaluationRecordTests.test_roundtrip_preserves_raw_artifacts_and_unknown_metadata) ... ok
+test_symlink_cannot_capture_external_private_data (test_eval_record.EvaluationRecordTests.test_symlink_cannot_capture_external_private_data) ... ok
+test_directory_is_an_inspection_failure (test_preflight.PreflightTests.test_directory_is_an_inspection_failure) ... ok
+test_docx_flags_header_tables_hidden_and_tracked_changes (test_preflight.PreflightTests.test_docx_flags_header_tables_hidden_and_tracked_changes) ... ok
+test_explicit_column_definitions_are_reported (test_preflight.PreflightTests.test_explicit_column_definitions_are_reported) ... ok
+test_hard_link_cannot_overwrite_source (test_preflight.PreflightTests.test_hard_link_cannot_overwrite_source) ... ok
+test_hidden_and_deleted_text_cannot_satisfy_expected_text (test_preflight.PreflightTests.test_hidden_and_deleted_text_cannot_satisfy_expected_text) ... ok
+test_json_and_text_outputs (test_preflight.PreflightTests.test_json_and_text_outputs) ... ok
+test_malformed_file_is_not_a_pass (test_preflight.PreflightTests.test_malformed_file_is_not_a_pass) ... ok
+test_missing_phrase_is_a_review_observation (test_preflight.PreflightTests.test_missing_phrase_is_a_review_observation) ... ok
+test_output_aliases_are_rejected_before_writing (test_preflight.PreflightTests.test_output_aliases_are_rejected_before_writing) ... ok
+test_output_cannot_replace_source (test_preflight.PreflightTests.test_output_cannot_replace_source) ... ok
+test_pdf_sparse_page_and_required_text (test_preflight.PreflightTests.test_pdf_sparse_page_and_required_text) ... ok
+test_phrase_does_not_match_inside_another_word (test_preflight.PreflightTests.test_phrase_does_not_match_inside_another_word) ... ok
+test_style_hidden_setting_requires_review (test_preflight.PreflightTests.test_style_hidden_setting_requires_review) ... ok
+test_text_expected_phrases_and_source_preservation (test_preflight.PreflightTests.test_text_expected_phrases_and_source_preservation) ... ok
+test_whitespace_requirement_is_rejected (test_preflight.PreflightTests.test_whitespace_requirement_is_rejected) ... ok
+test_missing_provenance_and_invalid_date_fail (test_research_records.ResearchRecordTests.test_missing_provenance_and_invalid_date_fail) ... ok
+test_missing_register_date_and_wrong_root_fail (test_research_records.ResearchRecordTests.test_missing_register_date_and_wrong_root_fail) ... ok
+test_release_records_validate (test_research_records.ResearchRecordTests.test_release_records_validate) ... ok
+test_unknown_case_and_duplicate_claim_fail (test_research_records.ResearchRecordTests.test_unknown_case_and_duplicate_claim_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.994s
+
+OK

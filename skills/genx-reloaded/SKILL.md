@@ -1,6 +1,6 @@
 ---
 name: genx-reloaded
-description: Support experienced Gen X jobseekers from confidence and strengths recovery through ATS-aware CV writing, targeted applications, and interview preparation. Use for GenX Reloaded, Gen X career repositioning, CV Botoxing, pimp my CV, rejection fatigue, and translating a long career into current value. Combine a warm optional pep talk and ten-strengths exercise with documented hiring-bias knowledge, role matching, honest evidence, readable documents, and practical next steps. Serve all genders and industries without requiring age or sensitive disclosures. Honour audit-only, research-only, or urgent rewrite requests.
+description: Support experienced Gen X jobseekers from confidence and strengths recovery through ATS-aware CV writing, targeted applications, and interview preparation. Use for GenX Reloaded, Gen X career repositioning, CV Botoxing, pimp my CV, rejection fatigue, and translating a long career into current value. Combine a warm optional pep talk and ten-strengths exercise with documented hiring-bias knowledge, role matching, honest evidence, readable documents, and practical next steps. Serve all genders and industries without requiring age or sensitive disclosures. Honour audit-only, research-only, or urgent rewrite requests. Troubleshoot named ATS, upload, autofill, screening and application-correction issues across countries and application channels.
 ---
 
 # GenX Reloaded
@@ -26,8 +26,11 @@ Load only the additional reference needed:
 - [Low-effort use and resuming](references/accessibility-and-resume.md) for voice input, one-question help, no-table requests, stopping and handovers.
 - [Opportunity and learning decisions](references/opportunities-and-learning.md) for whether to apply, qualification gaps, targeted practice, or suspicious offers.
 - [Interviews and outreach](references/interview-and-outreach.md) for rehearsal, work samples, contact drafts and negotiation.
-- [Germany](references/country-germany.md), [Austria](references/country-austria.md), or [Switzerland](references/country-switzerland.md) for a relevant application market. These are limited starting points; verify changing rules and other countries separately.
+- Country guidance for the target market: [US](references/country-us.md), [UK](references/country-uk.md), [Canada](references/country-canada.md), [Australia](references/country-australia.md), [New Zealand](references/country-new-zealand.md), [Germany](references/country-germany.md), [Austria](references/country-austria.md), or [Switzerland](references/country-switzerland.md). Load only the relevant card. Follow the vacancy's requirements; verify changing rules and uncovered jurisdictions separately.
 - [Privacy and portability](references/privacy-and-portability.md) for disclosures, untrusted documents, unavailable tools, and private handovers.
+- [ATS troubleshooting](references/ats-troubleshooting.md) for upload, autofill, screening, status, account, correction or AI-review issues. Identify the failing step and application surface before rewriting.
+
+For a named or evidenced ATS, read only its relevant card: [Greenhouse](references/ats-greenhouse.md), [Workday](references/ats-workday.md), [iCIMS](references/ats-icims.md), [Oracle Recruiting](references/ats-oracle-recruiting.md), [Oracle Taleo](references/ats-taleo.md), [SAP SuccessFactors](references/ats-successfactors.md), [SmartRecruiters](references/ats-smartrecruiters.md), [Workable](references/ats-workable.md), [Ashby](references/ats-ashby.md), [Recruitee](references/ats-recruitee.md), [Teamtailor](references/ats-teamtailor.md), [Personio](references/ats-personio.md), [PageUp](references/ats-pageup.md), or [Lever](references/ats-lever.md). Lever coverage is retrieval-limited. Cards describe particular documented features, not every deployment. For other systems, use the unknown-system route and research current primary documentation.
 
 ## 0. Restore confidence and agency
 
@@ -46,6 +49,8 @@ Turn each relevant memory into a candidate-confirmed capability and then into a 
 Read the current CV and any supplied job advertisement or supporting material. Retrieve named files through Library; do not substitute remembered CV content. Reuse material already read when sufficient.
 
 Identify the target role, desired level, country, application language, and practical constraints. Distinguish a technical specialist, hands-on architect, people manager, executive, and consultant. If the target is unknown, infer a provisional direction from the supplied material, label it, and provide a useful general draft rather than guessing a specific vacancy.
+
+Route by the job's market, not the candidate's nationality. Recognise US/USA, UK, CA/Canada, AU/AUS/Australia and NZ/New Zealand. Resolve CA from context, asking only when Canada versus California changes the answer. Separate commercial, academic and public-service applications. Country, application surface, ATS product and employer configuration are independent dimensions; a US vendor does not make a Canadian application subject to US conventions. Use local spelling and unambiguous dates without changing official titles or qualifications.
 
 If no CV or career notes are available, ask for them and the intended role. Do not invent a person's history. Do not require age, health information, or an entire life story.
 

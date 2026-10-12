@@ -20,3 +20,5 @@ See [six occupation translations](occupation-translations.md) for manufacturing,
 - [A low-energy start using the person's own strength](../evals/prompts/low-energy-accessibility.md), with the [observed response](../evals/results/low-energy-accessibility.md).
 
 The response records preserve agent outputs, including limitations and the initial German trial's two usability misses. They are examples to inspect, not gold-standard answers or proof of hiring effectiveness.
+
+See [country and ATS examples](market-and-ats.md) for the international and troubleshooting routes added in 0.4.0.

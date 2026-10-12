@@ -1,12 +1,12 @@
 {
   "name": "genx-reloaded",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "runtime_root": "skills/genx-reloaded",
   "repository": "https://github.com/RobLe3/genx-reloaded",
   "files": [
     {
       "path": "skills/genx-reloaded/SKILL.md",
-      "sha256": "f3d0f72e0440b51c8a05483b1deaa28f3f76475403f7a97e7cb706104e24d46d"
+      "sha256": "8f9fffef245442307512333e05fd99440c87ede1b0920386cc83f3d7bcf1f78a"
     },
     {
       "path": "skills/genx-reloaded/agents/openai.yaml",
@@ -25,24 +25,104 @@
       "sha256": "2320119216099d259a8f741055137b70853e91fdc9483e1f5bc23be5688971a4"
     },
     {
+      "path": "skills/genx-reloaded/references/ats-ashby.md",
+      "sha256": "9240e8b328232d93544de4e8ff5cd8e38debe97201b0b22f55eec74d1dd51983"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-greenhouse.md",
+      "sha256": "cbdba61e34c4900cf0dbfdd3721753af82af530a8c3b457d79fd25bb334c5aaa"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-icims.md",
+      "sha256": "3143e615f44e9783309c19510d5579fcaa5b16e2c96d284e1e2464496b0dea0d"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-lever.md",
+      "sha256": "a85b1ef416da9b974bf32780c95dfc948425a65504d22ee70d93f5f3f65e747b"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-oracle-recruiting.md",
+      "sha256": "53dfb6f5e4f0cf68acb3bcb46735506f29f41b52a34ffc3255b33639e957e238"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-pageup.md",
+      "sha256": "a2d5d50a33191af8eff9af2b5fc279600c6d101c71f69433130dbb15aa192625"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-personio.md",
+      "sha256": "fa2875c9ba3d3e9829789b722b49b7f26b0664251726cc28cc443b2d8a7db450"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-recruitee.md",
+      "sha256": "5c00faf40c52421d0261d4cb404a76980ec1413d9d745797efa88449e19153aa"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-smartrecruiters.md",
+      "sha256": "7f728b8cdf93e2dffe29e3db5d2ad0669df78178d6199088595441f01a93be19"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-successfactors.md",
+      "sha256": "c636680ab0673cf42ced6cb1f046f316e1f283340e5d7f019f755f3184968b89"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-taleo.md",
+      "sha256": "3bdefb0bafe8ecda7d9f85bf284824e04e9fd15b576fab67a50e163c4542f4fe"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-teamtailor.md",
+      "sha256": "99aff7c32b21e0062b52eacd3575e11d023015f439c59cb9a7b88bb529a200a3"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-troubleshooting.md",
+      "sha256": "1cac0d9394d64666cbca863c49ab1c7d79501c30ff3503d6070e8c1158e185ef"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-workable.md",
+      "sha256": "0aeafd2f3ddb07d1f6ef21b82c7714f6b0f221f9bc0c4dc8c473dfe58fa48512"
+    },
+    {
+      "path": "skills/genx-reloaded/references/ats-workday.md",
+      "sha256": "408ce60bad5a176541e5a2891814bfd20eb251ffb44f25c0c269281124f73081"
+    },
+    {
       "path": "skills/genx-reloaded/references/bias-and-ats-caveats.md",
       "sha256": "7238d5825b198c9a22943c4d72e7599770b7370faa2f56c610b33001ba9d7d18"
+    },
+    {
+      "path": "skills/genx-reloaded/references/country-australia.md",
+      "sha256": "8a5a999e09ffb1c612e4e475416ffaab1ee7fd7e1bc50bd94fb66ad6efeb12ef"
     },
     {
       "path": "skills/genx-reloaded/references/country-austria.md",
       "sha256": "1a3604786b69f94d82e26c564e8883148ea72d8fb40187bebf090eae84cd198a"
     },
     {
+      "path": "skills/genx-reloaded/references/country-canada.md",
+      "sha256": "f77c5bbf3df833132fec1a6a934661c21bee377caed2f8d69c9989c8af09293c"
+    },
+    {
       "path": "skills/genx-reloaded/references/country-germany.md",
       "sha256": "d29b9893cd7ec217ff64838209ef46dc30fe6ee43af6851d9d4d26f5dc865c3b"
+    },
+    {
+      "path": "skills/genx-reloaded/references/country-new-zealand.md",
+      "sha256": "a8fe85dee25f02e1cfa1795c2c04f349068d73f0fd27ba7fadf94e61d33b6d18"
     },
     {
       "path": "skills/genx-reloaded/references/country-switzerland.md",
       "sha256": "0f567d86a214aeeaadd8e354cf43da491d15b142b0527cdd37fc44c212c68ecc"
     },
     {
+      "path": "skills/genx-reloaded/references/country-uk.md",
+      "sha256": "80b52633fdb027eb6485ed57e0033d0875c0c09d24fb689312751bfad64b218a"
+    },
+    {
+      "path": "skills/genx-reloaded/references/country-us.md",
+      "sha256": "658c93701aa554ddf4012278177cc40c3b8f6b3b85c9819db295f4c98020de96"
+    },
+    {
       "path": "skills/genx-reloaded/references/evidence.md",
-      "sha256": "cbbec82e179c284ec05d723d792ccbf6b3b32f39d512f1625bfddec47854a18d"
+      "sha256": "75847dad42958755587c0186f951f41e1bcc0c0d3943817ef59f8b8728e56898"
     },
     {
       "path": "skills/genx-reloaded/references/interview-and-outreach.md",

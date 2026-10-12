@@ -1,4 +1,4 @@
-# Research implementation, 0.3.0
+# Research implementation, 0.4.0
 
 This release implements the desk-research and repository preparation portions of the [roadmap](../docs/research-roadmap.md). It adds usable workflow guidance and study materials. It does not claim completed participant studies, assistive-technology qualification, live ATS experiments, or hiring uplift.
 
@@ -7,7 +7,7 @@ This release implements the desk-research and repository preparation portions of
 - [Claim register](claims.json): precise claims, source types, scope, dates, limitations, review triggers and candidate implications.
 - [Record contract](record-contract.md): required fields and validation rules.
 - [Search log](search-log.md): this bounded search, including retrieval failures.
-- [ATS mechanism matrix](ats-mechanisms.md): documented features and unverified products.
+- [ATS mechanism matrix](ats-mechanisms.md): documented layers; see also the [14-product coverage map](ats-coverage.md).
 - [Support and accessibility brief](support-and-accessibility.md): adaptation rationale and evidence limits.
 - [Bias evidence map](bias-evidence-map.md): evidence types, intersections and missing coverage.
 - [Candidate study kit](candidate-study-kit.md): research preparation, not an active recruitment programme.

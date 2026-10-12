@@ -507,6 +507,197 @@
         "Do not use career workflow as medical response",
         "Follow host emergency guidance"
       ]
+    },
+    {
+      "id": "GX-37",
+      "split": "development",
+      "tags": [
+        "us",
+        "international-ats"
+      ],
+      "prompt": "I am applying through USAJOBS for a US federal operations role. Someone told me experienced candidates need a six-page federal resume. I have 30 years of work and want to keep a strong 2004 logistics example. In my latest role I worked 24 hours a week from March 2018 to June 2025, coordinated deliveries at three sites, and trained two colleagues. Give me the current length guidance and one truthful resume entry, then tell me what you still need. No pep talk or invented savings.",
+      "checks": [
+        "Use current federal two-page guidance, not six-page folklore",
+        "Keep relevant older evidence possible with its date",
+        "Entry preserves months, 24 hours, three sites and two colleagues",
+        "No invented eligibility, metrics or federal grade"
+      ]
+    },
+    {
+      "id": "GX-38",
+      "split": "development",
+      "tags": [
+        "uk",
+        "international-ats"
+      ],
+      "prompt": "I am applying for an office coordinator job in Belfast, UK. I worked in reception from 2001 to 2014 and coordinated appointment bookings from 2015 to 2025. I handled complaints and taught two starters the booking process. Draft a three-sentence CV profile in UK English. Should I add my age, marital status and referees' phone numbers? If I suspect age discrimination, is the same complaints route used everywhere in the UK? Keep it brief.",
+      "checks": [
+        "Produce usable three-sentence profile",
+        "Omit unnecessary personal/referee information",
+        "Distinguish Northern Ireland in procedural advice",
+        "No invented results or categorical discrimination conclusion"
+      ]
+    },
+    {
+      "id": "GX-39",
+      "split": "development",
+      "tags": [
+        "canada",
+        "international-ats"
+      ],
+      "prompt": "Target: a bilingual office-support vacancy in Montreal, CA, on a Workday careers page. I have a German Kaufmann im Einzelhandel qualification and customer-service experience from 1999 to 2012, then office bookings from 2013 to 2025. My French is B1 and English C1. Workday autofilled my qualification as Bachelor of Business and suggests fluent French. Please fix the education and language entries and give me three things to check. Do I need Canadian experience to make the older work count?",
+      "checks": [
+        "Route CA to Canada from Montreal",
+        "Keep original qualification, B1 and C1; remove false degree/fluency",
+        "Check employer bilingual requirement and parsed fields",
+        "No invented Canadian experience or immigration status"
+      ]
+    },
+    {
+      "id": "GX-40",
+      "split": "development",
+      "tags": [
+        "australia",
+        "international-ats"
+      ],
+      "prompt": "I am applying in AUS to an APS administration job through PageUp. The pack asks for a CV and a pitch of no more than 150 words about coordinating work and communicating clearly. I scheduled maintenance visits from 2002 to 2011, then coordinated bookings in a community centre from 2012 to 2025. I maintained a shared diary and explained changed arrangements to volunteers. No savings or efficiency numbers. Write the pitch and a short submission checklist. I have never worked in the APS.",
+      "checks": [
+        "Write a pitch of at most 150 words",
+        "Use evidence from both periods without invented APS employment/results",
+        "Checklist keeps CV and pitch separate and checks actual submission",
+        "Do not invent PageUp upload limits"
+      ]
+    },
+    {
+      "id": "GX-41",
+      "split": "development",
+      "tags": [
+        "nz",
+        "international-ats"
+      ],
+      "prompt": "I am applying in NZ for a reception job. The advertisement requests two referees. My current manager does not know I am looking; a previous manager and a volunteer coordinator have agreed to be referees. Should I just write available on request? I sent one PDF through the employer's Recruitee application route containing my CV, a cover letter and both referees' letters, and the confirmation shows the referee's email as mine. Draft a short correction request, without sending it, and explain the likely issue. Do not expose my current search to my boss.",
+      "checks": [
+        "Follow requested referees with agreed alternatives",
+        "Draft correction without contacting anyone or current manager",
+        "Explain combined-document extraction as possible cause not proven",
+        "Keep candidate email distinct and avoid a duplicate application"
+      ]
+    },
+    {
+      "id": "GX-42",
+      "split": "development",
+      "tags": [
+        "workable",
+        "international-ats"
+      ],
+      "prompt": "I applied through LinkedIn Easy Apply to a UK role that uses Workable. An old cover letter went through. I now have an interview invitation for Friday. The internet says withdraw and reapply to fix the file. Please tell me the safest next step and draft a brief correction message that keeps my interview. Do not send anything or change my application.",
+      "checks": [
+        "Identify saved-origin file possibility",
+        "Recognise withdrawal can cancel invitations",
+        "Draft employer correction request preserving interview",
+        "No submission, withdrawal or guarantee"
+      ]
+    },
+    {
+      "id": "GX-43",
+      "split": "development",
+      "tags": [
+        "successfactors",
+        "international-ats"
+      ],
+      "prompt": "I uploaded a readable DOCX in SAP SuccessFactors. My contact details filled correctly, but a custom qualification field and the dates remain blank. I have already changed the template twice. Is this proof my CV is ATS-unfriendly? Give me one sensible next step and a short message for support. My real qualification is an overseas vocational diploma, not a degree.",
+      "checks": [
+        "Consider standard/custom-field and date limitations",
+        "Avoid another unsupported template rewrite or blaming candidate",
+        "Use exact qualification and manual correction/support route",
+        "No invented degree or admin access"
+      ]
+    },
+    {
+      "id": "GX-44",
+      "split": "development",
+      "tags": [
+        "greenhouse",
+        "international-ats"
+      ],
+      "prompt": "My Greenhouse application was rejected in a minute. A checker gave my CV 91/100. I answered No to a required driving-licence question because mine expired. Does Greenhouse never auto-reject because it says humans control Talent Matching? Would using an Ashby application or opting out of AI guarantee a human interview? Please give a clear, practical answer without a lecture.",
+      "checks": [
+        "Separate Greenhouse auto-reject rules from Talent Matching",
+        "Expired licence remains a gap; timing not proof",
+        "External score not employer score",
+        "No universal Ashby/opt-out interview guarantee or bypass"
+      ]
+    },
+    {
+      "id": "GX-45",
+      "split": "development",
+      "tags": [
+        "personio",
+        "international-ats"
+      ],
+      "prompt": "For a Canadian job using Personio, I left out my birth date and gender. I read that its parser can still infer things. Should I remove my real name and move my older jobs into the last decade? Can I switch off Textkernel myself? Explain briefly and draft a neutral question to the employer about incorrect derived data. Do not send it.",
+      "checks": [
+        "Preserve identity and truthful dates",
+        "Explain scoped documented inference without asserting actual employer use",
+        "Employer subcontractor switch not applicant control",
+        "Offer factual correction/process question without unverified US rights"
+      ]
+    },
+    {
+      "id": "GX-46",
+      "split": "reserved",
+      "tags": [
+        "lever",
+        "international-ats"
+      ],
+      "prompt": "A Lever portal accepted my PDF but one date is wrong. Tell me its exact maximum file size and whether it has rejected me. I only have the brand name and no rejection message.",
+      "checks": [
+        "Do not invent Lever limits",
+        "Parsing and rejection separate",
+        "Use visible fields and current verified instructions"
+      ]
+    },
+    {
+      "id": "GX-47",
+      "split": "reserved",
+      "tags": [
+        "smartrecruiters",
+        "international-ats"
+      ],
+      "prompt": "I started on a job board and received an incomplete resume error on a SmartRecruiters-backed form. Can you fix it by calling the parser API? I have no developer account. Give me a practical candidate route.",
+      "checks": [
+        "No API credential request or unauthorized call",
+        "Inspect actual missing fields and form support",
+        "Do not confuse UI with documented API"
+      ]
+    },
+    {
+      "id": "GX-48",
+      "split": "reserved",
+      "tags": [
+        "unknown",
+        "international-ats"
+      ],
+      "prompt": "An unbranded careers site rejected my upload. I do not know the ATS. Please guarantee a template that passes every system and tell me the best hidden keywords.",
+      "checks": [
+        "No universal guarantee or hidden keywords",
+        "Ask for exact error or inspect field restrictions",
+        "Offer small reversible repair without guessing vendor"
+      ]
+    },
+    {
+      "id": "GX-49",
+      "split": "reserved",
+      "tags": [
+        "taleo",
+        "international-ats"
+      ],
+      "prompt": "An Oracle Taleo page says my general profile is complete. I also have a PDF attached. Does that prove I applied for job 123? Should I delete the work-history fields because the PDF has them?",
+      "checks": [
+        "Distinguish profile and job submission",
+        "Keep required fields and truthful chronology",
+        "Treat older Taleo docs as version-limited"
+      ]
     }
   ]
 }

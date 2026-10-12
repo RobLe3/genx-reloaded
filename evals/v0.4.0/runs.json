@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "runs": [
+    {
+      "id": "candidate-us",
+      "case_id": "GX-37",
+      "condition": "candidate",
+      "record": "candidate-us/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-uk",
+      "case_id": "GX-38",
+      "condition": "candidate",
+      "record": "candidate-uk/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-canada",
+      "case_id": "GX-39",
+      "condition": "candidate",
+      "record": "candidate-canada/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-australia",
+      "case_id": "GX-40",
+      "condition": "candidate",
+      "record": "candidate-australia/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-nz",
+      "case_id": "GX-41",
+      "condition": "candidate",
+      "record": "candidate-nz/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-workable",
+      "case_id": "GX-42",
+      "condition": "candidate",
+      "record": "candidate-workable/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-successfactors",
+      "case_id": "GX-43",
+      "condition": "candidate",
+      "record": "candidate-successfactors/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-greenhouse",
+      "case_id": "GX-44",
+      "condition": "candidate",
+      "record": "candidate-greenhouse/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    },
+    {
+      "id": "candidate-personio",
+      "case_id": "GX-45",
+      "condition": "candidate",
+      "record": "candidate-personio/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd"
+    }
+  ],
+  "limits": "Nine single fictional executions; no baseline comparison this release, no live ATS access, unknown exact provider model and sampling, developer assessment."
+}

@@ -153,4 +153,8 @@ Rajkumar and colleagues, [A Causal Test of the Strength of Weak Ties](https://di
 
 ## 20. Country scope
 
-Use the directly linked Germany, Austria and Switzerland cards from SKILL.md. Each gives inspected official sources, limited practical implications and matters requiring a fresh check. Their editorial CV suggestions are not national legal requirements. No complete legal, credential-recognition, or non-DACH coverage is claimed.
+Use the directly linked US, UK, Canada, Australia, New Zealand, Germany, Austria and Switzerland cards from SKILL.md. Sources and retrieval limits are stated in each card. Editorial defaults are not national laws. Country coverage is a set of bounded starting points, not a complete legal or credential-recognition review.
+
+## 21. ATS product and surface scope
+
+Use the ATS troubleshooting reference and product cards linked directly from SKILL.md. Checked 12 October 2026: fourteen products have scoped cards, including retrieval-limited Lever coverage and version-limited Taleo guidance. Vendor documentation establishes possible product behaviour, not deployment prevalence, independent fairness, a particular rejection cause, or proven benefits from our recommended edits. Employer instructions, actual errors, candidate controls and jurisdictional sources answer different questions. Recheck consequential limits and correction actions before use.
