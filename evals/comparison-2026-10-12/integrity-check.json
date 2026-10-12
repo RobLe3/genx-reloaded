@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "records_verified": 30,
+  "planned_comparison": 27,
+  "focused_repairs": 3,
+  "matched_core_inputs_identical": true,
+  "current_runtime_matches_repair_snapshot": true,
+  "word_counts_reproduced": 30,
+  "word_count_method": "Remove GenUI citation blocks, replace Markdown links with labels, split on whitespace and retain tokens containing a Unicode word character. Hyphenated words/date ranges count as one; formatting-only tokens do not.",
+  "limits": "Artifact consistency only, not behavioural quality."
+}

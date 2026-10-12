@@ -14,6 +14,8 @@ Use for a substantive rewrite, rejected draft, or requested refinement. Apply on
 | File integrity | Requested output exists, is visually inspected where possible, and has local extraction checked | Missing text, broken associations, clipped content, unresolved revisions, or unperformed checks described as passed |
 | Useful finish | Candidate receives usable copy, material open issues, and a manageable next step | Advice without a draft, endless intake, an ATS guarantee, or a methodology report longer than the useful output |
 
+For tightly bounded text requests, carry out factual and task checks silently unless a material issue or requested verification needs a note. Routine file-check disclaimers and readiness labels need not consume the candidate's word budget. When verification is requested, explain the checks actually performed and their limits. A pause-only handover should not add an unagreed future task.
+
 Do not average these into a score. A factual failure cannot be offset by good layout.
 
 ## Bounded repair loop

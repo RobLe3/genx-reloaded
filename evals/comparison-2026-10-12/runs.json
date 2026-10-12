@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "runs": [
+    {
+      "id": "run-01",
+      "case_id": "GX-50",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-01/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 54
+    },
+    {
+      "id": "run-02",
+      "case_id": "GX-51",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-02/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 103
+    },
+    {
+      "id": "run-03",
+      "case_id": "GX-52",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-03/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 40
+    },
+    {
+      "id": "run-04",
+      "case_id": "GX-53",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-04/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 119
+    },
+    {
+      "id": "run-05",
+      "case_id": "GX-54",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-05/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 126
+    },
+    {
+      "id": "run-06",
+      "case_id": "GX-55",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-06/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 122
+    },
+    {
+      "id": "run-07",
+      "case_id": "GX-50",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-07/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 63
+    },
+    {
+      "id": "run-08",
+      "case_id": "GX-51",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-08/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 115
+    },
+    {
+      "id": "run-09",
+      "case_id": "GX-52",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-09/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 28
+    },
+    {
+      "id": "run-10",
+      "case_id": "GX-53",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-10/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 120
+    },
+    {
+      "id": "run-11",
+      "case_id": "GX-54",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-11/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 122
+    },
+    {
+      "id": "run-12",
+      "case_id": "GX-55",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-12/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 117
+    },
+    {
+      "id": "run-13",
+      "case_id": "GX-50",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-13/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 57
+    },
+    {
+      "id": "run-14",
+      "case_id": "GX-51",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-14/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 98
+    },
+    {
+      "id": "run-15",
+      "case_id": "GX-52",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-15/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 34
+    },
+    {
+      "id": "run-16",
+      "case_id": "GX-53",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-16/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 125
+    },
+    {
+      "id": "run-17",
+      "case_id": "GX-54",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-17/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 118
+    },
+    {
+      "id": "run-18",
+      "case_id": "GX-55",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-18/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 107
+    },
+    {
+      "id": "run-19",
+      "case_id": "GX-50",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-19/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 58
+    },
+    {
+      "id": "run-20",
+      "case_id": "GX-51",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-20/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 122
+    },
+    {
+      "id": "run-21",
+      "case_id": "GX-52",
+      "condition": "v03",
+      "source_commit": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+      "record": "run-21/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+      "word_count": 41
+    },
+    {
+      "id": "run-22",
+      "case_id": "GX-53",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-22/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 128
+    },
+    {
+      "id": "run-23",
+      "case_id": "GX-54",
+      "condition": "none",
+      "source_commit": null,
+      "record": "run-23/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": null,
+      "word_count": 109
+    },
+    {
+      "id": "run-24",
+      "case_id": "GX-55",
+      "condition": "v02",
+      "source_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+      "record": "run-24/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+      "word_count": 131
+    },
+    {
+      "id": "run-25",
+      "case_id": "GX-56",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-25/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 124
+    },
+    {
+      "id": "run-26",
+      "case_id": "GX-57",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-26/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 117
+    },
+    {
+      "id": "run-27",
+      "case_id": "GX-58",
+      "condition": "v04",
+      "source_commit": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90",
+      "record": "run-27/record.json",
+      "assessment": "assessment.json",
+      "runtime_inventory_sha256": "170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd",
+      "word_count": 121
+    }
+  ],
+  "limits": "One execution per case/condition, same host configuration not provider-pinned; see protocol.md."
+}

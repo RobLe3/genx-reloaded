@@ -23,11 +23,11 @@ Reply style:
 Confirmed evidence, including dates:
 Draft or file version, if any:
 Open fact, only if necessary:
-Next small action:
+Already-agreed next action, if any:
 Disclosure preference, without the private explanation:
 ```
 
-Omit empty fields. For a tiny handover, combine the essentials into a short paragraph. A statement such as "Keep personal circumstances out of applications" preserves the preference without repeating illness, family details, or hardship. Do not automatically save the note or claim that a future chat will remember it. Respect existing authorization when the person has asked for a saved handover.
+Omit empty fields. Do not invent a next action when none was agreed; stopping does not create a commitment to future CV work. For a tiny handover, combine the essentials into a short paragraph. A statement such as "Keep personal circumstances out of applications" preserves the preference without repeating illness, family details, or hardship. Do not automatically save the note or claim that a future chat will remember it. Respect existing authorization when the person has asked for a saved handover.
 
 ## Document and host checks
 

@@ -1,27 +1,25 @@
 # Validation record
 
-Version 0.4.0, 12 October 2026. This release adds five country cards and scoped ATS troubleshooting. The [0.3.0 record](validation-v0.3.0.md) and [0.2.0 record](validation-v0.2.0.md), including earlier adverse observations, remain historical evidence.
+Version 0.4.1, 12 October 2026. This patch follows a matched historical-version comparison. **Useful fictional outputs are demonstrated; human confidence, live ATS acceptance and hiring benefit are not.** Read the [comparison report](skill-comparison.md) for task-level results and limits. Historical records remain available for [0.4.0](validation-v0.4.0.md), [0.3.0](validation-v0.3.0.md) and [0.2.0](validation-v0.2.0.md).
 
-## Focused behaviour checks
+## Matched comparison and repair
 
-**Nine fresh-context executions, nine distinct fictional cases, GX-37 to GX-45.** Each met its prewritten criteria under developer assessment; no critical failure was observed. See the [assessment](../evals/v0.4.0/assessment.md), [run index](../evals/v0.4.0/runs.json) and [protocol](../evals/protocol.md).
+Six new requests across 0.2.0, 0.3.0, 0.4.0 and no loaded skill produced 24 fresh-context answers. Three one-fact variants under 0.4.0 brought the planned comparison to 27 executions and nine distinct cases. The runtime remained frozen during these runs. See the [protocol](../evals/comparison-2026-10-12/protocol.md), [run index](../evals/comparison-2026-10-12/runs.json), [final assessment](../evals/comparison-2026-10-12/assessment.json) and [adjudication](../evals/comparison-2026-10-12/adjudication.md).
 
-The tasks cover US federal length/details, Belfast CV and jurisdiction, Canadian Workday qualification/language correction, an Australian APS pitch through PageUp, NZ referees and Recruitee extraction, a Workable correction with an interview active, SuccessFactors missing fields, Greenhouse/Ashby mechanism distinctions, and Personio inferred attributes. Some responses were verbose and used formal completion labels; these observations are retained in the assessment.
+All planned answers met word limits, and none exhibited a critical failure in the saved output. Ten minor or borderline criterion issues remain: three unagreed future tasks in skill handovers, three omitted withdrawal-cancellation explanations, and four partial saved-origin/submitted-copy distinctions. All conditions gave a safe employer correction route; only 0.4.0 explicitly named the cancellation risk. A strong no-skill condition prevents claims of general skill superiority.
 
-All runs preserve raw prompts/responses, exact wrappers and complete runtime snapshots. The snapshot inventory digest is `170dda31dd23c5b93c2d1b46199a97d7a3fc0f1133afe15e8709c7e8d45645dd`. The runtime remained unchanged during execution. Model/sampling metadata is unknown, and complete tool transcripts are not archived. Agents shared a filesystem but were instructed to read only the request, skill and relevant references. No independent contamination or human adjudication claim is made.
+The developer assessed all outputs before receiving a fresh, condition-blinded agent assessment. Six criterion disagreements were adjudicated explicitly. Actual federal citation identities were retrieved to resolve four provenance questions. This is additional agent review, not an independent human study. Exact model/sampling metadata and full tool transcripts are unavailable.
 
-No baseline/control condition was repeated in this release. These observations do not establish superiority, human usability, live ATS compatibility, fairness or hiring uplift. Six of the fourteen vendor cards were not directly exercised. All five new countries were exercised once; legal and recognition coverage remains narrow.
+Version 0.4.1 changes three instruction files to remove unagreed next tasks from pause-only handovers and omit routine check boilerplate from short text. Three focused executions met their written checks: the same pause request, the same rewrite, and a neighbouring explicit verification request. The [repair assessment](../evals/comparison-2026-10-12/repair-assessment.json) preserves outputs and the snapshot digest `2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80`. These three runs do not repeat the whole four-condition experiment.
 
-## Deterministic checks
+## Structural and artifact checks
 
-**27 unit tests passed, no skips**, covering the unchanged preflight, evaluation-recording and research-record helpers. See [raw output](../evals/v0.4.0/unit-tests.txt) and [environment](../evals/v0.4.0/environment.json). The skill-creator frontmatter check passed.
+Repository structure, links, runtime manifest, frontmatter, research-record structure and recorded artifact integrity were checked for this patch. See [repository check](../evals/comparison-2026-10-12/repository-check.json), [research check](../evals/comparison-2026-10-12/research-check.json), [frontmatter check](../evals/comparison-2026-10-12/frontmatter-check.txt) and [integrity check](../evals/comparison-2026-10-12/integrity-check.json).
 
-The [research check](../evals/v0.4.0/research-check.json) validates the structure of 46 claim records and their links into 49 authored cases. The [repository check](../evals/v0.4.0/repository-check.json) checks 38 runtime files, digests, metadata, local links and Python syntax. The [record integrity check](../evals/v0.4.0/integrity-check.json) verifies the nine saved executions. These checks do not grade evidence truth or live product behaviour.
+No executable helper changed. The 27 passing helper unit tests belong to the preserved [0.4.0 run](../evals/v0.4.0/unit-tests.txt); they are not represented as rerun for 0.4.1. The current catalogue has 59 authored cases. Across the 0.3.0, 0.4.0 and this comparison, 24 distinct catalogue cases have recorded executions. Case count is not pass count, and most catalogue cases have not run.
 
-## Research boundaries
+## Remaining boundaries
 
-The release adds 30 scoped source records, for 46 total, and 13 fictional scenarios, for 49 total. Only nine new cases were executed. Across the 0.3.0 and 0.4.0 catalogue runs, 14 distinct cases have recorded executions, not all 49. Earlier pre-catalogue trials remain separately documented.
+The no-skill assistant inherited the same host instructions and skill-catalogue metadata but was instructed not to load a runtime. Agents shared a filesystem; read boundaries were instructed, not enforced. Prompts contain explicit guardrails, actual browsing differs, and each condition has one answer per task. These conditions support qualitative observations, not causal estimates or general reliability rates.
 
-Fourteen product cards include retrieval-limited Lever and older-release Taleo coverage. Australian AHRC full-page retrieval was unavailable. Product-specific limits and correction behaviour need current verification before consequential use. See the [coverage map](../research/ats-coverage.md), [search log](../research/search-log.md) and [implementation status](../research/implementation-status.md).
-
-No participant research, real CV, employer contact, live application, purchase, assistive-technology session or hiring outcome was involved. Further work should target these information gaps rather than inflate synthetic test counts.
+All candidate records are fictional. The evaluation harness saves those fictional records deliberately; it does not test real-user retention controls. No participant study, real CV, external message, live application, withdrawal, purchase, assistive-technology session or hiring outcome is part of this record. Eight market cards and fourteen ATS cards remain bounded research coverage, not universal compatibility. The best next evidence is consented human usability, relevant document checks and authorised ATS-surface investigation.

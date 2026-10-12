@@ -167,7 +167,7 @@ python scripts/cv_preflight.py /absolute/path/to/cv.pdf --require "Candidate Nam
 
 Replace the example paths and required strings with real ones. Use the script path relative to this skill's directory, or its absolute path. It supports PDF, DOCX, TXT, and Markdown. It reports local extraction and structural observations, never an ATS score. Confirm requirements manually when punctuation or layout affects matching. A successful local check cannot certify an employer's parser.
 
-Use the PDF and documents skills for file generation and visual QA. For a text-only request, check the text and say that no rendered-file or parser check was performed.
+Use the PDF and documents skills for file generation and visual QA. For a text-only request, check the text. Explain unperformed file or parser checks only when the user asks about verification or could otherwise mistake the output for a checked file.
 
 ## 7. Deliver the work
 
@@ -184,7 +184,7 @@ When files are requested, preserve originals and save deliverables through Libra
 
 For optional outcome tracking, record CV version, target, role fit, channel, application date, response window, interviews, and offers. Report counts and denominators. Do not infer causality or discrimination from uncontrolled results, and do not send duplicate applications as an experiment.
 
-Use a clear readiness label in review notes: **draft, factual questions open**; **content reviewed, requested file checks pending**; or **ready for candidate review, listed checks completed**. For a text-only request, mark rendering and file extraction as outside the requested scope, not pending work. Never call the result ATS-approved. End with the most useful next action, and stop optional rewrites once facts, target fit, readability, and requested checks are satisfactory.
+When review notes are requested or a material unresolved issue needs explanation, use a concise readiness label: **draft, factual questions open**; **content reviewed, requested file checks pending**; or **ready for candidate review, listed checks completed**. For a short text-only request, perform the relevant checks without adding routine readiness or file-check boilerplate. If asked, describe rendering and extraction as outside scope, not pending work. Never call the result ATS-approved. Offer a next action only when requested or useful within the agreed task; a stop request needs none. Stop optional rewrites once facts, target fit, readability, and requested checks are satisfactory.
 
 ## 8. Support the rest of the application journey
 
@@ -199,7 +199,7 @@ When the user asks for end-to-end help, continue beyond the CV:
 
 Offer a sustainable pace suited to the user. Work with low energy, career breaks, disability, and nonlinear careers without requiring disclosure or treating them as failures. Do not turn career encouragement into diagnosis or therapy.
 
-For a paused session, offer a short handover containing the target, chosen tone, agreed positioning, confirmed evidence, unresolved questions, document version, and next action. Save it only through an authorized host workflow, outside the skill and repository. Do not include private explanations that are unnecessary for continuing the work.
+For a paused session, offer a short handover with only the useful, confirmed details: target, chosen tone, agreed positioning, evidence, unresolved questions, document version, and any already-agreed next action. Do not invent a future task to fill the template. If the person requests only a note and wants to stop, finish with the note. Save it only through an authorized host workflow, outside the skill and repository. Do not include private explanations that are unnecessary for continuing the work.
 
 Use [evidence notes](references/evidence.md) when explaining research. Keep empirical findings, vendor facts, and editorial recommendations separate. Do not claim this skill has been validated in real hiring, predicts interview chances, removes age discrimination, or certifies legal eligibility.
 

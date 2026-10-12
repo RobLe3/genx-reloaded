@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-52",
+  "agent_id": "/root/repair_pause",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T17:20:01.707119+00:00",
+  "wrapper": "Use the skill at /workspace/scratch/32af31dce987/genx-comparison/v041/runtime/SKILL.md to complete the request in /workspace/scratch/32af31dce987/genx-comparison/v041/repair-pause/request.txt. Read only that runtime and the references relevant to the request. Use current primary sources when needed. Save your complete answer verbatim to /workspace/scratch/32af31dce987/genx-comparison/v041/repair-pause/answer.md and return it. Do not inspect other task folders or repository material. Do not modify instructions, contact anyone, submit or withdraw an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "cf7e8eb26ff8f3cf9572c0b043bc8d1852ce7fb5bf93b0c37ec49e3daf6fc95c",
+    "response.md": "ef35ec839a37d4c42adc04fb257fc1344a26ac8d4d36ba7ec16875e1eec17a9d"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

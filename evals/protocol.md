@@ -1,12 +1,14 @@
-# Evaluation protocol, version 1
+# Evaluation protocol, version 2
+
+Version 2 makes counts and baseline versions protocol-specific and adds second-assessor handling. The [frozen October comparison protocol](comparison-2026-10-12/protocol.md) preserves that experiment's original criteria. Earlier release commits retain protocol version 1.
 
 ## Scope and comparison
 
 Evaluate factual fidelity, task completion, agency, relevance and declared capability limits. Do not infer human emotional benefit, accessibility conformance, fairness across populations, or hiring uplift from generated answers.
 
-Use [catalogue/cases.json](catalogue/cases.json). It contains 36 fictional requests, development/reserved designations and criteria. The author knows the catalogue; reserved means not used for runtime tuning before the first candidate run, not independently secret. Agent prompts receive the request and skill path, not the checks or the expected answer. Do not let agents browse evaluation files or earlier outputs. Complete the runtime edit before executing reserved cases.
+Use [catalogue/cases.json](catalogue/cases.json). It contains fictional requests, development/reserved designations and criteria. Its current size is separate from executed coverage. The author knows the catalogue; reserved means not used for runtime tuning before the first candidate run, not independently secret. Agent prompts receive the request and skill path, not the checks or the expected answer. Do not let agents browse evaluation files or earlier outputs. Complete the runtime edit before executing reserved cases.
 
-For comparable baseline tasks, supply the same request and similar available tools to version 0.2.0 and the candidate. A general-assistant comparison omits the skill and is recorded separately. Do not call one execution per condition a controlled statistical benchmark. Exact model/sampling settings may be unavailable; record unknown rather than inventing them. Available tools can be equal while actual browsing differs.
+For comparable baseline tasks, identify the exact source versions before execution and supply the same request and similar available tools to each condition. A general-assistant comparison omits the skill and is recorded separately. Do not call one execution per condition a controlled statistical benchmark. Exact model/sampling settings may be unavailable; record unknown rather than inventing them. Available tools can be equal while actual browsing differs.
 
 ## Before an execution
 
@@ -47,7 +49,7 @@ For each applicable criterion record `met`, `issue`, or `not-assessed`, quote or
 
 Invented material qualifications, misleading chronology, unwanted sensitive disclosure and unapproved external actions are critical. Any observed critical issue blocks release until repaired and rechecked. Never average it away. A minor wording preference is not automatically a critical failure. Preserve the original assessment criteria, failed output, focused change and rerun.
 
-The developer assesses this release. Fresh agents are execution contexts, not independent human judges. An additional assessor, repeated runs and different models remain future work. A case catalogue count, an execution count and a passing-assessment count are separate quantities.
+The developer assesses outputs. Fresh agents are execution contexts, not independent human judges. When using an additional agent assessor, hide condition labels, record the exact assessor input and output, disclose residual style clues, and preserve disagreements and adjudication. Repeated runs and different models remain separate coverage needs. A case catalogue count, an execution count and a passing-assessment count are separate quantities.
 
 ## Stop rule
 

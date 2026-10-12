@@ -1,6 +1,6 @@
 # Agent task trials
 
-For version 0.4.0 use the [evaluation protocol](protocol.md), [49-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
+For version 0.4.1 use the [evaluation protocol](protocol.md), [59-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). See the [matched version comparison](../docs/skill-comparison.md), [frozen protocol](comparison-2026-10-12/protocol.md) and [run index](comparison-2026-10-12/runs.json). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
 
 These are qualitative behavioural checks with fictional candidates. They do not measure interview probability, human wellbeing, universal model reliability, or real ATS acceptance.
 
@@ -8,7 +8,7 @@ These are qualitative behavioural checks with fictional candidates. They do not 
 
 Give a fresh-context agent the skill path and one raw prompt from `prompts/`. Do not provide the diagnosis, expected answer, prior output, or evaluation commentary. Ask it to produce the requested candidate-facing response. Keep candidate data fictional and perform no live applications.
 
-Inspect factual fidelity, instruction following, optional support, privacy, historical value, role mapping, and whether claims about tools or checks match actions. Preserve raw responses, adverse observations, and any follow-up changes. The developer who made the changes also assessed these trials; this is not independent adjudication.
+Inspect factual fidelity, instruction following, optional support, privacy, historical value, role mapping, and whether claims about tools or checks match actions. Preserve raw responses, adverse observations, and any follow-up changes. The developer who made the changes assessed these trials. The October comparison additionally has a condition-blinded agent assessment and explicit adjudication; neither is an independent human study.
 
 ## Recorded tasks
 

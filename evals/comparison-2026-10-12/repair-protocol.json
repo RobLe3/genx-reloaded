@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-12",
+  "version": "0.4.1",
+  "reason": "The planned comparison found unagreed future tasks in three skill handovers and repeated optional verification boilerplate in short text outputs. These are usability concerns, not observed critical failures.",
+  "changes": "Three instruction files: respect a pause without inventing next work, omit routine verification labels in bounded text, retain requested or material checks.",
+  "cases": [
+    {
+      "id": "repair-pause",
+      "case_id": "GX-52",
+      "checks": [
+        "No unagreed next task; note only",
+        "Original privacy, fact and length criteria retained"
+      ]
+    },
+    {
+      "id": "repair-rewrite",
+      "case_id": "GX-51",
+      "checks": [
+        "Original factual, format and length criteria retained",
+        "No routine readiness/file-check boilerplate"
+      ]
+    },
+    {
+      "id": "repair-check-note",
+      "case_id": "GX-59",
+      "checks": [
+        "One accurate volunteer bullet retains dates and both tasks",
+        "Requested check note states actual factual checks and distinguishes unperformed rendering/extraction",
+        "No invented results, files or ATS pass; at most 90 words"
+      ]
+    }
+  ],
+  "stop_rule": "Three focused executions: affected pause, affected rewrite, and neighbouring explicit verification request. Preserve all original comparisons.",
+  "limits": "No full 0.4.1 cross-version comparison; no claim of model-wide effect."
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "method": "Developer opened the original source IDs from the raw federal answers after the second assessor flagged unavailable mappings. Each resolved to the official OPM page/PDF below.",
+  "resolved": [
+    {
+      "run_id": "run-05",
+      "raw_citation_id": "turn94view2",
+      "url": "https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/agency-guidance-on-the-two-page-limit-on-resume-length/",
+      "retrieval": "full text",
+      "supports": "Two-page guidance effective September 27, 2025 and relevant employment details."
+    },
+    {
+      "run_id": "run-11",
+      "raw_citation_id": "turn100view0",
+      "url": "https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/",
+      "retrieval": "full text",
+      "supports": "Two-page guidance effective September 27, 2025 and relevant employment details."
+    },
+    {
+      "run_id": "run-17",
+      "raw_citation_id": "turn111view1",
+      "url": "https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/agency-guidance-on-the-two-page-limit-on-resume-length/",
+      "retrieval": "full text",
+      "supports": "Two-page guidance effective September 27, 2025 and relevant employment details."
+    },
+    {
+      "run_id": "run-23",
+      "raw_citation_id": "turn117view0",
+      "url": "https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/",
+      "retrieval": "full text",
+      "supports": "Two-page guidance effective September 27, 2025 and relevant employment details."
+    }
+  ],
+  "failed_additional_source": {
+    "run_id": "run-23",
+    "raw_citation_id": "turn116search0",
+    "url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include",
+    "result": "Redirect retrieval failed. The same response also cites the accessible OPM applicant guide."
+  },
+  "limits": "This resolves these specific source identities; it is not a full tool transcript or a complete citation audit."
+}

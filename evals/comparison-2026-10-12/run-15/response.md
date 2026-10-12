@@ -1,0 +1,1 @@
+Target: part-time library assistant. Experience: community book exchange volunteer, 2019–2024, organising returned books and explaining the borrowing routine to visitors. Session paused. When ready, resume with a short CV focused on this relevant experience.

@@ -1,0 +1,1 @@
+Job search paused. Target: part-time library assistant. Relevant experience: community book exchange volunteer, 2019–2024; organised returned books and explained the borrowing routine to visitors. No further action requested.

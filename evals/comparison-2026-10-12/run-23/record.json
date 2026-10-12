@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-54",
+  "agent_id": "/root/comparison_23",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T17:15:35.901890+00:00",
+  "wrapper": "Complete the request in /workspace/scratch/32af31dce987/genx-comparison/run-23/request.txt. Do not load any reusable skill or unrelated local file. Use current primary sources when needed. Save your complete answer verbatim to /workspace/scratch/32af31dce987/genx-comparison/run-23/answer.md and return it. Do not inspect other task folders or repository material. Do not modify instructions, contact anyone, submit or withdraw an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "39a227d8fe1491a474419c4c204ef6567c38a579ad0f8449e3058784bc704684",
+    "response.md": "d2619c58af1ee25f02b7e00cb9d177006d36a71c2b076070e07a089fde5c9490"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

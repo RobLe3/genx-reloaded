@@ -1,0 +1,1 @@
+Target: part-time library assistant. Volunteered at a community book exchange, 2019–2024, organising returned books and explaining the borrowing routine to visitors. Keep personal circumstances out of handover notes and applications. Do not save this information.

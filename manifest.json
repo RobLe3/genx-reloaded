@@ -1,12 +1,12 @@
 {
   "name": "genx-reloaded",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "runtime_root": "skills/genx-reloaded",
   "repository": "https://github.com/RobLe3/genx-reloaded",
   "files": [
     {
       "path": "skills/genx-reloaded/SKILL.md",
-      "sha256": "8f9fffef245442307512333e05fd99440c87ede1b0920386cc83f3d7bcf1f78a"
+      "sha256": "6e317e323152dea936c1280928f65a88c23a57f31b9878b42f582483d21d932f"
     },
     {
       "path": "skills/genx-reloaded/agents/openai.yaml",
@@ -18,7 +18,7 @@
     },
     {
       "path": "skills/genx-reloaded/references/accessibility-and-resume.md",
-      "sha256": "cea5289395fafd3bb34fe8629dc4b4ba071e2d615cd3dcdba7855b4d35b39f0f"
+      "sha256": "dcef442d6c103092ed6f3d882a09c8cb7931ddde995e8999092e50915683b94f"
     },
     {
       "path": "skills/genx-reloaded/references/application-decisions.md",
@@ -142,7 +142,7 @@
     },
     {
       "path": "skills/genx-reloaded/references/quality-and-completion.md",
-      "sha256": "bbe0ad42b2eef66d0071e42a62c7ee04e82eefc284dc99450f3eb41dc1c9b13e"
+      "sha256": "bfec9eb9aed92d8e8971267fedcf2d9e8176402a7eef7360e651b3e139d80bca"
     },
     {
       "path": "skills/genx-reloaded/references/support-and-strengths.md",

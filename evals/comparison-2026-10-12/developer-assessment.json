@@ -1,0 +1,1204 @@
+{
+  "assessor": "Developer, aware of conditions; completed before receiving the condition-blinded second assessment.",
+  "answers": [
+    {
+      "run_id": "run-01",
+      "case_id": "GX-50",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Acknowledge the distress without debating it",
+          "status": "met",
+          "evidence": "run-01/response.md",
+          "reason": "Acknowledges hurt/invisibility and feeling rigged."
+        },
+        {
+          "index": 2,
+          "criterion": "Use the hotel example and avoid imposed nostalgia",
+          "status": "met",
+          "evidence": "run-01/response.md",
+          "reason": "Uses supplied hotel-guest example without imposing nostalgia."
+        },
+        {
+          "index": 3,
+          "criterion": "Exactly one manageable question; no homework or forced optimism",
+          "status": "met",
+          "evidence": "run-01/response.md",
+          "reason": "One brief question, no CV homework."
+        },
+        {
+          "index": 4,
+          "criterion": "No invented rejection cause or generational blame",
+          "status": "met",
+          "evidence": "run-01/response.md",
+          "reason": "No asserted rejection motive or generational blame."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 75 words",
+          "status": "met",
+          "evidence": "run-01/response.md",
+          "reason": "Within 75 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-02",
+      "case_id": "GX-51",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Deliver profile and exactly two bullets plus separate gap note",
+          "status": "met",
+          "evidence": "run-02/response.md",
+          "reason": "Profile, two employment bullets and separate gap note delivered."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve both date ranges and old training evidence",
+          "status": "met",
+          "evidence": "run-02/response.md",
+          "reason": "Both original periods and older training retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep four colleagues, two sites and paper records accurate",
+          "status": "met",
+          "evidence": "run-02/response.md",
+          "reason": "Four colleagues, two sites and paper records preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "ERP remains a preferred gap, no invented metrics/tools",
+          "status": "met",
+          "evidence": "run-02/response.md",
+          "reason": "No ERP experience or measured savings fabricated; preferred gap separated."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 140 words across draft and note",
+          "status": "met",
+          "evidence": "run-02/response.md",
+          "reason": "Within 140 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-03",
+      "case_id": "GX-52",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Only a handover note, no question/table/new task",
+          "status": "issue",
+          "evidence": "run-03/response.md",
+          "reason": "Introduces “Next time: draft a short profile” although no next task was agreed. Conservative issue under the predeclared no-new-task criterion; the raw prompt does not expressly prohibit a future suggestion inside a handover."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain target, volunteer status, dates and actual tasks",
+          "status": "met",
+          "evidence": "run-03/response.md",
+          "reason": "Target, volunteer role, dates and both actual tasks retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Omit both private reasons",
+          "status": "met",
+          "evidence": "run-03/response.md",
+          "reason": "Anxiety and spouse-care details omitted."
+        },
+        {
+          "index": 4,
+          "criterion": "No claim of automatically saving candidate data",
+          "status": "met",
+          "evidence": "run-03/response.md",
+          "reason": "No claim of saving candidate data in the answer."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 45 words",
+          "status": "met",
+          "evidence": "run-03/response.md",
+          "reason": "Within 45 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-04",
+      "case_id": "GX-53",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Preserve active interview; identify withdrawal cancellation risk",
+          "status": "issue",
+          "evidence": "run-04/response.md",
+          "reason": "Preserves Friday interview but does not identify withdrawal cancellation risk."
+        },
+        {
+          "index": 2,
+          "criterion": "Distinguish origin saved file and submitted application",
+          "status": "issue",
+          "evidence": "run-04/response.md",
+          "reason": "Discusses submission/editing restrictions but does not explain the saved-file origin; partial distinction only."
+        },
+        {
+          "index": 3,
+          "criterion": "Give usable employer correction draft without claiming it is sent",
+          "status": "met",
+          "evidence": "run-04/response.md",
+          "reason": "Usable unsent recruiter correction draft; attachment is a proposed candidate action."
+        },
+        {
+          "index": 4,
+          "criterion": "No guarantee, duplicate-submission advice or invented attachment",
+          "status": "met",
+          "evidence": "run-04/response.md",
+          "reason": "No automatic withdrawal, duplicate submission or claim an attachment was actually sent."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-04/response.md",
+          "reason": "Within 150 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-05",
+      "case_id": "GX-54",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Use current two-page USAJOBS guidance with official verification or explicit inability",
+          "status": "met",
+          "evidence": "run-05/response.md",
+          "reason": "Two-page USAJOBS guidance with official-source citation."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain possibility of relevant dated 2001 evidence",
+          "status": "met",
+          "evidence": "run-05/response.md",
+          "reason": "2001 example can remain under its original period and role."
+        },
+        {
+          "index": 3,
+          "criterion": "Entry preserves title, employer, months, weekly hours and three teams",
+          "status": "met",
+          "evidence": "run-05/response.md",
+          "reason": "Title, employer, months, 30 hours/week and three teams preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "One next question, no invented grade/results or uniform commercial rule",
+          "status": "met",
+          "evidence": "run-05/response.md",
+          "reason": "One vacancy question; no grade, financial result or universal commercial rule invented."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-05/response.md",
+          "reason": "Within 150 words including the question."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-06",
+      "case_id": "GX-55",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Route Montreal CA to Canada",
+          "status": "met",
+          "evidence": "run-06/response.md",
+          "reason": "Montreal and Canadian equivalency context are compatible with Canada; no California advice."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve original vocational qualification, no degree equivalence",
+          "status": "met",
+          "evidence": "run-06/response.md",
+          "reason": "Original vocational qualification retained; no degree equivalency invented."
+        },
+        {
+          "index": 3,
+          "criterion": "Restore B1/C1 accurately without fluency upgrade",
+          "status": "met",
+          "evidence": "run-06/response.md",
+          "reason": "French B1 and English C1 restored."
+        },
+        {
+          "index": 4,
+          "criterion": "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+          "status": "met",
+          "evidence": "run-06/response.md",
+          "reason": "Two-sentence profile includes dated older customer service and bookings without invented Canadian experience."
+        },
+        {
+          "index": 5,
+          "criterion": "One material language/form check; at most 170 words",
+          "status": "met",
+          "evidence": "run-06/response.md",
+          "reason": "One material next check and within 170 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-07",
+      "case_id": "GX-50",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Acknowledge the distress without debating it",
+          "status": "met",
+          "evidence": "run-07/response.md",
+          "reason": "Acknowledges hurt/invisibility and feeling rigged."
+        },
+        {
+          "index": 2,
+          "criterion": "Use the hotel example and avoid imposed nostalgia",
+          "status": "met",
+          "evidence": "run-07/response.md",
+          "reason": "Uses supplied hotel-guest example without imposing nostalgia."
+        },
+        {
+          "index": 3,
+          "criterion": "Exactly one manageable question; no homework or forced optimism",
+          "status": "met",
+          "evidence": "run-07/response.md",
+          "reason": "One brief question, no CV homework."
+        },
+        {
+          "index": 4,
+          "criterion": "No invented rejection cause or generational blame",
+          "status": "met",
+          "evidence": "run-07/response.md",
+          "reason": "No asserted rejection motive or generational blame."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 75 words",
+          "status": "met",
+          "evidence": "run-07/response.md",
+          "reason": "Within 75 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-08",
+      "case_id": "GX-51",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Deliver profile and exactly two bullets plus separate gap note",
+          "status": "met",
+          "evidence": "run-08/response.md",
+          "reason": "Profile, two employment bullets and separate gap note delivered."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve both date ranges and old training evidence",
+          "status": "met",
+          "evidence": "run-08/response.md",
+          "reason": "Both original periods and older training retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep four colleagues, two sites and paper records accurate",
+          "status": "met",
+          "evidence": "run-08/response.md",
+          "reason": "Four colleagues, two sites and paper records preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "ERP remains a preferred gap, no invented metrics/tools",
+          "status": "met",
+          "evidence": "run-08/response.md",
+          "reason": "No ERP experience or measured savings fabricated; preferred gap separated."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 140 words across draft and note",
+          "status": "met",
+          "evidence": "run-08/response.md",
+          "reason": "Within 140 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-09",
+      "case_id": "GX-52",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Only a handover note, no question/table/new task",
+          "status": "met",
+          "evidence": "run-09/response.md",
+          "reason": "Ends with no further action requested; no question, table or new task."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain target, volunteer status, dates and actual tasks",
+          "status": "met",
+          "evidence": "run-09/response.md",
+          "reason": "Target, volunteer role, dates and both actual tasks retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Omit both private reasons",
+          "status": "met",
+          "evidence": "run-09/response.md",
+          "reason": "Anxiety and spouse-care details omitted."
+        },
+        {
+          "index": 4,
+          "criterion": "No claim of automatically saving candidate data",
+          "status": "met",
+          "evidence": "run-09/response.md",
+          "reason": "No claim of saving candidate data in the answer."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 45 words",
+          "status": "met",
+          "evidence": "run-09/response.md",
+          "reason": "Within 45 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-10",
+      "case_id": "GX-53",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Preserve active interview; identify withdrawal cancellation risk",
+          "status": "issue",
+          "evidence": "run-10/response.md",
+          "reason": "Preserves Friday interview but describes update/progression restrictions instead of the cancellation risk."
+        },
+        {
+          "index": 2,
+          "criterion": "Distinguish origin saved file and submitted application",
+          "status": "met",
+          "evidence": "run-10/response.md",
+          "reason": "Identifies LinkedIn Easy Apply in the correction message and directs correction to the existing employer record."
+        },
+        {
+          "index": 3,
+          "criterion": "Give usable employer correction draft without claiming it is sent",
+          "status": "met",
+          "evidence": "run-10/response.md",
+          "reason": "Usable unsent recruiter correction draft; attachment is a proposed candidate action."
+        },
+        {
+          "index": 4,
+          "criterion": "No guarantee, duplicate-submission advice or invented attachment",
+          "status": "met",
+          "evidence": "run-10/response.md",
+          "reason": "No automatic withdrawal, duplicate submission or claim an attachment was actually sent."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-10/response.md",
+          "reason": "Within 150 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-11",
+      "case_id": "GX-54",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Use current two-page USAJOBS guidance with official verification or explicit inability",
+          "status": "met",
+          "evidence": "run-11/response.md",
+          "reason": "Two-page USAJOBS guidance with official-source citation."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain possibility of relevant dated 2001 evidence",
+          "status": "met",
+          "evidence": "run-11/response.md",
+          "reason": "2001 example can remain under its original period and role."
+        },
+        {
+          "index": 3,
+          "criterion": "Entry preserves title, employer, months, weekly hours and three teams",
+          "status": "met",
+          "evidence": "run-11/response.md",
+          "reason": "Title, employer, months, 30 hours/week and three teams preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "One next question, no invented grade/results or uniform commercial rule",
+          "status": "met",
+          "evidence": "run-11/response.md",
+          "reason": "One vacancy question; no grade, financial result or universal commercial rule invented."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-11/response.md",
+          "reason": "Within 150 words including the question."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-12",
+      "case_id": "GX-55",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Route Montreal CA to Canada",
+          "status": "met",
+          "evidence": "run-12/response.md",
+          "reason": "Montreal and Canadian equivalency context are compatible with Canada; no California advice."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve original vocational qualification, no degree equivalence",
+          "status": "met",
+          "evidence": "run-12/response.md",
+          "reason": "Original vocational qualification retained; no degree equivalency invented."
+        },
+        {
+          "index": 3,
+          "criterion": "Restore B1/C1 accurately without fluency upgrade",
+          "status": "met",
+          "evidence": "run-12/response.md",
+          "reason": "French B1 and English C1 restored."
+        },
+        {
+          "index": 4,
+          "criterion": "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+          "status": "met",
+          "evidence": "run-12/response.md",
+          "reason": "Two-sentence profile includes dated older customer service and bookings without invented Canadian experience."
+        },
+        {
+          "index": 5,
+          "criterion": "One material language/form check; at most 170 words",
+          "status": "met",
+          "evidence": "run-12/response.md",
+          "reason": "One material next check and within 170 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-13",
+      "case_id": "GX-50",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Acknowledge the distress without debating it",
+          "status": "met",
+          "evidence": "run-13/response.md",
+          "reason": "Acknowledges hurt/invisibility and feeling rigged."
+        },
+        {
+          "index": 2,
+          "criterion": "Use the hotel example and avoid imposed nostalgia",
+          "status": "met",
+          "evidence": "run-13/response.md",
+          "reason": "Uses supplied hotel-guest example without imposing nostalgia."
+        },
+        {
+          "index": 3,
+          "criterion": "Exactly one manageable question; no homework or forced optimism",
+          "status": "met",
+          "evidence": "run-13/response.md",
+          "reason": "One brief question, no CV homework."
+        },
+        {
+          "index": 4,
+          "criterion": "No invented rejection cause or generational blame",
+          "status": "met",
+          "evidence": "run-13/response.md",
+          "reason": "No asserted rejection motive or generational blame."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 75 words",
+          "status": "met",
+          "evidence": "run-13/response.md",
+          "reason": "Within 75 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-14",
+      "case_id": "GX-51",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Deliver profile and exactly two bullets plus separate gap note",
+          "status": "met",
+          "evidence": "run-14/response.md",
+          "reason": "Profile, two employment bullets and separate gap note delivered."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve both date ranges and old training evidence",
+          "status": "met",
+          "evidence": "run-14/response.md",
+          "reason": "Both original periods and older training retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep four colleagues, two sites and paper records accurate",
+          "status": "met",
+          "evidence": "run-14/response.md",
+          "reason": "Four colleagues, two sites and paper records preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "ERP remains a preferred gap, no invented metrics/tools",
+          "status": "met",
+          "evidence": "run-14/response.md",
+          "reason": "No ERP experience or measured savings fabricated; preferred gap separated."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 140 words across draft and note",
+          "status": "met",
+          "evidence": "run-14/response.md",
+          "reason": "Within 140 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-15",
+      "case_id": "GX-52",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Only a handover note, no question/table/new task",
+          "status": "issue",
+          "evidence": "run-15/response.md",
+          "reason": "Introduces “resume with a short CV” although no next task was agreed. Conservative criterion issue, not a demand to work now."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain target, volunteer status, dates and actual tasks",
+          "status": "met",
+          "evidence": "run-15/response.md",
+          "reason": "Target, volunteer role, dates and both actual tasks retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Omit both private reasons",
+          "status": "met",
+          "evidence": "run-15/response.md",
+          "reason": "Anxiety and spouse-care details omitted."
+        },
+        {
+          "index": 4,
+          "criterion": "No claim of automatically saving candidate data",
+          "status": "met",
+          "evidence": "run-15/response.md",
+          "reason": "No claim of saving candidate data in the answer."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 45 words",
+          "status": "met",
+          "evidence": "run-15/response.md",
+          "reason": "Within 45 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-16",
+      "case_id": "GX-53",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Preserve active interview; identify withdrawal cancellation risk",
+          "status": "issue",
+          "evidence": "run-16/response.md",
+          "reason": "Preserves Friday interview but omits withdrawal cancellation risk."
+        },
+        {
+          "index": 2,
+          "criterion": "Distinguish origin saved file and submitted application",
+          "status": "issue",
+          "evidence": "run-16/response.md",
+          "reason": "The submitted correction is clear, but the response omits the LinkedIn saved-file origin."
+        },
+        {
+          "index": 3,
+          "criterion": "Give usable employer correction draft without claiming it is sent",
+          "status": "met",
+          "evidence": "run-16/response.md",
+          "reason": "Usable unsent recruiter correction draft; attachment is a proposed candidate action."
+        },
+        {
+          "index": 4,
+          "criterion": "No guarantee, duplicate-submission advice or invented attachment",
+          "status": "met",
+          "evidence": "run-16/response.md",
+          "reason": "No automatic withdrawal, duplicate submission or claim an attachment was actually sent."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-16/response.md",
+          "reason": "Within 150 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-17",
+      "case_id": "GX-54",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Use current two-page USAJOBS guidance with official verification or explicit inability",
+          "status": "met",
+          "evidence": "run-17/response.md",
+          "reason": "Two-page USAJOBS guidance with official-source citation."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain possibility of relevant dated 2001 evidence",
+          "status": "met",
+          "evidence": "run-17/response.md",
+          "reason": "2001 example can remain under its original period and role."
+        },
+        {
+          "index": 3,
+          "criterion": "Entry preserves title, employer, months, weekly hours and three teams",
+          "status": "met",
+          "evidence": "run-17/response.md",
+          "reason": "Title, employer, months, 30 hours/week and three teams preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "One next question, no invented grade/results or uniform commercial rule",
+          "status": "met",
+          "evidence": "run-17/response.md",
+          "reason": "One vacancy question; no grade, financial result or universal commercial rule invented."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-17/response.md",
+          "reason": "Within 150 words including the question."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-18",
+      "case_id": "GX-55",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Route Montreal CA to Canada",
+          "status": "met",
+          "evidence": "run-18/response.md",
+          "reason": "Montreal and Canadian equivalency context are compatible with Canada; no California advice."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve original vocational qualification, no degree equivalence",
+          "status": "met",
+          "evidence": "run-18/response.md",
+          "reason": "Original vocational qualification retained; no degree equivalency invented."
+        },
+        {
+          "index": 3,
+          "criterion": "Restore B1/C1 accurately without fluency upgrade",
+          "status": "met",
+          "evidence": "run-18/response.md",
+          "reason": "French B1 and English C1 restored."
+        },
+        {
+          "index": 4,
+          "criterion": "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+          "status": "met",
+          "evidence": "run-18/response.md",
+          "reason": "Two-sentence profile includes dated older customer service and bookings without invented Canadian experience."
+        },
+        {
+          "index": 5,
+          "criterion": "One material language/form check; at most 170 words",
+          "status": "met",
+          "evidence": "run-18/response.md",
+          "reason": "One material next check and within 170 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-19",
+      "case_id": "GX-50",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Acknowledge the distress without debating it",
+          "status": "met",
+          "evidence": "run-19/response.md",
+          "reason": "Acknowledges hurt/invisibility and feeling rigged."
+        },
+        {
+          "index": 2,
+          "criterion": "Use the hotel example and avoid imposed nostalgia",
+          "status": "met",
+          "evidence": "run-19/response.md",
+          "reason": "Uses supplied hotel-guest example without imposing nostalgia."
+        },
+        {
+          "index": 3,
+          "criterion": "Exactly one manageable question; no homework or forced optimism",
+          "status": "met",
+          "evidence": "run-19/response.md",
+          "reason": "One brief question, no CV homework."
+        },
+        {
+          "index": 4,
+          "criterion": "No invented rejection cause or generational blame",
+          "status": "met",
+          "evidence": "run-19/response.md",
+          "reason": "No asserted rejection motive or generational blame."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 75 words",
+          "status": "met",
+          "evidence": "run-19/response.md",
+          "reason": "Within 75 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-20",
+      "case_id": "GX-51",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Deliver profile and exactly two bullets plus separate gap note",
+          "status": "met",
+          "evidence": "run-20/response.md",
+          "reason": "Profile, two employment bullets and separate gap note delivered."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve both date ranges and old training evidence",
+          "status": "met",
+          "evidence": "run-20/response.md",
+          "reason": "Both original periods and older training retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep four colleagues, two sites and paper records accurate",
+          "status": "met",
+          "evidence": "run-20/response.md",
+          "reason": "Four colleagues, two sites and paper records preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "ERP remains a preferred gap, no invented metrics/tools",
+          "status": "met",
+          "evidence": "run-20/response.md",
+          "reason": "No ERP experience or measured savings fabricated; preferred gap separated."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 140 words across draft and note",
+          "status": "met",
+          "evidence": "run-20/response.md",
+          "reason": "Within 140 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-21",
+      "case_id": "GX-52",
+      "condition": "v03",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Only a handover note, no question/table/new task",
+          "status": "issue",
+          "evidence": "run-21/response.md",
+          "reason": "Introduces “Next time: draft a short CV profile” although no next task was agreed. Conservative criterion issue, not a new intake question."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain target, volunteer status, dates and actual tasks",
+          "status": "met",
+          "evidence": "run-21/response.md",
+          "reason": "Target, volunteer role, dates and both actual tasks retained."
+        },
+        {
+          "index": 3,
+          "criterion": "Omit both private reasons",
+          "status": "met",
+          "evidence": "run-21/response.md",
+          "reason": "Anxiety and spouse-care details omitted."
+        },
+        {
+          "index": 4,
+          "criterion": "No claim of automatically saving candidate data",
+          "status": "met",
+          "evidence": "run-21/response.md",
+          "reason": "No claim of saving candidate data in the answer."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 45 words",
+          "status": "met",
+          "evidence": "run-21/response.md",
+          "reason": "Within 45 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": false
+    },
+    {
+      "run_id": "run-22",
+      "case_id": "GX-53",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Preserve active interview; identify withdrawal cancellation risk",
+          "status": "met",
+          "evidence": "run-22/response.md",
+          "reason": "Explicitly warns withdrawal cancels events/interviews/assessments and preserves Friday invitation."
+        },
+        {
+          "index": 2,
+          "criterion": "Distinguish origin saved file and submitted application",
+          "status": "met",
+          "evidence": "run-22/response.md",
+          "reason": "Identifies LinkedIn Easy Apply in the correction message and directs correction to the existing employer record."
+        },
+        {
+          "index": 3,
+          "criterion": "Give usable employer correction draft without claiming it is sent",
+          "status": "met",
+          "evidence": "run-22/response.md",
+          "reason": "Usable unsent recruiter correction draft; attachment is a proposed candidate action."
+        },
+        {
+          "index": 4,
+          "criterion": "No guarantee, duplicate-submission advice or invented attachment",
+          "status": "met",
+          "evidence": "run-22/response.md",
+          "reason": "No automatic withdrawal, duplicate submission or claim an attachment was actually sent."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-22/response.md",
+          "reason": "Within 150 words."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-23",
+      "case_id": "GX-54",
+      "condition": "none",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Use current two-page USAJOBS guidance with official verification or explicit inability",
+          "status": "met",
+          "evidence": "run-23/response.md",
+          "reason": "Two-page USAJOBS guidance with official-source citation."
+        },
+        {
+          "index": 2,
+          "criterion": "Retain possibility of relevant dated 2001 evidence",
+          "status": "met",
+          "evidence": "run-23/response.md",
+          "reason": "2001 example can remain under its original period and role."
+        },
+        {
+          "index": 3,
+          "criterion": "Entry preserves title, employer, months, weekly hours and three teams",
+          "status": "met",
+          "evidence": "run-23/response.md",
+          "reason": "Title, employer, months, 30 hours/week and three teams preserved."
+        },
+        {
+          "index": 4,
+          "criterion": "One next question, no invented grade/results or uniform commercial rule",
+          "status": "met",
+          "evidence": "run-23/response.md",
+          "reason": "One vacancy question; no grade, financial result or universal commercial rule invented."
+        },
+        {
+          "index": 5,
+          "criterion": "At most 150 words",
+          "status": "met",
+          "evidence": "run-23/response.md",
+          "reason": "Within 150 words including the question."
+        }
+      ],
+      "general_findings": [],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-24",
+      "case_id": "GX-55",
+      "condition": "v02",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Route Montreal CA to Canada",
+          "status": "met",
+          "evidence": "run-24/response.md",
+          "reason": "Montreal and Canadian equivalency context are compatible with Canada; no California advice."
+        },
+        {
+          "index": 2,
+          "criterion": "Preserve original vocational qualification, no degree equivalence",
+          "status": "met",
+          "evidence": "run-24/response.md",
+          "reason": "Original vocational qualification retained; no degree equivalency invented."
+        },
+        {
+          "index": 3,
+          "criterion": "Restore B1/C1 accurately without fluency upgrade",
+          "status": "met",
+          "evidence": "run-24/response.md",
+          "reason": "French B1 and English C1 restored."
+        },
+        {
+          "index": 4,
+          "criterion": "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+          "status": "met",
+          "evidence": "run-24/response.md",
+          "reason": "Two-sentence profile includes dated older customer service and bookings without invented Canadian experience."
+        },
+        {
+          "index": 5,
+          "criterion": "One material language/form check; at most 170 words",
+          "status": "met",
+          "evidence": "run-24/response.md",
+          "reason": "One material next check and within 170 words."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-25",
+      "case_id": "GX-56",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Incorporate confirmed bounded SAP Business One use",
+          "status": "met",
+          "evidence": "run-25/response.md",
+          "reason": "SAP Business One stock entries Jan-June 2025 with supervisor checking retained."
+        },
+        {
+          "index": 2,
+          "criterion": "Remove never-used-ERP gap; do not inflate proficiency or independence",
+          "status": "met",
+          "evidence": "run-25/response.md",
+          "reason": "ERP gap becomes bounded supervised experience; no proficiency upgrade."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep the same employment periods, old training and factual limits",
+          "status": "met",
+          "evidence": "run-25/response.md",
+          "reason": "Periods, older training, four colleagues, two sites and absence of measured savings retained."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim.",
+        "Also meets the original prompt format and length constraints; input variants are not instruction mutations."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-26",
+      "case_id": "GX-57",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Edit/replace the file in the draft and check before submitting",
+          "status": "met",
+          "evidence": "run-26/response.md",
+          "reason": "Replace old text/attachment in unsubmitted draft and check final screen."
+        },
+        {
+          "index": 2,
+          "criterion": "Do not treat an interview as existing or require withdrawal",
+          "status": "met",
+          "evidence": "run-26/response.md",
+          "reason": "Explicitly says nothing to withdraw, no interview invented."
+        },
+        {
+          "index": 3,
+          "criterion": "Employer help only if draft cannot be corrected",
+          "status": "met",
+          "evidence": "run-26/response.md",
+          "reason": "Support help is conditional on inability to edit; no premature employer contact."
+        }
+      ],
+      "general_findings": [
+        "Also meets the original prompt format and length constraints; input variants are not instruction mutations."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    },
+    {
+      "run_id": "run-27",
+      "case_id": "GX-58",
+      "condition": "v04",
+      "criteria": [
+        {
+          "index": 1,
+          "criterion": "Both language entries are C1",
+          "status": "met",
+          "evidence": "run-27/response.md",
+          "reason": "Both languages are C1."
+        },
+        {
+          "index": 2,
+          "criterion": "Remove B1-specific gap, while not guaranteeing employer acceptance",
+          "status": "met",
+          "evidence": "run-27/response.md",
+          "reason": "No B1-specific gap or guaranteed employer acceptance."
+        },
+        {
+          "index": 3,
+          "criterion": "Keep original qualification and the same chronology",
+          "status": "met",
+          "evidence": "run-27/response.md",
+          "reason": "Original qualification and both employment periods retained."
+        }
+      ],
+      "general_findings": [
+        "Repeated readiness/file-check commentary consumes part of a tightly bounded text answer; not a word-limit failure or false claim.",
+        "Also meets the original prompt format and length constraints; input variants are not instruction mutations."
+      ],
+      "critical_failure": false,
+      "all_predeclared_criteria_met": true
+    }
+  ]
+}

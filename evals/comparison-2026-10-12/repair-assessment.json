@@ -1,0 +1,74 @@
+{
+  "assessor": "Developer; aware of the edit, fresh execution agents saw only runtime and request.",
+  "runs": [
+    {
+      "id": "repair-pause",
+      "case_id": "GX-52",
+      "condition": "v0.4.1 repair",
+      "record": "repair-pause/record.json",
+      "word_count": 35,
+      "runtime_inventory_sha256": "2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80",
+      "criteria": [
+        {
+          "criterion": "No unagreed next task; note only",
+          "status": "met",
+          "evidence": "Note contains only target, confirmed volunteer facts and disclosure/save preferences; no future task."
+        },
+        {
+          "criterion": "Original privacy, fact and length criteria retained",
+          "status": "met",
+          "evidence": "Dates, two tasks and privacy retained, no question or table."
+        }
+      ],
+      "critical_failure": false
+    },
+    {
+      "id": "repair-rewrite",
+      "case_id": "GX-51",
+      "condition": "v0.4.1 repair",
+      "record": "repair-rewrite/record.json",
+      "word_count": 85,
+      "runtime_inventory_sha256": "2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80",
+      "criteria": [
+        {
+          "criterion": "Original factual, format and length criteria retained",
+          "status": "met",
+          "evidence": "Profile, two bullets and separate ERP/handover gaps; no invented results or tools."
+        },
+        {
+          "criterion": "No routine readiness/file-check boilerplate",
+          "status": "met",
+          "evidence": "No readiness label or rendering/extraction disclaimer."
+        }
+      ],
+      "critical_failure": false
+    },
+    {
+      "id": "repair-check-note",
+      "case_id": "GX-59",
+      "condition": "v0.4.1 repair",
+      "record": "repair-check-note/record.json",
+      "word_count": 57,
+      "runtime_inventory_sha256": "2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80",
+      "criteria": [
+        {
+          "criterion": "One accurate volunteer bullet retains dates and both tasks",
+          "status": "met",
+          "evidence": "Volunteer role, 2019-2024 and both tasks preserved."
+        },
+        {
+          "criterion": "Requested check note states actual factual checks and distinguishes unperformed rendering/extraction",
+          "status": "met",
+          "evidence": "Reports comparison against supplied facts and unperformed independent, rendering, extraction and ATS checks."
+        },
+        {
+          "criterion": "No invented results, files or ATS pass; at most 90 words",
+          "status": "met",
+          "evidence": "No invented results or generated file, below 90 words."
+        }
+      ],
+      "critical_failure": false
+    }
+  ],
+  "limits": "Three focused single executions, not a repeated full comparison."
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "blind_id": "answer-01",
+    "run_id": "run-20",
+    "case_id": "GX-51",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-02",
+    "run_id": "run-07",
+    "case_id": "GX-50",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-03",
+    "run_id": "run-19",
+    "case_id": "GX-50",
+    "condition": "none"
+  },
+  {
+    "blind_id": "answer-04",
+    "run_id": "run-11",
+    "case_id": "GX-54",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-05",
+    "run_id": "run-05",
+    "case_id": "GX-54",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-06",
+    "run_id": "run-24",
+    "case_id": "GX-55",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-07",
+    "run_id": "run-12",
+    "case_id": "GX-55",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-08",
+    "run_id": "run-16",
+    "case_id": "GX-53",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-09",
+    "run_id": "run-22",
+    "case_id": "GX-53",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-10",
+    "run_id": "run-10",
+    "case_id": "GX-53",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-11",
+    "run_id": "run-21",
+    "case_id": "GX-52",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-12",
+    "run_id": "run-15",
+    "case_id": "GX-52",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-13",
+    "run_id": "run-27",
+    "case_id": "GX-58",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-14",
+    "run_id": "run-09",
+    "case_id": "GX-52",
+    "condition": "none"
+  },
+  {
+    "blind_id": "answer-15",
+    "run_id": "run-04",
+    "case_id": "GX-53",
+    "condition": "none"
+  },
+  {
+    "blind_id": "answer-16",
+    "run_id": "run-06",
+    "case_id": "GX-55",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-17",
+    "run_id": "run-23",
+    "case_id": "GX-54",
+    "condition": "none"
+  },
+  {
+    "blind_id": "answer-18",
+    "run_id": "run-13",
+    "case_id": "GX-50",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-19",
+    "run_id": "run-08",
+    "case_id": "GX-51",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-20",
+    "run_id": "run-03",
+    "case_id": "GX-52",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-21",
+    "run_id": "run-17",
+    "case_id": "GX-54",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-22",
+    "run_id": "run-18",
+    "case_id": "GX-55",
+    "condition": "none"
+  },
+  {
+    "blind_id": "answer-23",
+    "run_id": "run-25",
+    "case_id": "GX-56",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-24",
+    "run_id": "run-26",
+    "case_id": "GX-57",
+    "condition": "v04"
+  },
+  {
+    "blind_id": "answer-25",
+    "run_id": "run-02",
+    "case_id": "GX-51",
+    "condition": "v03"
+  },
+  {
+    "blind_id": "answer-26",
+    "run_id": "run-01",
+    "case_id": "GX-50",
+    "condition": "v02"
+  },
+  {
+    "blind_id": "answer-27",
+    "run_id": "run-14",
+    "case_id": "GX-51",
+    "condition": "none"
+  }
+]

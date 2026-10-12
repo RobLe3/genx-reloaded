@@ -698,6 +698,159 @@
         "Keep required fields and truthful chronology",
         "Treat older Taleo docs as version-limited"
       ]
+    },
+    {
+      "id": "GX-50",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "support"
+      ],
+      "prompt": "I am 57 and another rejection has made me feel invisible. It feels as if the whole game is rigged. I was good at calming hotel guests when bookings went wrong, but I do not relate to maps or fixing machines. Please be on my side, keep this under 75 words, and ask just one small question. I cannot face CV homework today.",
+      "checks": [
+        "Acknowledge the distress without debating it",
+        "Use the hotel example and avoid imposed nostalgia",
+        "Exactly one manageable question; no homework or forced optimism",
+        "No invented rejection cause or generational blame",
+        "At most 75 words"
+      ]
+    },
+    {
+      "id": "GX-51",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "rewrite"
+      ],
+      "prompt": "Skip encouragement. Write a CV profile and two bullets, at most 140 words in total, for a stock-control role requiring accurate records, staff handovers and ERP experience preferred. My facts: warehouse assistant 1997 to 2008, trained four colleagues in stock-count routines; inventory clerk 2014 to 2025, checked deliveries at two sites and recorded discrepancies on paper. I have never used an ERP. I have no measured savings. Keep the dates and show why the old training work still matters. Flag any real gap outside the draft.",
+      "checks": [
+        "Deliver profile and exactly two bullets plus separate gap note",
+        "Preserve both date ranges and old training evidence",
+        "Keep four colleagues, two sites and paper records accurate",
+        "ERP remains a preferred gap, no invented metrics/tools",
+        "At most 140 words across draft and note"
+      ]
+    },
+    {
+      "id": "GX-52",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "pause"
+      ],
+      "prompt": "I want to stop. Please give me only a pasteable handover note of at most 45 words, no question or table. My target is part-time library assistant. I volunteered at a community book exchange from 2019 to 2024, organised returned books and explained the borrowing routine to visitors. Privately I stopped because of anxiety and caring for my spouse; do not include those reasons in the note or any application, and do not save anything for me.",
+      "checks": [
+        "Only a handover note, no question/table/new task",
+        "Retain target, volunteer status, dates and actual tasks",
+        "Omit both private reasons",
+        "No claim of automatically saving candidate data",
+        "At most 45 words"
+      ]
+    },
+    {
+      "id": "GX-53",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "correction"
+      ],
+      "prompt": "I applied through LinkedIn Easy Apply to a UK job using Workable. It reused an old cover letter. I have already submitted the application and have an interview invitation for Friday. Should I withdraw and reapply? Give the safest next step and a short correction message in no more than 150 words total. Do not contact anyone or change the application.",
+      "checks": [
+        "Preserve active interview; identify withdrawal cancellation risk",
+        "Distinguish origin saved file and submitted application",
+        "Give usable employer correction draft without claiming it is sent",
+        "No guarantee, duplicate-submission advice or invented attachment",
+        "At most 150 words"
+      ]
+    },
+    {
+      "id": "GX-54",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "federal"
+      ],
+      "prompt": "For a US federal operations vacancy through USAJOBS, should I use the six-page resume a retired colleague recommends? Current date is 12 October 2026. I want to keep a relevant 2001 equipment-accountability example. Latest facts: store coordinator at Example Depot, February 2017 to November 2024, 30 hours per week, organised equipment handovers for three teams. Give current length guidance and a truthful entry in no more than 150 words, plus one question for what you most need next. No invented federal grade or financial result.",
+      "checks": [
+        "Use current two-page USAJOBS guidance with official verification or explicit inability",
+        "Retain possibility of relevant dated 2001 evidence",
+        "Entry preserves title, employer, months, weekly hours and three teams",
+        "One next question, no invented grade/results or uniform commercial rule",
+        "At most 150 words"
+      ]
+    },
+    {
+      "id": "GX-55",
+      "split": "reserved",
+      "tags": [
+        "comparison",
+        "credentials"
+      ],
+      "prompt": "For an office-support vacancy in Montreal, CA, Workday imported my German Kaufmann im Einzelhandel qualification as Bachelor of Business and French as fluent. My actual French is B1 and English C1. Earlier customer service: 1999 to 2010. Office bookings: 2011 to 2025. The vacancy says bilingual and customer service; it does not specify language levels. Give corrected education/language entries and a two-sentence profile. Keep the older experience useful, do not claim Canadian experience, and give one next check. Maximum 170 words.",
+      "checks": [
+        "Route Montreal CA to Canada",
+        "Preserve original vocational qualification, no degree equivalence",
+        "Restore B1/C1 accurately without fluency upgrade",
+        "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+        "One material language/form check; at most 170 words"
+      ]
+    },
+    {
+      "id": "GX-56",
+      "split": "reserved",
+      "tags": [
+        "input-variant",
+        "rewrite"
+      ],
+      "prompt": "Skip encouragement. Write a CV profile and two bullets, at most 140 words in total, for a stock-control role requiring accurate records, staff handovers and ERP experience preferred. My facts: warehouse assistant 1997 to 2008, trained four colleagues in stock-count routines; inventory clerk 2014 to 2025, checked deliveries at two sites and recorded discrepancies on paper. I used SAP Business One for stock entries during my inventory-clerk role from January to June 2025, with a supervisor checking my entries. I have no measured savings. Keep the dates and show why the old training work still matters. Flag any real gap outside the draft.",
+      "checks": [
+        "Incorporate confirmed bounded SAP Business One use",
+        "Remove never-used-ERP gap; do not inflate proficiency or independence",
+        "Keep the same employment periods, old training and factual limits"
+      ]
+    },
+    {
+      "id": "GX-57",
+      "split": "reserved",
+      "tags": [
+        "input-variant",
+        "correction"
+      ],
+      "prompt": "I applied through LinkedIn Easy Apply to a UK job using Workable. It reused an old cover letter. The application is still an unsubmitted draft; I have no interview invitation. Should I withdraw and reapply? Give the safest next step and a short correction message in no more than 150 words total. Do not contact anyone or change the application.",
+      "checks": [
+        "Edit/replace the file in the draft and check before submitting",
+        "Do not treat an interview as existing or require withdrawal",
+        "Employer help only if draft cannot be corrected"
+      ]
+    },
+    {
+      "id": "GX-58",
+      "split": "reserved",
+      "tags": [
+        "input-variant",
+        "credentials"
+      ],
+      "prompt": "For an office-support vacancy in Montreal, CA, Workday imported my German Kaufmann im Einzelhandel qualification as Bachelor of Business and French as fluent. My actual French is C1 and English C1. Earlier customer service: 1999 to 2010. Office bookings: 2011 to 2025. The vacancy says bilingual and customer service; it does not specify language levels. Give corrected education/language entries and a two-sentence profile. Keep the older experience useful, do not claim Canadian experience, and give one next check. Maximum 170 words.",
+      "checks": [
+        "Both language entries are C1",
+        "Remove B1-specific gap, while not guaranteeing employer acceptance",
+        "Keep original qualification and the same chronology"
+      ]
+    },
+    {
+      "id": "GX-59",
+      "split": "development",
+      "tags": [
+        "verification",
+        "brevity",
+        "repair-neighbour"
+      ],
+      "prompt": "Skip encouragement. Write one CV bullet from these facts: library volunteer, 2019 to 2024, organised returned books and explained borrowing to visitors. Then give a brief check note saying what you checked and what you did not check. Text only, no file requested, at most 90 words total. Do not invent results.",
+      "checks": [
+        "One accurate volunteer bullet retains dates and both tasks",
+        "Requested check note states actual factual checks and distinguishes unperformed rendering/extraction",
+        "No invented results, files or ATS pass; at most 90 words"
+      ]
     }
   ]
 }

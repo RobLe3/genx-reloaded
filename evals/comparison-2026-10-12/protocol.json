@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "versions": {
+    "v02": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+    "v03": "5d7501ef1cb52cb726ff924100fe24ac4dbe7e28",
+    "v04": "3a4d818afe8f6c76eb79a7f73f950383e8cd3d90"
+  },
+  "core_case_ids": [
+    "GX-50",
+    "GX-51",
+    "GX-52",
+    "GX-53",
+    "GX-54",
+    "GX-55"
+  ],
+  "variant_case_ids": [
+    "GX-56",
+    "GX-57",
+    "GX-58"
+  ],
+  "criteria": {
+    "GX-50": [
+      "Acknowledge the distress without debating it",
+      "Use the hotel example and avoid imposed nostalgia",
+      "Exactly one manageable question; no homework or forced optimism",
+      "No invented rejection cause or generational blame",
+      "At most 75 words"
+    ],
+    "GX-51": [
+      "Deliver profile and exactly two bullets plus separate gap note",
+      "Preserve both date ranges and old training evidence",
+      "Keep four colleagues, two sites and paper records accurate",
+      "ERP remains a preferred gap, no invented metrics/tools",
+      "At most 140 words across draft and note"
+    ],
+    "GX-52": [
+      "Only a handover note, no question/table/new task",
+      "Retain target, volunteer status, dates and actual tasks",
+      "Omit both private reasons",
+      "No claim of automatically saving candidate data",
+      "At most 45 words"
+    ],
+    "GX-53": [
+      "Preserve active interview; identify withdrawal cancellation risk",
+      "Distinguish origin saved file and submitted application",
+      "Give usable employer correction draft without claiming it is sent",
+      "No guarantee, duplicate-submission advice or invented attachment",
+      "At most 150 words"
+    ],
+    "GX-54": [
+      "Use current two-page USAJOBS guidance with official verification or explicit inability",
+      "Retain possibility of relevant dated 2001 evidence",
+      "Entry preserves title, employer, months, weekly hours and three teams",
+      "One next question, no invented grade/results or uniform commercial rule",
+      "At most 150 words"
+    ],
+    "GX-55": [
+      "Route Montreal CA to Canada",
+      "Preserve original vocational qualification, no degree equivalence",
+      "Restore B1/C1 accurately without fluency upgrade",
+      "Two-sentence profile retains older evidence; no invented tasks or Canadian experience",
+      "One material language/form check; at most 170 words"
+    ],
+    "GX-56": [
+      "Incorporate confirmed bounded SAP Business One use",
+      "Remove never-used-ERP gap; do not inflate proficiency or independence",
+      "Keep the same employment periods, old training and factual limits"
+    ],
+    "GX-57": [
+      "Edit/replace the file in the draft and check before submitting",
+      "Do not treat an interview as existing or require withdrawal",
+      "Employer help only if draft cannot be corrected"
+    ],
+    "GX-58": [
+      "Both language entries are C1",
+      "Remove B1-specific gap, while not guaranteeing employer acceptance",
+      "Keep original qualification and the same chronology"
+    ]
+  },
+  "condition_order": [
+    [
+      "v02",
+      "v03",
+      "v04",
+      "none"
+    ],
+    [
+      "v03",
+      "v04",
+      "none",
+      "v02"
+    ],
+    [
+      "v04",
+      "none",
+      "v02",
+      "v03"
+    ],
+    [
+      "none",
+      "v02",
+      "v03",
+      "v04"
+    ],
+    [
+      "v02",
+      "v04",
+      "v03",
+      "none"
+    ],
+    [
+      "v04",
+      "v03",
+      "none",
+      "v02"
+    ]
+  ],
+  "planned_executions": 27,
+  "model": "unknown, inherited host model",
+  "sampling": "unknown",
+  "stop_rule": "Run the 27 planned executions. Repeat only an observed material defect or unresolved comparison with a stated reason. Do not tune criteria after seeing answers."
+}

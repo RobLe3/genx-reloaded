@@ -1,10 +1,10 @@
-# Roadmap implementation status, 0.4.0
+# Roadmap implementation status, 0.4.1
 
 12 October 2026. This is a record of delivered artifacts and observed checks. It is not a declaration that the [research programme](../docs/research-roadmap.md) is complete.
 
 | Backlog task | Delivered in this release | Remaining completion boundary |
 | --- | --- | --- |
-| GX-R01, evidence and evaluation records | Claim contract and validator; exact runtime snapshots; raw prompt/response records; baseline and candidate executions | Exact provider model/sampling details unavailable; no independent adjudication or deterministic replay promise |
+| GX-R01, evidence and evaluation records | Claim contract and validator; exact runtime snapshots; raw prompt/response records; baseline and candidate executions | Condition-blinded agent assessment added; exact provider model/sampling details unavailable, no independent human adjudication or deterministic replay promise |
 | GX-R02, ICO and Greenhouse refresh | Distinct ICO 2024/2026 records; verified parsing, matching, opt-out and auto-reject documentation | No actual employer configuration or live ATS behaviour tested |
 | GX-R03, support research | Scoped synthesis brief, original-study lead, optional support choices and rejection/pause guidance | Full original intervention methods and human validation of wording remain open |
 | GX-R04, candidate research preparation | Interview questions, consent choices, usability tasks and sampling/analysis plan | No participants recruited; owner, private storage, retention, ethics and operational consent must be settled before launch |
@@ -12,8 +12,10 @@
 | GX-R06, occupation examples | Six fictional fact-ledger transformations spanning office and non-office work | No human reviewer comparison or hiring-effect measurement |
 | GX-R07, ATS matrix | Fourteen scoped product cards, cross-surface troubleshooting, official candidate/admin/API sources | Lever retrieval and Taleo release limits remain; no employer-side environment tested |
 | GX-R08, country cards | Eight separate cards: US, UK, Canada, Australia, New Zealand, Germany, Austria and Switzerland | No comprehensive legal/recognition review; Australian AHRC page retrieval incomplete; further markets pending |
-| GX-R09, scenario expansion | 49 authored cases, reserved designations and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
+| GX-R09, scenario expansion | 59 authored cases, reserved designations, matched version comparisons and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
 | GX-R10, privacy and end-to-end support | Data-flow/threat inventory, opportunity and learning aid, interview/outreach/work-sample patterns | Full threat-case execution, human usability and prospective outcome tracking not performed |
+
+The [October version comparison](../docs/skill-comparison.md) adds 27 planned executions and three focused 0.4.1 checks. It compares output quality and input sensitivity; it does not close the human-usefulness or hiring-effect gates.
 
 ## Workstream coverage
 

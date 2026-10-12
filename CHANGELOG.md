@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1, 12 October 2026
+
+- Publish a predeclared 27-execution comparison: six matched inputs across three historical versions and a no-skill condition, plus three controlled input variants. Preserve exact prompts, runtime snapshots, raw answers and a condition-blinded second assessment.
+- Keep mixed findings visible: strong no-skill answers, specific Workable warning gains, unagreed future tasks in pause notes, and routine verification boilerplate in bounded text.
+- Limit handovers to confirmed information and already-agreed next actions. Omit routine readiness/file-check boilerplate in short text while retaining requested verification and material issues.
+- Run three focused checks for the patch and update the copy-ready repository description. These observations do not establish human confidence or hiring benefit.
+
 ## 0.4.0, 12 October 2026
 
 - Add separate US, UK, Canada, Australia and New Zealand references, preserving DACH support and local jurisdiction boundaries.
