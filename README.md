@@ -10,7 +10,13 @@ GenX Reloaded began after watching 60 Minutes Australia’s report [*How AI is c
 
 **Version 0.4.2, research preview.** Includes guidance for eight target job markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
 
-[Why](#why-this-exists) · [Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md) · [License](LICENSE)
+[Why](#why-this-exists) · [Start here](#quick-start) · [Video](#watch-the-skill-explainer) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md) · [License](LICENSE)
+
+## Watch the skill explainer
+
+[![Watch the GenX Reloaded Skill Explainer](assets/GenX_Reloaded_Video_Explainer.svg)](https://roblemumin.com/library.html?doc=c0Hwoj5RBI8-genx-reloaded-skill-explainer)
+
+*Opens the video in the Roble Mumin Evidence Library.*
 
 ## Listen to the podcast
 

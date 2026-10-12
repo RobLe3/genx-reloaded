@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
+  <title id="title">Watch the GenX Reloaded Skill Explainer</title>
+  <desc id="description">A GenX Reloaded video explainer card. Click anywhere on the card to open the video in the Roble Mumin Evidence Library.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="0.55" stop-color="#f7f0df"/>
+      <stop offset="1" stop-color="#efe3ca"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173a22"/>
+      <stop offset="1" stop-color="#0d2918"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffce3a"/>
+      <stop offset="1" stop-color="#febd08"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#173a22" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="17" flood-color="#173a22" flood-opacity="0.18"/>
+    </filter>
+    <filter id="buttonShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#06150c" flood-opacity="0.32"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="28" y="28" width="1144" height="324" rx="28"/></clipPath>
+  </defs>
+
+  <a xlink:href="https://roblemumin.com/library.html?doc=c0Hwoj5RBI8-genx-reloaded-skill-explainer" href="https://roblemumin.com/library.html?doc=c0Hwoj5RBI8-genx-reloaded-skill-explainer" target="_blank" aria-label="Watch the GenX Reloaded Skill Explainer">
+    <rect width="1200" height="380" rx="34" fill="url(#paper)"/>
+    <rect width="1200" height="380" rx="34" fill="url(#grid)"/>
+
+    <g filter="url(#shadow)">
+      <rect x="28" y="28" width="1144" height="324" rx="28" fill="url(#panel)"/>
+    </g>
+
+    <g clip-path="url(#cardClip)">
+      <circle cx="1088" cy="-12" r="205" fill="#2d6a4f" fill-opacity="0.27"/>
+      <circle cx="1135" cy="367" r="145" fill="#ff928c" fill-opacity="0.10"/>
+      <path d="M28 311C250 270 405 378 619 326C821 277 955 257 1172 300V352H28Z" fill="#fffaf0" fill-opacity="0.035"/>
+    </g>
+
+    <!-- Project mark -->
+    <g transform="translate(68 68)">
+      <rect width="58" height="58" rx="17" fill="#fffaf0"/>
+      <g transform="translate(10 10) scale(1.58)">
+        <path d="M19.58 4.39C18.05 2.87 15.68 2.89 14.18 4.39L5.27 13.33C4.26 14.34 3.85 14.92 3.6 16.26L3.07 19.56C2.89 20.47 3.51 21.09 4.44 20.93L7.75 20.39C9.07 20.18 9.65 19.76 10.66 18.75L19.58 9.83C21.1 8.31 21.12 5.94 19.58 4.41Z" fill="#febd08"/>
+        <path d="M19.58 9.82C21.1 8.3 21.12 5.93 19.58 4.4C18.05 2.88 15.68 2.9 14.18 4.4L13.77 4.81L19.18 10.22Z" fill="#ff928c"/>
+        <path d="M13.77 4.81L12.36 6.23L17.76 11.64L19.18 10.22Z" fill="#d9d9d9"/>
+        <path d="M4.6 14.05C4.06 14.69 3.79 15.27 3.6 16.26L3.51 16.81L7.18 20.48L7.75 20.39C8.74 20.23 9.31 19.96 9.95 19.41Z" fill="#ffddbc"/>
+        <path d="M3.51 16.81L3.07 19.56C2.89 20.47 3.51 21.09 4.44 20.93L7.18 20.48Z" fill="#4d4d4d"/>
+      </g>
+    </g>
+
+    <text x="146" y="86" fill="#f5d47a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.7">GENX RELOADED · VIDEO EXPLAINER</text>
+    <text x="146" y="119" fill="#fffaf0" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700">Your experience still counts. Make it visible.</text>
+
+    <!-- Video preview -->
+    <g transform="translate(68 164)" filter="url(#buttonShadow)">
+      <rect width="130" height="98" rx="18" fill="#fffaf0"/>
+      <rect x="8" y="8" width="114" height="72" rx="12" fill="#2d6a4f"/>
+      <circle cx="65" cy="44" r="25" fill="url(#play)"/>
+      <path d="M59 31L80 44L59 57Z" fill="#173a22"/>
+      <rect x="43" y="86" width="44" height="5" rx="2.5" fill="#f5d47a"/>
+    </g>
+
+    <!-- Explainer copy -->
+    <text x="225" y="177" fill="#ff928c" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.3">WATCH THE EXPLAINER</text>
+    <text x="225" y="220" fill="#fffaf0" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-weight="700">GenX Reloaded Skill Explainer</text>
+    <text x="225" y="255" fill="#fffaf0" fill-opacity="0.78" font-family="Arial, Helvetica, sans-serif" font-size="18">Turn historical knowledge into clear, truthful, ATS-aware application language.</text>
+
+    <!-- Three-step visual -->
+    <g transform="translate(225 283)" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">
+      <rect width="154" height="37" rx="11" fill="#fffaf0" fill-opacity="0.10" stroke="#fffaf0" stroke-opacity="0.20"/>
+      <text x="77" y="24" text-anchor="middle" fill="#fffaf0">FIND EVIDENCE</text>
+      <path d="M166 18H190M184 12L190 18L184 24" fill="none" stroke="#f5d47a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="202" width="184" height="37" rx="11" fill="#fffaf0" fill-opacity="0.10" stroke="#fffaf0" stroke-opacity="0.20"/>
+      <text x="294" y="24" text-anchor="middle" fill="#fffaf0">TRANSLATE HONESTLY</text>
+      <path d="M398 18H422M416 12L422 18L416 24" fill="none" stroke="#f5d47a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="434" width="190" height="37" rx="11" fill="#fffaf0" fill-opacity="0.10" stroke="#fffaf0" stroke-opacity="0.20"/>
+      <text x="529" y="24" text-anchor="middle" fill="#fffaf0">CHECK THE APPLICATION</text>
+    </g>
+
+    <!-- Action -->
+    <g transform="translate(970 169)">
+      <rect width="150" height="94" rx="18" fill="#fffaf0"/>
+      <text x="75" y="39" text-anchor="middle" fill="#173a22" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.3">CLICK TO</text>
+      <text x="75" y="67" text-anchor="middle" fill="#173a22" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700">watch ↗</text>
+    </g>
+
+    <text x="970" y="305" fill="#fffaf0" fill-opacity="0.6" font-family="Arial, Helvetica, sans-serif" font-size="13">Opens the video explainer</text>
+  </a>
+</svg>

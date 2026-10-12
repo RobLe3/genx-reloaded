@@ -1,5 +1,10 @@
 # Changelog
 
+## Documentation update, 13 October 2026: video explainer
+
+- Add a dedicated, self-contained video explainer card above the podcast player in the README.
+- Link the full card to the GenX Reloaded Skill Explainer in the Roble Mumin Evidence Library.
+
 ## Documentation update, 13 October 2026: README state audit
 
 - Reconcile the README with version 0.4.2, its eight market cards, fourteen ATS cards and the current 52-test repository suite.
