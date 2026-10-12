@@ -6,7 +6,7 @@ ATS-aware CV and career support for people with a long career and plenty left to
 
 **Version 0.2.0, research preview.** Usable skill and offline document checker, with synthetic tests and documented agent trials. Hiring effectiveness and human usability have not been established.
 
-[Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Changes](CHANGELOG.md)
+[Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
 ## What it feels like
 
@@ -141,6 +141,8 @@ The skill does not fabricate qualifications, disguise dates, insert hidden keywo
 ## Contribute and improve
 
 Bring a concrete failure, a synthetic reproduction, or a well-scoped primary source. Preserve mixed findings and failed trials. Change the smallest relevant part, repeat the affected check, and stop when additional polishing has little information value. See [CONTRIBUTING.md](CONTRIBUTING.md) and [quality process](docs/quality-process.md).
+
+The [research roadmap](docs/research-roadmap.md) sets out twelve workstreams, evidence standards, candidate studies, accessibility priorities, and a staged implementation backlog. It is a plan for future investigation, with verified starting points and explicit completion gates. A copy-ready GitHub description is available in [repository-description.txt](docs/repository-description.txt).
 
 The documentation approach draws on the inspectable validation and bounded claims in [cc-blender-skill](https://github.com/RobLe3/cc-blender-skill) and [YNM](https://github.com/RobLe3/ynm-skill). Neither project is a runtime dependency, and their evaluation results do not transfer to this skill.
 
