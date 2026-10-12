@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0, 12 October 2026, research preview
+
+- Added optional low-effort, pause/resume, opportunity, learning, interview and outreach routes, with private-history and host-capability guidance.
+- Added separate, narrowly sourced Germany, Austria and Switzerland application cards.
+- Refreshed ICO 2024/2026 and Greenhouse mechanism distinctions; added scoped support, accessibility, taxonomy, networking and scam-awareness sources.
+- Added 16 structured claim records, a bounded search log, a bias evidence map, a participant-study kit and a roadmap implementation ledger.
+- Added six fictional occupation translations and a 36-case development/reserved scenario catalogue. Catalogue entries are not claimed as executed tests.
+- Added offline runtime snapshots, immutable prompt/response recording, integrity verification and research-record validation, with synthetic regression tests.
+- Preserved the 0.2.0 validation record. New raw trials, comparisons and limitations are documented in the current validation record.
+
+Human studies, assistive-technology qualification, broader live ATS coverage and hiring-outcome research remain open.
+
 ## 0.2.0, 12 October 2026, research preview
 
 - Renamed the project and skill to GenX Reloaded, invocation `$genx-reloaded`.

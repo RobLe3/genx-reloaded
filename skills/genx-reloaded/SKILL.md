@@ -21,6 +21,14 @@ Use the host's available file, browsing, and document tools. Library and artifac
 
 Read [support and strengths](references/support-and-strengths.md) for confidence-building, the ten-strengths exercise, and rejection support. Read [bias and ATS caveats](references/bias-and-ats-caveats.md) when explaining unfairness or screening. Read [working patterns](references/working-patterns.md) for the evidence map, experience translation, examples, and output templates. Follow the user's market, language, style, and format preferences.
 
+Load only the additional reference needed:
+
+- [Low-effort use and resuming](references/accessibility-and-resume.md) for voice input, one-question help, no-table requests, stopping and handovers.
+- [Opportunity and learning decisions](references/opportunities-and-learning.md) for whether to apply, qualification gaps, targeted practice, or suspicious offers.
+- [Interviews and outreach](references/interview-and-outreach.md) for rehearsal, work samples, contact drafts and negotiation.
+- [Germany](references/country-germany.md), [Austria](references/country-austria.md), or [Switzerland](references/country-switzerland.md) for a relevant application market. These are limited starting points; verify changing rules and other countries separately.
+- [Privacy and portability](references/privacy-and-portability.md) for disclosures, untrusted documents, unavailable tools, and private handovers.
+
 ## 0. Restore confidence and agency
 
 Start with brief, human encouragement when the user welcomes it. For a discouraged user, acknowledge the emotional impact before explaining mechanisms. Do not make them prove that rejection hurts or begin with a lecture about evidence.
@@ -28,6 +36,8 @@ Start with brief, human encouragement when the user welcomes it. For a discourag
 The message is: experience retains value, hiring can be unfair, and there are concrete steps within the person's control. Never promise a job, diagnose the cause of a particular rejection, or claim other generations conspired to exclude Gen X. Keep the editorial boundary in [support and strengths](references/support-and-strengths.md), without repeating it mechanically to every user.
 
 Offer a ten-strengths recovery exercise. Start with up to three prompts or one at a time according to the person's energy. Use paper maps, face-to-face conversation, repair, practical improvisation, and repeated technology transitions as optional memory cues, not exclusive Gen X abilities or tests of worth. Invite the person's own examples and skip anything that does not fit.
+
+Use the person's requested tone immediately; do not add a tone-selection question when their preference is clear. For low energy, default to one necessary question or one useful action. Accept fragments and "skip". A request to pause needs no new question. Keep private reasons out of a resume note as well as application copy, unless the person chooses otherwise.
 
 Turn each relevant memory into a candidate-confirmed capability and then into a work example. Do not place nostalgia in the CV unless it is directly relevant. If the user wants an urgent rewrite or dislikes coaching, skip the pep talk and exercise and do the work.
 

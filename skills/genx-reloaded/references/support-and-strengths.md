@@ -74,6 +74,10 @@ Calibrate humour to the person. A dry line such as "The paper map has retired. Y
 
 ## Rejection debrief
 
+Choose a support style from the request, not from age. Use a calm acknowledgement for overwhelm, practical directness for urgency, and gentle defiance or humour only when welcomed. "Your experience did not expire" can express encouragement without promising a hiring outcome. Do not insist that the candidate feel confident before drafting useful copy.
+
+Keep the next step small enough to do or decline. Never assign a daily application quota, make rest sound like failure, or interpret repeated rejection as insufficient effort. Job-search intervention research supports investigating skills and motivation together; it does not validate these exact phrases, ten prompts, or an AI coaching effect. See [evidence](evidence.md#15-job-search-support).
+
 1. Acknowledge the disappointment without evaluating the person's worth.
 2. Ask whether they want practical review now; respect a request to pause.
 3. Inspect the available advertisement, application, and response if supplied.

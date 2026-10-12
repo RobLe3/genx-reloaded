@@ -4,7 +4,7 @@
 
 ATS-aware CV and career support for people with a long career and plenty left to offer. Recover the strengths you have stopped noticing, translate historical knowledge into present relevance, and produce a focused, truthful application.
 
-**Version 0.2.0, research preview.** Usable skill and offline document checker, with synthetic tests and documented agent trials. Hiring effectiveness and human usability have not been established.
+**Version 0.3.0, research preview.** Adds low-effort and private resume routes, opportunity and interview support, scoped DACH guidance, broader occupation examples, and reproducible evaluation tools. Hiring effectiveness and human usability have not been established.
 
 [Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
@@ -67,6 +67,8 @@ The runtime is the self-contained [skills/genx-reloaded](skills/genx-reloaded/SK
 | "Make a submission file" | Requested document, factual review, visual and extraction checks where tools permit |
 | "Explain ATS and age bias" | Sourced findings, distinct screening mechanisms, and their limits |
 | "Help me through the process" | CV, requested supporting drafts, application review, interview stories and rejection debrief |
+| "I need to stop and continue later" | A short, user-controlled handover that leaves unnecessary private history out |
+| "Should I apply or learn something first?" | A practical requirement and opportunity check, with a bounded next step |
 
 The full [workflow](docs/workflow.md) adapts to the request. It never makes a motivational exercise a prerequisite for practical help.
 
@@ -78,9 +80,11 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Historical-to-current experience translation | Worked examples and CV scenarios | No invented modern tool experience |
 | Accurate handling of conflicting facts | Recorded urgent-rewrite scenario | Finite examples, not universal model reliability |
 | Bilingual application support and private career breaks | German/English scenario, observed defects and focused rerun | Broader languages and markets remain untested |
-| Offline PDF, DOCX, TXT and Markdown preflight | 15 synthetic tests | Local extraction, not live ATS behaviour |
+| Offline PDF, DOCX, TXT and Markdown preflight | 15 synthetic helper tests | Local extraction, not live ATS behaviour |
 | Bias and ATS knowledge | Dated source register with context and limitations | Curated research, not an exhaustive review |
 | Repeatable repository checks | Manifest, links, metadata and Python syntax validator | Structural consistency, not hiring effectiveness |
+| Country-specific starting points | Separate Germany, Austria and Switzerland cards | Narrow sourced guidance, not complete legal or credential-recognition advice |
+| Research and reproducible trials | 16 claim records, 36 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
 
 Read the [validation record](docs/validation.md) for methods, adverse observations, exact scope, and remaining work. Do not infer a measured interview uplift from these checks.
 
@@ -107,6 +111,8 @@ Read the [validation record](docs/validation.md) for methods, adverse observatio
 | [Evidence register](skills/genx-reloaded/references/evidence.md) | Sources, dates, study scope and limitations |
 | [Layout and checks](skills/genx-reloaded/references/layout-and-checks.md) | Document defaults and the offline helper |
 | [Quality and completion](skills/genx-reloaded/references/quality-and-completion.md) | Acceptance criteria, focused repairs and stop conditions |
+| [Low-effort routes](skills/genx-reloaded/references/accessibility-and-resume.md), [opportunities](skills/genx-reloaded/references/opportunities-and-learning.md), [interviews](skills/genx-reloaded/references/interview-and-outreach.md) | Optional support beyond the CV |
+| [Research implementation](research/README.md), [status](research/implementation-status.md) | Source records, study preparation and remaining roadmap gates |
 | [Design](docs/design.md), [examples](examples/README.md), [evaluations](evals/README.md) | Project rationale and inspectable behaviour |
 | [manifest.json](manifest.json) | Runtime inventory and SHA-256 file digests |
 
@@ -127,6 +133,7 @@ It reports extraction and structural concerns. `review_needed` is a completed in
 ```bash
 python -m pip install -r requirements-test.txt
 python scripts/validate_repository.py
+python scripts/validate_research.py
 python -m unittest discover -s tests -v
 ```
 
@@ -143,6 +150,8 @@ The skill does not fabricate qualifications, disguise dates, insert hidden keywo
 Bring a concrete failure, a synthetic reproduction, or a well-scoped primary source. Preserve mixed findings and failed trials. Change the smallest relevant part, repeat the affected check, and stop when additional polishing has little information value. See [CONTRIBUTING.md](CONTRIBUTING.md) and [quality process](docs/quality-process.md).
 
 The [research roadmap](docs/research-roadmap.md) sets out twelve workstreams, evidence standards, candidate studies, accessibility priorities, and a staged implementation backlog. It is a plan for future investigation, with verified starting points and explicit completion gates. A copy-ready GitHub description is available in [repository-description.txt](docs/repository-description.txt).
+
+The [implementation status](research/implementation-status.md) separates additions delivered in 0.3.0 from research that still needs participants, access to employer systems, or further primary methods. See the [six occupation translations](examples/occupation-translations.md) and [evaluation protocol](evals/protocol.md) for concrete starting points.
 
 The documentation approach draws on the inspectable validation and bounded claims in [cc-blender-skill](https://github.com/RobLe3/cc-blender-skill) and [YNM](https://github.com/RobLe3/ynm-skill). Neither project is a runtime dependency, and their evaluation results do not transfer to this skill.
 

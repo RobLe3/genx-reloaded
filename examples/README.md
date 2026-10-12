@@ -13,6 +13,8 @@ All people, employers and candidate facts in these examples are fictional. Do no
 
 ## Complete task examples
 
+See [six occupation translations](occupation-translations.md) for manufacturing, retail, hospitality, community administration, caring-related breaks and creative production. Each has a fictional fact ledger and an explicit boundary.
+
 - [Conflicting records and an urgent rewrite](../evals/prompts/conflicting-records.md), with the [observed response](../evals/results/conflicting-records.md).
 - [German/English career change](../evals/prompts/german-career-change.md), with the [initial response](../evals/results/german-career-change-initial.md) and [focused rerun](../evals/results/german-career-change-rerun.md).
 - [A low-energy start using the person's own strength](../evals/prompts/low-energy-accessibility.md), with the [observed response](../evals/results/low-energy-accessibility.md).

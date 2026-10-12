@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-02",
+  "agent_id": "/root/baseline_pause",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T14:46:43.116780+00:00",
+  "wrapper": "Use the GenX Reloaded skill at /workspace/scratch/32af31dce987/genx-baseline/skills/genx-reloaded/SKILL.md for this request. Read the skill and only its relevant references; do not inspect other repository files. User request: \"I am exhausted and want to stop for today. I use voice input and tables are hard for me. My target is school-office administrator, part-time. You can keep this fact: I coordinated room bookings at a community centre from 2017 to 2023 and made a shared paper diary that volunteers used. No numbers for improvements. Privately, I stopped because of depression and caring for my partner, but I do not want that in any application. Give me a tiny note I can paste next time so I won't have to retell everything. Don't ask me questions now and don't save anything automatically.\" Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/baseline-pause-output.md, then return that answer. Do not modify the skill or contact anyone.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "2909f0a19e94c6250b4be0b63bb065a8b1aab737237cbdd78128ca883bb7142e",
+    "response.md": "fb540629beed1c00fdc0edaff3c5cda7d58d7d29225dc2132be34235dac93157"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

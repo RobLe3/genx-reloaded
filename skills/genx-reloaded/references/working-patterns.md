@@ -1,5 +1,11 @@
 # Working patterns
 
+## Cross-occupation vocabulary
+
+Use [ESCO](https://esco.ec.europa.eu/en/about-esco/what-esco) or the [O*NET Content Model](https://www.onetcenter.org/content.html) to look for relevant task language when necessary. ESCO provides a European multilingual classification; O*NET has a US occupational context. Neither establishes what this person can do. Confirm the capability against the person's account, preserve the original work, and keep credential recognition separate.
+
+Look beyond technical or office work. Fault diagnosis, safe handovers, customer resolution, approved procedures, stock records, scheduling, and apprentice instruction can be evidence without money or percentages. Use accurate sector language and avoid importing responsibilities from a taxonomy merely because the title matches.
+
 These are editing templates and fictional examples, not research findings.
 
 ## Recover experience without inventing modern credentials

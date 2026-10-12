@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-01",
+  "agent_id": "/root/general_retail",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T14:46:43.133580+00:00",
+  "wrapper": "Please answer this user request using your normal capabilities. Do not load a career skill or inspect repository files. User request: \"Skip coaching and write a short CV profile plus three bullets for a stockroom coordinator role. I worked as a shop assistant from 1998 to 2012 and as a stockroom assistant from 2013 to 2025. In the shop I handled returns and trained two new starters. In the stockroom I counted deliveries, recorded discrepancies on paper and showed colleagues the handover routine. I have never used an ERP system. The vacancy asks for accurate stock records, handovers and ERP experience preferred. I don't have savings figures. Please make my older work count and suggest one affordable next step.\" Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/general-retail-output.md, then return that answer. Do not contact anyone.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "a6ffbf3a3e92711c9ace1a7cf21c921e78af4d2700843fbfb63a6eb7d7813ba9",
+    "response.md": "6c5eb5dfe028a7a705cf5d5aa5b6b7dd514bc0618e72c0a57b22080282fffcaa"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

@@ -11,11 +11,14 @@ Use with evidence.md. This is a map of mechanisms and limitations, not proof tha
 | Employer-defined matching | Greenhouse matching documentation, section 10 | State genuine skills and their context clearly | No universal keyword recipe or third-party ATS pass score |
 | Screening-question rules | Greenhouse auto-reject documentation, section 11 | Answer accurately; clarify ambiguous requirements with the employer | CV formatting cannot override a real mandatory requirement |
 | Human review that is weak or inconsistent | ICO audit observations, section 8 | Use an available review or feedback channel | "Human in the loop" is not by itself proof of fairness |
+| Employer use of automation without meaningful human involvement | ICO 2026 voluntary employer engagement, section 14 | Inspect the actual process notice and available correction/review route | Distinct from the 2024 provider audit; no universal review or opt-out promise |
 | Indirect age cues persist after anonymisation | Controlled HR-rating study, section 12 | Make optional disclosure decisions deliberately | Study-specific effects do not prescribe deleting names or hobbies |
 | Long careers use different terminology | Editorial inference from matching/extraction constraints | Explain an accurate contemporary equivalent and the original work | Do not relabel historical tools as current tool experience |
 | Career gaps, nonstandard titles, or adjacent experience are hard to interpret | Case-by-case presentation concern | Explain accurately and map transferable evidence | Do not label every such screening outcome discriminatory |
 
 ## What counts as circumventing a disadvantage
+
+When asked why an application failed, first identify what is actually known. A successful local extraction says nothing about the screening answers; a match category does not by itself establish a rejection decision. Greenhouse documents an optional Talent Matching opt-out configured by the employer, not a switch every applicant can assume exists. Keep that feature's boundary separate from its configurable auto-reject rules. Explain unknown employer settings instead of guessing them.
 
 Use truthful tailoring, clearer structure, better evidence, available human-review routes, referrals, work samples, and accurate clarification of requirements. Never use false dates, fake employment, fabricated credentials, hidden keywords, prompt injection in a CV, multiple identities, or evasion of an employer's access controls.
 

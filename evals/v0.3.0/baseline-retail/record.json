@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-01",
+  "agent_id": "/root/baseline_retail",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T14:46:43.114842+00:00",
+  "wrapper": "Use the GenX Reloaded skill at /workspace/scratch/32af31dce987/genx-baseline/skills/genx-reloaded/SKILL.md for this request. Read the skill and only its relevant references; do not inspect other repository files. User request: \"Skip coaching and write a short CV profile plus three bullets for a stockroom coordinator role. I worked as a shop assistant from 1998 to 2012 and as a stockroom assistant from 2013 to 2025. In the shop I handled returns and trained two new starters. In the stockroom I counted deliveries, recorded discrepancies on paper and showed colleagues the handover routine. I have never used an ERP system. The vacancy asks for accurate stock records, handovers and ERP experience preferred. I don't have savings figures. Please make my older work count and suggest one affordable next step.\" Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/baseline-retail-output.md, then return that answer. Do not modify the skill or contact anyone.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "a6ffbf3a3e92711c9ace1a7cf21c921e78af4d2700843fbfb63a6eb7d7813ba9",
+    "response.md": "2d8bfb5489dd676d996acd43a910409da0b289db32654679b59a861850223071"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

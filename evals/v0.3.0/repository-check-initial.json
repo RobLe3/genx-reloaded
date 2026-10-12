@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "version": "0.3.0",
+  "runtime_files": 18,
+  "local_markdown_links": 122,
+  "python_files": 7,
+  "errors": [
+    "Broken or out-of-repository link: docs/validation.md -> ../evals/v0.3.0/research-check.json"
+  ],
+  "limits": "Structural checks only; no live URL, agent behaviour, visual, ATS or hiring validation."
+}

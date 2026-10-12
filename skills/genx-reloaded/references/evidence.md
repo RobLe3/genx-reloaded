@@ -2,7 +2,7 @@
 
 Research checked on 12 October 2026. These notes support a workflow, not a validated prediction model. Recheck live sources when making current claims. Recommendations beyond a study's tested intervention are practical inferences and should be labelled accordingly.
 
-Contents: 1. Term history; 2. Age and gender in hiring; 3. Writing quality; 4. History compression; 5. Parser limitations; 6. Uncertainty; 7. Automated age exclusion; 8. Recruitment audits; 9. Bias mechanisms; 10. Semantic matching; 11. Application rules; 12. Indirect age cues; 13. Writing and local conventions.
+Contents: 1. Term history; 2. Age and gender in hiring; 3. Writing quality; 4. History compression; 5. Parser limitations; 6. Uncertainty; 7. Automated age exclusion; 8. Recruitment audits; 9. Bias mechanisms; 10. Semantic matching; 11. Application rules; 12. Indirect age cues; 13. Writing and local conventions; 14. Employer engagement in 2026; 15. Job-search support; 16. Accessibility; 17. Occupation vocabulary; 18. Networking context; 19. Opportunity protection; 20. Country scope.
 
 ## 1. Meaning and history of the term
 
@@ -124,3 +124,33 @@ Bundesagentur fuer Arbeit, **Bewerbungsunterlagen: Das gehoert rein**, undated p
 https://www.arbeitsagentur.de/bildung/bewerbung/bewerbungsunterlagen
 
 The German guidance describes a photo as optional while still customary in some industries. It is not a reason to impose photos or US photo conventions on every applicant. Do not transfer school-leaver advice wholesale to a senior career.
+
+## 14. Employer engagement in 2026
+
+ICO, [Recruitment rewired](https://ico.org.uk/about-the-ico/what-we-do/recruitment-rewired/), 2026. Executive summary rechecked 12 October 2026. Voluntary engagement with over 30 employers, March 2025 to January 2026, identified concerns about meaningful human involvement, transparency and fairness monitoring. This was explicitly not an audit or investigation. Keep it separate from section 8 and do not interpret it as a representative estimate of all hiring systems.
+
+## 15. Job-search support
+
+Liu, Huang and Wang, [Effectiveness of job search interventions: a meta-analytic review](https://research.monash.edu/en/publications/effectiveness-of-job-search-interventions-a-meta-analytic-review/), 2014, DOI 10.1037/a0035923. Institutional abstract inspected. It synthesises 47 experimental or quasi-experimental programmes and examines skills and motivational components. Component associations do not isolate the causal effect of a pep talk. Full methods were not retrieved in this release. Neither this skill nor AI coaching was tested.
+
+An original-study lead is Vinokur, Price and Schul, [JOBS II](https://pubmed.ncbi.nlm.nih.gov/7572826/), 1995, DOI 10.1007/BF02506922. Search metadata was available but repeated page retrieval was incomplete. Treat the programme's methods and applicability as pending research. Do not reproduce a clinical intervention or claim its effects for this skill.
+
+## 16. Accessibility
+
+W3C, [Make Each Step Clear](https://www.w3.org/WAI/WCAG2/supplemental/patterns/o1p04-clear-steps/), content first published 29 April 2021; interface January 2022. Page inspected. It motivates visible progress and recoverable choices after interruption. This is supplemental cognitive accessibility guidance, not a conformance assessment of the skill, host, or exported CV. Our one-question and resume-note patterns are adaptations requiring user evaluation.
+
+## 17. Occupation vocabulary
+
+[ESCO overview](https://esco.ec.europa.eu/en/about-esco/what-esco) and [O*NET Content Model](https://www.onetcenter.org/content.html), official overviews checked 12 October 2026. They provide structured occupation/task vocabulary with different geographic contexts. Use as lookup aids, not evidence that a particular candidate has a skill or that qualifications are legally equivalent. No taxonomy dataset is bundled in the skill.
+
+## 18. Networking context
+
+Rajkumar and colleagues, [A Causal Test of the Strength of Weak Ties](https://digitaleconomy.stanford.edu/publication/a-causal-test-of-the-strength-of-weak-ties/), 2022, DOI 10.1126/science.abl4476. Author-affiliated summary inspected. LinkedIn connection-recommendation experiments found context-dependent and nonlinear effects on job transmission. This does not test our outreach drafts, guarantee referrals, or justify mass messaging. Full journal methods remain to be reviewed before stronger recommendations.
+
+## 19. Opportunity protection
+
+[FTC Job Scams](https://consumer.ftc.gov/articles/job-scams), March 2023, checked 12 October 2026. US consumer guidance describes job-fee and fake-cheque schemes. Use it to motivate verification and avoiding transfers to a purported employer. Adapt reporting routes to the actual country. Do not treat employer silence alone as evidence of fraud.
+
+## 20. Country scope
+
+Use the directly linked Germany, Austria and Switzerland cards from SKILL.md. Each gives inspected official sources, limited practical implications and matters requiring a fresh check. Their editorial CV suggestions are not national legal requirements. No complete legal, credential-recognition, or non-DACH coverage is claimed.

@@ -38,6 +38,8 @@ For this preview series, use a patch increment for focused corrections and a min
 
 Run `python scripts/validate_repository.py` and `python -m unittest discover -s tests -v`. Re-run agent scenarios only for a concrete affected behaviour. Preserve adverse results and separate raw prompts from assessor notes. Do not include candidate data or unrelated local files in commits.
 
+For research updates, also run `python scripts/validate_research.py`. Follow the [research record contract](research/record-contract.md) and [evaluation protocol](evals/protocol.md). Keep human-study consent and observations outside Git. Record catalogue cases separately from actual executions and preserve exact tested runtime snapshots.
+
 ## Distribution
 
 The maintainer has not selected a distribution license. Public visibility does not grant an open-source license. Resolve licensing before redistributing the material under new terms or accepting contributions whose terms are incompatible with the maintainer's eventual choice.

@@ -2,6 +2,8 @@
 
 **Status:** proposed programme, not completed research. **Prepared:** 12 October 2026. **Baseline:** version 0.2.0, commit `fe331d402a4bfdd5c296e34e3296ed68a6b68f39`.
 
+**Implementation update:** version 0.3.0 delivers the first repository and runtime additions. See the [task-by-task status](../research/implementation-status.md) for completed artifacts and remaining research gates. The programme below is preserved as the original plan; it is not retroactively labelled complete.
+
 ## Purpose and decisions
 
 Help someone recognise the value of their experience, make a truthful and relevant application, and choose a manageable next step. Gen X is the starting audience and the voice of the project. Age, gender, occupation, educational background, disability, and confidence level must not become eligibility requirements.

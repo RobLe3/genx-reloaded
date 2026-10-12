@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-12",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "dependencies": {
+    "pypdf": "6.10.0",
+    "python-docx": "1.2.0",
+    "reportlab": "4.4.9",
+    "PyYAML": "6.0.3"
+  },
+  "scope": "Local Linux unit checks, no hosted CI claim"
+}

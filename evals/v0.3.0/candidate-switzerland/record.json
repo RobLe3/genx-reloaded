@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-04",
+  "agent_id": "/root/candidate_switzerland",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T14:46:43.125015+00:00",
+  "wrapper": "Use the GenX Reloaded skill at /workspace/scratch/32af31dce987/genx-reloaded/skills/genx-reloaded/SKILL.md for this request. Read the skill and only its relevant references; do not inspect other repository files. User request: \"I am applying to a private company in Switzerland, in English. They want references. My current boss does not know I am applying. Draft a short reply asking them to wait until I approve any contact. Do not contact anyone. Do not include health information. Do I automatically have the same AI opt-out rights as someone in the EU?\" Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/candidate-switzerland-output.md, then return that answer. Do not modify the skill or contact anyone.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "328cc85f20c180ab48883aef76c889dd981264d3911ec6e3cd3ea45001856f8e",
+    "response.md": "712429a72d11fcdf061c68e13397f8a3dbf9c975e1a47afbfa01818ea49bced8"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

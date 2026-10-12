@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-10",
+  "agent_id": "/root/candidate_germany",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T14:46:43.132646+00:00",
+  "wrapper": "Use the GenX Reloaded skill at /workspace/scratch/32af31dce987/genx-reloaded/skills/genx-reloaded/SKILL.md for this request. Read the skill and only its relevant references; do not inspect other repository files. User request: \"Write a short German cover letter paragraph. My CV is English because my work is international; explain that in the paragraph. I hold Fachinformatiker Systemintegration, not a degree, and my German is B2. The role prefers a bachelor degree and C1. Privately I had cancer, but use only career break 2021-2022. Give brief review notes separately.\" Deliver the requested answer. Save your complete answer verbatim to /workspace/scratch/32af31dce987/candidate-germany-output.md, then return that answer. Do not modify the skill or contact anyone.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "b2ea8877a8cd1dd4f9010ccb6580524a4d9723cd045c273732b85749b210a665",
+    "response.md": "dcce4051a8cce755063048ca1a71992204d0d3d14f4c0bb21e9e3d87cc3b9dd4"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

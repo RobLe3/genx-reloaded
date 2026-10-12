@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "baseline_commit": "e1c3dea714722e493e78cba8bb96d2e0074286d1",
+  "runs": [
+    {
+      "id": "baseline-retail",
+      "case_id": "GX-01",
+      "condition": "baseline",
+      "record": "baseline-retail/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea"
+    },
+    {
+      "id": "baseline-pause",
+      "case_id": "GX-02",
+      "condition": "baseline",
+      "record": "baseline-pause/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "72e6f040b2d9a1347f6e616b3485d5a5a0b881af5d865e500e13c670e07608ea"
+    },
+    {
+      "id": "candidate-retail",
+      "case_id": "GX-01",
+      "condition": "candidate",
+      "record": "candidate-retail/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b"
+    },
+    {
+      "id": "candidate-pause",
+      "case_id": "GX-02",
+      "condition": "candidate",
+      "record": "candidate-pause/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b"
+    },
+    {
+      "id": "candidate-switzerland",
+      "case_id": "GX-04",
+      "condition": "candidate",
+      "record": "candidate-switzerland/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b"
+    },
+    {
+      "id": "candidate-opportunity",
+      "case_id": "GX-05",
+      "condition": "candidate",
+      "record": "candidate-opportunity/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b"
+    },
+    {
+      "id": "candidate-germany",
+      "case_id": "GX-10",
+      "condition": "candidate",
+      "record": "candidate-germany/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": "23b116683e5d41d72c807901621b25650a67103c487e0c71edea391dc0e9210b"
+    },
+    {
+      "id": "general-retail",
+      "case_id": "GX-01",
+      "condition": "general",
+      "record": "general-retail/record.json",
+      "assessment": "assessment.md",
+      "runtime_inventory_sha256": null
+    }
+  ],
+  "limits": "Eight single executions, five distinct cases, one host, unknown exact model/sampling; developer assessment, not a statistical superiority result."
+}
