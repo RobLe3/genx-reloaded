@@ -1,5 +1,10 @@
 # Changelog
 
+## Documentation update, 13 October 2026: README state audit
+
+- Reconcile the README with version 0.4.2, its eight market cards, fourteen ATS cards and the current 52-test repository suite.
+- Correct the implementation-status description so it covers delivered work through 0.4.2.
+
 ## Repository update, 13 October 2026: Apache License 2.0
 
 - License the project under Apache License 2.0, with its copyright and patent grants and its notice requirements.

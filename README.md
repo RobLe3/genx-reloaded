@@ -8,7 +8,7 @@ ATS-aware CV and career support for people with a long career and plenty left to
 
 GenX Reloaded began after watching 60 Minutes Australia’s report [*How AI is causing an unemployment crisis among middle aged job seekers*](https://www.youtube.com/watch?v=DA_IhG1ZFl4). The report prompted a practical response: help experienced jobseekers make decades of relevant knowledge visible in modern recruitment while preserving truthful dates, qualifications and contribution.
 
-**Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
+**Version 0.4.2, research preview.** Includes guidance for eight target job markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
 
 [Why](#why-this-exists) · [Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md) · [License](LICENSE)
 
@@ -100,7 +100,7 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Reproducible improvement work | Every meaningful mutation can be compared with released 0.4.2 and a capable general assistant | 77 authored scenarios, immutable runtime snapshots and raw evaluation records |
 | Participant measurement | Coded records preserve blinding, task balance, correction severity and candidate effort while private material stays outside Git | Reviewer calibration, aggregate analysis, pilot-based sample-size simulation and an ephemeral workflow rehearsal |
 
-The repository keeps product guidance, executable checks and measurement records separate. The current release includes the verified local Word-comment correction and the complete automated repository suite.
+The repository keeps product guidance, executable checks and measurement records separate. The current release includes the verified local Word-comment correction. With the dependencies in `requirements-test.txt`, the current automated repository suite passes 52 tests with no skips, including 21 focused on the document preflight helper.
 
 The [candidate correction-effort study](research/correction-effort-study.md) is the next release path. It begins with consenting participants, identifies recurring application work, tests the smallest relevant repair and promotes version 0.5.0 when the candidate produces a clear measured reduction in consequential corrections against both controls. Its coded measurement workflow now includes reviewer calibration, balance checks, blinded-review controls, aggregate analysis, pilot-based sample-size selection and an ephemeral rehearsal.
 
@@ -170,7 +170,7 @@ Bring a concrete use case, a synthetic reproduction, or a well-scoped primary so
 
 The [research roadmap](docs/research-roadmap.md) sets out twelve workstreams, evidence standards, candidate studies, accessibility priorities, and a staged implementation backlog. It is a plan for future investigation, with verified starting points and explicit completion gates. A copy-ready GitHub description is available in [repository-description.txt](docs/repository-description.txt).
 
-The [implementation status](research/implementation-status.md) separates additions delivered through 0.4.0 from research that still needs participants, access to employer systems, or further primary methods. See the [six occupation translations](examples/occupation-translations.md) and [evaluation protocol](evals/protocol.md) for concrete starting points.
+The [implementation status](research/implementation-status.md) separates additions delivered through 0.4.2 from research that still needs participants, access to employer systems, or further primary methods. See the [six occupation translations](examples/occupation-translations.md) and [evaluation protocol](evals/protocol.md) for concrete starting points.
 
 The documentation approach draws on the inspectable validation and bounded claims in [cc-blender-skill](https://github.com/RobLe3/cc-blender-skill) and [YNM](https://github.com/RobLe3/ynm-skill). Neither project is a runtime dependency, and their evaluation results do not transfer to this skill.
 
