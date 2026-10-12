@@ -49,4 +49,6 @@ For the correction-effort programme, run ten discovery interviews, a twelve-part
 
 Use coded observation rows: task, observation, participant's optional explanation, severity, design hypothesis, contrary example, proposed change. Separate observation from interpretation. Publish aggregate themes and synthetic reproductions only. Track disagreements and no-change findings. Record any researcher assistance that affected task completion.
 
+For the quantitative phases, use the [coded data contract](correction-effort-data-contract.md). Keep the condition key separate until two blinded reviews and adjudication are complete. Run the offline validator before analysis and store its aggregate output with the private study record.
+
 The completion gate is a documented set of actual observations supporting prioritised changes. The correction-effort protocol defines when those observations justify a runtime candidate and how that candidate will be measured.

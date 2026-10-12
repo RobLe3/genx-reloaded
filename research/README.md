@@ -14,6 +14,7 @@ This release implements the desk-research and repository preparation portions of
 - [Bias evidence map](bias-evidence-map.md): evidence types, intersections and missing coverage.
 - [Candidate study kit](candidate-study-kit.md): research preparation, not an active recruitment programme.
 - [Correction-effort study](correction-effort-study.md): predeclared participant phases, measures and release gate for a future 0.5.0 candidate.
+- [Correction-effort data contract](correction-effort-data-contract.md): coded private records, blinded review controls, aggregate analysis and pilot-based power simulation.
 - [Portability and privacy](portability-and-privacy.md): data flows, threat cases and untested environments.
 - [Implementation status](implementation-status.md): every roadmap task and its remaining gate.
 

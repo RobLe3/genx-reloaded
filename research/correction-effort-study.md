@@ -20,6 +20,21 @@ python scripts/validate_study_operations.py private/correction-effort/operations
 
 The record uses schema version 1 and study ID `correction-effort-v1`. Required operational fields are `study_owner`, `encrypted_storage_location`, `access_list`, `contact_route`, `recruitment_source`, `withdrawal_contact`, `compensation_method`, `ethics_review_status`, `ethics_review_basis`, `privacy_review_status`, `privacy_review_basis`, `deletion_tested_on`, and `invitation_approved`.
 
+## Coded measurement workflow
+
+The [data contract](correction-effort-data-contract.md) defines the private coded records for the baseline, candidate pilot and confirmatory comparison. It excludes direct identifiers and source-document text. Condition keys stay separate until two blinded reviews and any adjudication are complete.
+
+Use the offline measurement tool to validate records, produce aggregate results and select the confirmatory sample size from pilot observations:
+
+```bash
+python scripts/correction_effort.py validate private/correction-effort/baseline.json
+python scripts/correction_effort.py analyse private/correction-effort/baseline.json
+python scripts/correction_effort.py power private/correction-effort/pilot.json \
+  --iterations 5000 --seed 20261012
+```
+
+The confirmatory calculation uses participant-paired candidate-minus-control differences, Holm-adjusted one-sided tests and simultaneous one-sided 95% upper bounds. The power simulation resamples complete participant blocks so the observed task assignments and within-participant relationship remain together. A quantitative-methods review is required before confirmatory recruitment, while changes can still be recorded before data collection.
+
 ## Phase 1: discovery
 
 Recruit ten participants for approximately 30 minutes each. Seek variety in occupation, market, qualification route and access needs without requiring sensitive disclosures. Pay €25 or the local equivalent.

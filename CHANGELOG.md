@@ -5,7 +5,8 @@
 - Reframe the README around practical capabilities, current verification and the participant measurement path.
 - Add a machine-readable correction-effort protocol covering discovery, baseline, candidate pilot and confirmatory comparison.
 - Fix the mutation trigger, privacy defaults, participant targets and quantitative 0.5.0 release gate before recruitment.
-- Extend research validation and tests to protect the approved protocol. Runtime version 0.4.2 remains unchanged while participant recruitment is prepared.
+- Add a coded participant-data contract and offline tool for phase validation, aggregate outcomes, paired comparisons, release gates and pilot-based sample-size simulation.
+- Extend research validation and tests to protect the approved protocol and analysis defaults. Runtime version 0.4.2 remains unchanged while participant recruitment is prepared.
 
 ## Research update, 12 October 2026: evidence reconciliation
 

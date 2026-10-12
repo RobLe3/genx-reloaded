@@ -58,6 +58,16 @@
     "familywise_alpha": 0.05,
     "sample_size_method": "Simulation using pilot control rate, correction-count variance, task-family effects and within-participant correlation."
   },
+  "analysis": {
+    "record_schema_version": 1,
+    "contrast_estimand": "Participant-paired mean of candidate minus control consequential correction counts.",
+    "one_sided_test": "Normal approximation on participant-paired differences.",
+    "multiplicity": "Holm adjustment across the two candidate comparisons.",
+    "simultaneous_interval": "Bonferroni-adjusted one-sided 95% upper bounds.",
+    "power_simulation": "Empirical participant-block resampling of candidate-pilot contrasts.",
+    "simulation_iterations": 5000,
+    "simulation_seed": 20261012
+  },
   "primary_outcome": {
     "name": "consequential-correction-actions",
     "unit": "distinct candidate actions required before truthful submission per task",

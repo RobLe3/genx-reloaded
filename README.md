@@ -88,10 +88,11 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Market and application routing | Eight country cards distinguish commercial, academic and public-service requirements | Dated primary-source records and market-specific scenarios |
 | ATS troubleshooting | Fourteen product cards route upload, autofill, screening and correction issues by documented surface | [Product coverage map](research/ats-coverage.md) and current source records |
 | Reproducible improvement work | Every meaningful mutation can be compared with released 0.4.2 and a capable general assistant | 77 authored scenarios, immutable runtime snapshots and raw evaluation records |
+| Participant measurement | Coded records preserve blinding, task balance, correction severity and candidate effort while private material stays outside Git | Tested aggregate analysis and pilot-based sample-size simulation |
 
 The repository keeps product guidance, executable checks and measurement records separate. The current release includes the verified local Word-comment correction and the complete automated repository suite.
 
-The [candidate correction-effort study](research/correction-effort-study.md) is the next release path. It begins with consenting participants, identifies recurring application work, tests the smallest relevant repair and promotes version 0.5.0 only when the candidate produces a clear measured reduction in consequential corrections against both controls.
+The [candidate correction-effort study](research/correction-effort-study.md) is the next release path. It begins with consenting participants, identifies recurring application work, tests the smallest relevant repair and promotes version 0.5.0 when the candidate produces a clear measured reduction in consequential corrections against both controls. Its coded measurement workflow now includes balance checks, blinded-review controls, aggregate analysis and pilot-based sample-size selection.
 
 Detailed methods, comparison records and result histories remain available in the [validation record](docs/validation.md), [evaluation archive](evals/README.md) and [research implementation status](research/implementation-status.md).
 

@@ -62,6 +62,15 @@ class ResearchRecordTests(unittest.TestCase):
         self.assertTrue(any("compensation" in error for error in errors))
         self.assertTrue(any("regression" in error for error in errors))
 
+    def test_correction_effort_analysis_method_is_fixed(self):
+        self.study["analysis"]["multiplicity"] = "unadjusted"
+        self.study["analysis"]["simulation_iterations"] = 10
+        self.study["analysis"]["contrast_estimand"] = "unpaired mean"
+        errors = MODULE.validate_study(self.study)
+        self.assertTrue(any("multiplicity" in error for error in errors))
+        self.assertTrue(any("simulation defaults" in error for error in errors))
+        self.assertTrue(any("estimand" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()

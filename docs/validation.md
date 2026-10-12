@@ -28,9 +28,13 @@ The protocol required a recurring consequential defect before a runtime mutation
 
 The [candidate correction-effort study](../research/correction-effort-study.md) now fixes the discovery, baseline, pilot and confirmatory phases for the next runtime candidate. Its machine-readable protocol sets participant targets, privacy and retention defaults, the human-observation mutation trigger, correction-effort outcome and quantitative 0.5.0 release gate.
 
-`validate_research.py` checks those approved protocol values with focused unit tests. A separate offline validator checks the private launch record without printing its contents. Recruitment still requires the maintainer to supply the actual owner, encrypted storage, access list, contact and recruitment routes, withdrawal contact, compensation method, invitation approval and applicable ethics/privacy review outside Git.
+`validate_research.py` checks those approved protocol values with focused unit tests. A separate offline validator checks the private launch record without printing its contents. The new `correction_effort.py` tool validates coded baseline, pilot and confirmatory records, checks blinding and assignment controls, reports aggregate outcomes and resamples complete pilot participant blocks for sample-size selection. Its validation errors use array positions rather than private identifiers.
 
-The current repository suite passes 40 tests without skips, including the protocol and private launch-record validation cases. These research checks prepare measurement; they do not count as participant observations.
+The frozen calculation uses participant-paired differences, Holm-adjusted one-sided tests and simultaneous one-sided 95% upper bounds. Synthetic tests cover a passing comparison, critical and time gates, malformed review records, repeated packets, phase-specific samples, power simulation and identifier-safe errors. A quantitative-methods review remains a launch requirement for the confirmatory phase.
+
+Recruitment still requires the maintainer to supply the actual owner, encrypted storage, access list, contact and recruitment routes, withdrawal contact, compensation method, invitation approval and applicable ethics/privacy review outside Git.
+
+The current repository suite passes 48 tests without skips in the pinned test environment, including the protocol, private launch-record and coded measurement cases. These research checks prepare measurement; they do not count as participant observations.
 
 ## Historical records and remaining limits
 

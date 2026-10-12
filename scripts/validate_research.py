@@ -16,8 +16,12 @@ STUDY_PHASES = {"discovery", "baseline", "candidate-pilot", "confirmatory"}
 STUDY_CONDITIONS = ["none", "released-0.4.2", "candidate"]
 STUDY_FIELDS = {
     "schema_version", "study_id", "status", "prepared_on", "runtime_baseline_version",
-    "objective", "conditions", "mutation_trigger", "phases", "design",
+    "objective", "conditions", "mutation_trigger", "phases", "design", "analysis",
     "primary_outcome", "secondary_outcomes", "release_gate", "privacy",
+}
+STUDY_ANALYSIS_FIELDS = {
+    "record_schema_version", "contrast_estimand", "one_sided_test", "multiplicity",
+    "simultaneous_interval", "power_simulation", "simulation_iterations", "simulation_seed",
 }
 
 
@@ -157,6 +161,24 @@ def validate_study(study):
             errors.append(f"Required study control disabled: {key}")
     if design.get("confirmatory_assignment") != "balanced-incomplete-block" or design.get("same_packet_repeated_for_participant") is not False or design.get("reviewers_per_output") != 2:
         errors.append("Confirmatory assignment, packet reuse or reviewer count changed.")
+
+    analysis = study.get("analysis", {})
+    if not isinstance(analysis, dict) or set(analysis) != STUDY_ANALYSIS_FIELDS:
+        errors.append("Correction-effort analysis fields differ from the approved protocol.")
+    if analysis.get("record_schema_version") != 1:
+        errors.append("Correction-effort data contract version changed.")
+    if analysis.get("contrast_estimand") != "Participant-paired mean of candidate minus control consequential correction counts.":
+        errors.append("Correction-effort contrast estimand changed.")
+    if analysis.get("one_sided_test") != "Normal approximation on participant-paired differences.":
+        errors.append("Correction-effort test method changed.")
+    if analysis.get("multiplicity") != "Holm adjustment across the two candidate comparisons.":
+        errors.append("Correction-effort multiplicity method changed.")
+    if analysis.get("simultaneous_interval") != "Bonferroni-adjusted one-sided 95% upper bounds.":
+        errors.append("Correction-effort simultaneous interval changed.")
+    if analysis.get("power_simulation") != "Empirical participant-block resampling of candidate-pilot contrasts.":
+        errors.append("Correction-effort power method changed.")
+    if analysis.get("simulation_iterations") != 5000 or analysis.get("simulation_seed") != 20261012:
+        errors.append("Correction-effort simulation defaults changed.")
 
     primary = study.get("primary_outcome", {})
     if primary.get("name") != "consequential-correction-actions" or primary.get("minimum_mean_reduction") != 0.5 or primary.get("confidence_level") != 0.95:
