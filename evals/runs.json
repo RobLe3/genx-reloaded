@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-12",
+  "scope": "qualitative fictional task trials",
+  "executor": "Fresh agent contexts using the host default inherited model; exact model identifier and sampling settings were not captured.",
+  "assessment": "Developer qualitative review, not independent adjudication or a statistical benchmark.",
+  "runs": [
+    {
+      "id": "conflicting-records",
+      "prompt": "prompts/conflicting-records.md",
+      "response": "results/conflicting-records.md",
+      "result": "No material factual or task-completion defect observed in the requested text response.",
+      "prompt_sha256": "3b3a6d8317d1d462faac94f5931e60aa936181ce7b057ab796d873b9f6b75b22",
+      "response_sha256": "90924ebaec028846caf6674754d3961c0acc303af207d8865737d7c0a0d1287e"
+    },
+    {
+      "id": "low-energy-accessibility",
+      "prompt": "prompts/low-energy-accessibility.md",
+      "response": "results/low-energy-accessibility.md",
+      "result": "One fitting question; no pressure, disability narrative or motive endorsement observed.",
+      "prompt_sha256": "fbaa7eda7c502b59b3dfb276d490fe50d1f81ec59694c37100be33c017a02c1b",
+      "response_sha256": "3e6c58015d8e223f109f05cdb4582b2b5d4f75fbcfc7f2eb2c5ffdcc376f6aed"
+    },
+    {
+      "id": "german-career-change-initial",
+      "prompt": "prompts/german-career-change.md",
+      "response": "results/german-career-change-initial.md",
+      "result": "Two usability defects observed: language explanation outside the letter and file checks called pending for text-only work.",
+      "prompt_sha256": "6fcf3953ceb0005a743eb609438581e6a8062487561813796d0c24f622f78999",
+      "response_sha256": "854e91ac3ab3462b48249331c1ece07bf84e297526353ea92244b5bcb4a88b0b"
+    },
+    {
+      "id": "german-career-change-rerun",
+      "prompt": "prompts/german-career-change.md",
+      "response": "results/german-career-change-rerun.md",
+      "result": "Both targeted defects corrected; factual and disclosure boundaries retained.",
+      "prompt_sha256": "6fcf3953ceb0005a743eb609438581e6a8062487561813796d0c24f622f78999",
+      "response_sha256": "b8f1bb8d70a9190fc8ee314678c5a8e0d585a7b96a7ea3963ccc73725fc89883"
+    }
+  ],
+  "snapshot_note": "The first three trials used the development runtime before the two documented instruction corrections. Their exact snapshots were not archived. The rerun used the final behavioural instructions; UI metadata was subsequently regenerated without changing those instructions.",
+  "published_runtime_inventory_digest": "2f4941f8bb0bf3cf0e398310cf9d39517af91df72dbbd1c9aa333f2650715a4c",
+  "digest_definition": "SHA-256 of manifest.files encoded as UTF-8 JSON with sorted keys and comma/colon separators.",
+  "limits": [
+    "No real candidate data or live applications",
+    "No human usability study",
+    "No live employer ATS comparison",
+    "No frozen statistical benchmark or measured activation coverage"
+  ]
+}

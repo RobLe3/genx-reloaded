@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "os": "Linux",
+  "dependencies": {
+    "pypdf": "6.10.0",
+    "python-docx": "1.2.0",
+    "reportlab": "4.4.9",
+    "PyYAML": "6.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "version": "0.2.0",
+  "runtime_files": 11,
+  "local_markdown_links": 54,
+  "python_files": 3,
+  "errors": [],
+  "limits": "Structural checks only; no live URL, agent behaviour, visual, ATS or hiring validation."
+}

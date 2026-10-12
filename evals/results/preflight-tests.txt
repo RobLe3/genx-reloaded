@@ -1,0 +1,20 @@
+test_directory_is_an_inspection_failure (test_preflight.PreflightTests.test_directory_is_an_inspection_failure) ... ok
+test_docx_flags_header_tables_hidden_and_tracked_changes (test_preflight.PreflightTests.test_docx_flags_header_tables_hidden_and_tracked_changes) ... ok
+test_explicit_column_definitions_are_reported (test_preflight.PreflightTests.test_explicit_column_definitions_are_reported) ... ok
+test_hard_link_cannot_overwrite_source (test_preflight.PreflightTests.test_hard_link_cannot_overwrite_source) ... ok
+test_hidden_and_deleted_text_cannot_satisfy_expected_text (test_preflight.PreflightTests.test_hidden_and_deleted_text_cannot_satisfy_expected_text) ... ok
+test_json_and_text_outputs (test_preflight.PreflightTests.test_json_and_text_outputs) ... ok
+test_malformed_file_is_not_a_pass (test_preflight.PreflightTests.test_malformed_file_is_not_a_pass) ... ok
+test_missing_phrase_is_a_review_observation (test_preflight.PreflightTests.test_missing_phrase_is_a_review_observation) ... ok
+test_output_aliases_are_rejected_before_writing (test_preflight.PreflightTests.test_output_aliases_are_rejected_before_writing) ... ok
+test_output_cannot_replace_source (test_preflight.PreflightTests.test_output_cannot_replace_source) ... ok
+test_pdf_sparse_page_and_required_text (test_preflight.PreflightTests.test_pdf_sparse_page_and_required_text) ... ok
+test_phrase_does_not_match_inside_another_word (test_preflight.PreflightTests.test_phrase_does_not_match_inside_another_word) ... ok
+test_style_hidden_setting_requires_review (test_preflight.PreflightTests.test_style_hidden_setting_requires_review) ... ok
+test_text_expected_phrases_and_source_preservation (test_preflight.PreflightTests.test_text_expected_phrases_and_source_preservation) ... ok
+test_whitespace_requirement_is_rejected (test_preflight.PreflightTests.test_whitespace_requirement_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.904s
+
+OK

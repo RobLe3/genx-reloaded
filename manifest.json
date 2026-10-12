@@ -1,0 +1,52 @@
+{
+  "name": "genx-reloaded",
+  "version": "0.2.0",
+  "runtime_root": "skills/genx-reloaded",
+  "repository": "https://github.com/RobLe3/genx-reloaded",
+  "files": [
+    {
+      "path": "skills/genx-reloaded/SKILL.md",
+      "sha256": "1a975f67e87f5588bf4282a80be6d470d5a124dc3784f0b84c58392187839f8c"
+    },
+    {
+      "path": "skills/genx-reloaded/agents/openai.yaml",
+      "sha256": "d9ab19420c793e113ac4e7f4444d29ba342fc0e40891289d53021e0d85481434"
+    },
+    {
+      "path": "skills/genx-reloaded/assets/icon.svg",
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
+    },
+    {
+      "path": "skills/genx-reloaded/references/application-decisions.md",
+      "sha256": "2320119216099d259a8f741055137b70853e91fdc9483e1f5bc23be5688971a4"
+    },
+    {
+      "path": "skills/genx-reloaded/references/bias-and-ats-caveats.md",
+      "sha256": "8aada33c2c9910586c99dc214262a4e164f9a8aa8d21805f100ca6e8856b805a"
+    },
+    {
+      "path": "skills/genx-reloaded/references/evidence.md",
+      "sha256": "1fe5b6d65a8f1fbe4acaca0bb6894d2925de938d6b7d8603b2a11594725553a4"
+    },
+    {
+      "path": "skills/genx-reloaded/references/layout-and-checks.md",
+      "sha256": "451c9197005091fde8deac9308cff676f360356e38648a54ea8a1b0157f9a04c"
+    },
+    {
+      "path": "skills/genx-reloaded/references/quality-and-completion.md",
+      "sha256": "bbe0ad42b2eef66d0071e42a62c7ee04e82eefc284dc99450f3eb41dc1c9b13e"
+    },
+    {
+      "path": "skills/genx-reloaded/references/support-and-strengths.md",
+      "sha256": "cae200e78a9bffaa1c20d554664ebaa1339fe3f75fcaa14619eaf2f65a92f62e"
+    },
+    {
+      "path": "skills/genx-reloaded/references/working-patterns.md",
+      "sha256": "93ea4a269132cfa6af4916c4efd59f65081282b61a9b932575efb8238da0ad4b"
+    },
+    {
+      "path": "skills/genx-reloaded/scripts/cv_preflight.py",
+      "sha256": "ce24f1481a6d49f46866ab605df2ef3d895d9acd96b4093bdee651479a7ffa54"
+    }
+  ]
+}

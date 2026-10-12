@@ -1,0 +1,14 @@
+interface:
+  display_name: "GenX Reloaded"
+  short_description: "Turn deep career experience into a focused modern CV"
+  default_prompt: "Use $genx-reloaded to help me recover my strengths and turn my\
+    \ career history into a focused, truthful CV for this role."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
