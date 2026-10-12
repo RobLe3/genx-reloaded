@@ -6,7 +6,13 @@ ATS-aware CV and career support for people with a long career and plenty left to
 
 **Version 0.4.2, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. The current release includes an offline Word check for retained reviewer comments, including resolved threads. The next measurement phase focuses on candidate correction effort, completion time and control over the finished application, using consenting participants and a predeclared comparison with both released 0.4.2 and a capable general assistant.
 
-[Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
+[Start here](#quick-start) · [Podcast](#listen-to-the-podcast) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Correction-effort study](research/correction-effort-study.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
+
+## Listen to the podcast
+
+[![Listen to How GenX Reloaded Outsmarts ATS Filters](assets/GenX_Reloaded_Podcast_Player.svg)](https://roblemumin.com/api/documents/57/audio)
+
+*About 21 minutes · Opens in your browser’s audio player.*
 
 ## What it feels like
 

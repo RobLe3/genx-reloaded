@@ -1,5 +1,9 @@
 # Changelog
 
+## Documentation update, 13 October 2026: podcast player
+
+- Add a responsive, self-contained podcast card to the README. The full card links directly to the public audio episode and opens in the listener's browser.
+
 ## Research update, 13 October 2026: reviewer calibration and rehearsal
 
 - Add a reviewer handbook and machine-checked calibration gate for correction counting, severity and high-impact agreement.
