@@ -40,6 +40,8 @@ Run `python scripts/validate_repository.py` and `python -m unittest discover -s 
 
 For research updates, also run `python scripts/validate_research.py`. Follow the [research record contract](research/record-contract.md) and [evaluation protocol](evals/protocol.md). Keep human-study consent and observations outside Git. Record catalogue cases separately from actual executions and preserve exact tested runtime snapshots.
 
+The [correction-effort study](research/correction-effort-study.md) fixes the participant sequence and release thresholds for the next runtime candidate. Before recruitment, create the private operations record and validate it with `python scripts/validate_study_operations.py private/correction-effort/operations.json`. Never commit that record, participant contacts, consent records, session notes, recordings or real application documents.
+
 ## Distribution
 
 The maintainer has not selected a distribution license. Public visibility does not grant an open-source license. Resolve licensing before redistributing the material under new terms or accepting contributions whose terms are incompatible with the maintainer's eventual choice.

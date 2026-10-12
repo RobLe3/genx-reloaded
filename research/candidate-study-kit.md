@@ -1,6 +1,6 @@
 # Candidate discovery and usability kit
 
-**Prepared, not launched.** No participants have been recruited, interviewed or recorded for this release. Before inviting anyone, a study owner must confirm a private storage location, access list, contact route, actual retention period, withdrawal process, compensation arrangements and applicable ethics/privacy requirements. Do not publish a consent form with these operational decisions unresolved.
+**Prepared, not launched.** No participants have been recruited, interviewed or recorded for this release. The [correction-effort study](correction-effort-study.md) now fixes the participant targets, compensation, retention periods, measures and release gate. Before inviting anyone, the study owner must complete the private operations record with the actual encrypted storage location, access list, contact route, recruitment source, withdrawal contact, compensation method and applicable ethics/privacy review.
 
 ## Invitation draft for later approval
 
@@ -45,8 +45,8 @@ Observe time, corrections, help requested, skipped steps and abandonment. Do not
 
 ## Sampling and analysis
 
-Begin with roughly 8 to 12 discovery interviews and iterative rounds of about 5 to 8 usability participants if resources permit. These ranges support exploration, not representativeness or subgroup inference. Seek occupational, language and access diversity without requiring sensitive disclosures. Record recruitment channel and who is missing.
+For the correction-effort programme, run ten discovery interviews, a twelve-participant released baseline and a six-to-eight-participant candidate pilot. Set the later confirmatory sample by the frozen simulation rule, with 36 to 120 completers. These early phases support discovery and intervention design rather than subgroup prevalence estimates. Seek occupational, language and access diversity without requiring sensitive disclosures. Record recruitment channel and who is missing.
 
 Use coded observation rows: task, observation, participant's optional explanation, severity, design hypothesis, contrary example, proposed change. Separate observation from interpretation. Publish aggregate themes and synthetic reproductions only. Track disagreements and no-change findings. Record any researcher assistance that affected task completion.
 
-The completion gate is a documented set of actual observations supporting prioritised changes, not merely a completed script. Until then, mark human usability and emotional effects unestablished.
+The completion gate is a documented set of actual observations supporting prioritised changes. The correction-effort protocol defines when those observations justify a runtime candidate and how that candidate will be measured.

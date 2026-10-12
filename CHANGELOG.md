@@ -1,5 +1,12 @@
 # Changelog
 
+## Research update, 12 October 2026: correction-effort measurement
+
+- Reframe the README around practical capabilities, current verification and the participant measurement path.
+- Add a machine-readable correction-effort protocol covering discovery, baseline, candidate pilot and confirmatory comparison.
+- Fix the mutation trigger, privacy defaults, participant targets and quantitative 0.5.0 release gate before recruitment.
+- Extend research validation and tests to protect the approved protocol. Runtime version 0.4.2 remains unchanged while participant recruitment is prepared.
+
 ## Research update, 12 October 2026: evidence reconciliation
 
 - Test four fictional multi-source application families against a capable no-skill assistant and released 0.4.2 before changing the runtime.

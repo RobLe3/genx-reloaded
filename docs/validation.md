@@ -24,6 +24,14 @@ After 0.4.2, four fictional development families tested conflicting CV versions,
 
 The protocol required a recurring consequential defect before a runtime mutation. That condition failed, so no candidate was created and the planned reserved suite was not run. The [development check](evidence-reconciliation-check.md) and [exact records](../evals/evidence-reconciliation-2026-10-12/) preserve the result. Version 0.4.2 and its runtime inventory remain unchanged.
 
+## Correction-effort measurement preparation
+
+The [candidate correction-effort study](../research/correction-effort-study.md) now fixes the discovery, baseline, pilot and confirmatory phases for the next runtime candidate. Its machine-readable protocol sets participant targets, privacy and retention defaults, the human-observation mutation trigger, correction-effort outcome and quantitative 0.5.0 release gate.
+
+`validate_research.py` checks those approved protocol values with focused unit tests. A separate offline validator checks the private launch record without printing its contents. Recruitment still requires the maintainer to supply the actual owner, encrypted storage, access list, contact and recruitment routes, withdrawal contact, compensation method, invitation approval and applicable ethics/privacy review outside Git.
+
+The current repository suite passes 40 tests without skips, including the protocol and private launch-record validation cases. These research checks prepare measurement; they do not count as participant observations.
+
 ## Historical records and remaining limits
 
 The catalogue contains 77 authored cases and the research register 49 claims. Forty-two distinct catalogue cases have recorded task executions across the preserved series; none of these counts is a reliability or acceptance rate. The executed cases are exposed material, not future unseen holdouts.

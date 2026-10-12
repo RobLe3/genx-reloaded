@@ -1,6 +1,6 @@
 # Research implementation
 
-Current runtime: 0.4.2. The [Word-comment correction](../docs/docx-comment-check.md) adds local helper verification and a three-condition comparison without an assistant-superiority claim. Earlier country/ATS research below retains its original scope. See [implementation status](implementation-status.md) for the current boundary.
+Current runtime: 0.4.2. The [candidate correction-effort study](correction-effort-study.md) is the active measurement programme for the next runtime candidate. Earlier country, ATS and evaluation records retain their original scope. See [implementation status](implementation-status.md) for current progress.
 
 This release implements the desk-research and repository preparation portions of the [roadmap](../docs/research-roadmap.md). It adds usable workflow guidance and study materials. It does not claim completed participant studies, assistive-technology qualification, live ATS experiments, or hiring uplift.
 
@@ -13,6 +13,7 @@ This release implements the desk-research and repository preparation portions of
 - [Support and accessibility brief](support-and-accessibility.md): adaptation rationale and evidence limits.
 - [Bias evidence map](bias-evidence-map.md): evidence types, intersections and missing coverage.
 - [Candidate study kit](candidate-study-kit.md): research preparation, not an active recruitment programme.
+- [Correction-effort study](correction-effort-study.md): predeclared participant phases, measures and release gate for a future 0.5.0 candidate.
 - [Portability and privacy](portability-and-privacy.md): data flows, threat cases and untested environments.
 - [Implementation status](implementation-status.md): every roadmap task and its remaining gate.
 
@@ -20,4 +21,4 @@ Research records stay outside the runtime. Only concise, decision-relevant mater
 
 The maintainer owns prioritisation and publication. An executing agent records sources and proposed changes; an assessor records observed outcomes. In this release the developer also assesses results, so independent adjudication remains open.
 
-The [writing and application evidence note](writing-and-application-evidence.md) separates a relevant published writing intervention from the skill’s own [negative candidate comparison](../docs/application-gains.md). The register contains 47 scoped claims; counts do not establish completeness.
+The [writing and application evidence note](writing-and-application-evidence.md) keeps a relevant published writing intervention separate from this skill's own evaluations. The register contains 49 scoped claims; counts describe the current record rather than its completeness.

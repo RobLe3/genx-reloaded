@@ -2,7 +2,7 @@
 
 **Status:** proposed programme, not completed research. **Prepared:** 12 October 2026. **Baseline:** version 0.2.0, commit `fe331d402a4bfdd5c296e34e3296ed68a6b68f39`.
 
-**Implementation update:** versions 0.3.0 and 0.4.0 deliver the initial research tools, eight country cards and scoped coverage of fourteen ATS products. See the [task-by-task status](../research/implementation-status.md) for completed artifacts and remaining research gates. The programme below is preserved as the original plan; it is not retroactively labelled complete.
+**Implementation update:** versions 0.3.0 through 0.4.2 deliver the initial research tools, eight country cards, scoped coverage of fourteen ATS products and the local document preflight. The [candidate correction-effort study](../research/correction-effort-study.md) now defines the participant sequence and 0.5.0 measurement gate. See the [task-by-task status](../research/implementation-status.md) for current progress. The programme below is preserved as the original plan.
 
 ## Purpose and decisions
 

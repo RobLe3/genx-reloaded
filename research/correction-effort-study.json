@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "study_id": "correction-effort-v1",
+  "status": "prepared",
+  "prepared_on": "2026-10-12",
+  "runtime_baseline_version": "0.4.2",
+  "objective": "Measure whether a focused GenX Reloaded candidate reduces consequential candidate corrections compared with both a capable general assistant and released 0.4.2.",
+  "conditions": [
+    "none",
+    "released-0.4.2",
+    "candidate"
+  ],
+  "mutation_trigger": {
+    "minimum_participants": 3,
+    "minimum_occupations": 2,
+    "required_severity": "consequential",
+    "rule": "Create a runtime candidate only when the same repairable defect is observed for at least three participants across at least two occupations."
+  },
+  "phases": [
+    {
+      "id": "discovery",
+      "target_participants": 10,
+      "duration_minutes": 30,
+      "compensation_eur": 25
+    },
+    {
+      "id": "baseline",
+      "target_participants": 12,
+      "duration_minutes": 60,
+      "compensation_eur": 40
+    },
+    {
+      "id": "candidate-pilot",
+      "minimum_participants": 6,
+      "maximum_participants": 8,
+      "duration_minutes": 60,
+      "compensation_eur": 40
+    },
+    {
+      "id": "confirmatory",
+      "minimum_completers": 36,
+      "maximum_completers": 120,
+      "duration_minutes": 60,
+      "compensation_eur": 40
+    }
+  ],
+  "design": {
+    "confirmatory_assignment": "balanced-incomplete-block",
+    "tasks_per_participant": 3,
+    "conditions_per_participant": 3,
+    "same_packet_repeated_for_participant": false,
+    "condition_order_counterbalanced": true,
+    "reviewers_blinded": true,
+    "reviewers_per_output": 2,
+    "adjudication_required": true,
+    "fresh_confirmatory_participants": true,
+    "power": 0.8,
+    "familywise_alpha": 0.05,
+    "sample_size_method": "Simulation using pilot control rate, correction-count variance, task-family effects and within-participant correlation."
+  },
+  "primary_outcome": {
+    "name": "consequential-correction-actions",
+    "unit": "distinct candidate actions required before truthful submission per task",
+    "minimum_mean_reduction": 0.5,
+    "confidence_level": 0.95,
+    "multiplicity": "Holm adjustment across candidate-versus-none and candidate-versus-released comparisons"
+  },
+  "secondary_outcomes": [
+    "critical failures",
+    "packets usable without a critical or consequential correction",
+    "time to usable packet",
+    "blocking questions",
+    "subjective effort from 1 to 7",
+    "task completion or candidate-controlled pause",
+    "reported accurate representation",
+    "reported control over disclosure"
+  ],
+  "release_gate": {
+    "minimum_zero_correction_rate_gain": 0.15,
+    "maximum_time_regression": 0.1,
+    "critical_failures_allowed": 0,
+    "required_regressions": [
+      "privacy",
+      "historical-evidence",
+      "modern-product-boundary",
+      "low-energy-interaction",
+      "deliverable-completion",
+      "document-safety"
+    ],
+    "release_version": "0.5.0"
+  },
+  "privacy": {
+    "default_material": "fictional",
+    "real_document_requires_separate_consent": true,
+    "recording_optional": true,
+    "notes_only_route": true,
+    "contact_and_consent_stored_separately": true,
+    "repository_contains_participant_data": false,
+    "raw_retention_days_after_adjudication": 90,
+    "coded_retention_days": 365,
+    "withdrawal_available_until_aggregation": true
+  }
+}

@@ -7,7 +7,7 @@
 | GX-R01, evidence and evaluation records | Claim contract and validator; exact runtime snapshots; raw prompt/response records; baseline and candidate executions | Condition-blinded agent assessment added; exact provider model/sampling details unavailable, no independent human adjudication or deterministic replay promise |
 | GX-R02, ICO and Greenhouse refresh | Distinct ICO 2024/2026 records; verified parsing, matching, opt-out and auto-reject documentation | No actual employer configuration or live ATS behaviour tested |
 | GX-R03, support research | Scoped synthesis brief, original-study lead, optional support choices and rejection/pause guidance | Full original intervention methods and human validation of wording remain open |
-| GX-R04, candidate research preparation | Interview questions, consent choices, usability tasks and sampling/analysis plan | No participants recruited; owner, private storage, retention, ethics and operational consent must be settled before launch |
+| GX-R04, candidate research preparation | Interview questions, consent choices, usability tasks, fixed compensation and retention defaults, machine-validated correction-effort protocol and confirmatory release gate | Complete the private operations record, recruit participants and run discovery before proposing another runtime candidate |
 | GX-R05, low-effort and accessibility routes | Explicit one-question, skip, stop, no-table and private resume patterns; fresh text-task trial | No screen-reader, keyboard, voice interface or exported-document accessibility qualification |
 | GX-R06, occupation examples | Six fictional fact-ledger transformations spanning office and non-office work | No human reviewer comparison or hiring-effect measurement |
 | GX-R07, ATS matrix | Fourteen scoped product cards, cross-surface troubleshooting, official candidate/admin/API sources | Lever retrieval and Taleo release limits remain; no employer-side environment tested |
@@ -23,16 +23,19 @@ Later update, 12 October 2026: [0.4.2 corrects the offline DOCX comment check](.
 
 Further update, 12 October 2026: the [evidence-reconciliation development check](../docs/evidence-reconciliation-check.md) added four fictional cases and eight fresh executions. Condition-blinded assessment found four ties with no critical, consequential or minor correction recorded in either condition. The predeclared condition for a runtime mutation therefore failed. No candidate or reserved suite was run, 0.4.2 remained current, and the catalogue increased to 77 cases. This result applies to explicit synthetic corrections, not messy real-world records in general.
 
+Measurement update, 12 October 2026: the [candidate correction-effort study](correction-effort-study.md) now provides the participant sequence, privacy defaults, mutation trigger, balanced confirmatory design and quantitative 0.5.0 gate. Repository validation protects the fixed protocol values. Recruitment begins after the maintainer completes the private operations record with real storage, access, contact and ethics/privacy details.
+
 ## Workstream coverage
 
 R01 has a study kit, not participant findings. R02 has a scoped support brief and runtime adaptations. R03 has an evidence map and explicitly unreviewed intersections. R04 has feature-specific documentation. R05 and R06 have editorial examples without demonstrated superiority. R07 has usable interaction routes and pending real access checks. R08 has eight limited country cards. R09 and R10 have optional practical modules. R11 has a privacy and portability inventory. R12 has a recording protocol, validators and finite qualitative trials.
 
 ## Next work that can add real information
 
-1. Conduct the prepared candidate discovery and usability work once its operational consent process is ready. This is the highest-value missing evidence; another synthetic pep talk is not a substitute.
-2. Retrieve and inspect the intervention methods before expanding coaching exercises or making stronger support claims.
-3. Test actual assistive-technology and file-output combinations used by candidates.
-4. Resolve documented retrieval gaps and inspect an authorised ATS environment for concrete candidate issues. Expand vendors according to the coverage map, not a claimed universal compatibility target.
-5. Run the unexecuted catalogue cases for relevant changes, including paired assistant-fairness and negative-trigger cases, then test additional supported models.
+1. Complete the private correction-effort operations record, then recruit ten discovery participants using the prepared consent and compensation route.
+2. Convert repeated correction work into anonymised synthetic cases and run the twelve-participant 0.4.2 baseline before designing another runtime candidate.
+3. Retrieve and inspect the intervention methods before expanding coaching exercises or making stronger support claims.
+4. Test actual assistive-technology and file-output combinations used by candidates.
+5. Resolve documented retrieval gaps and inspect an authorised ATS environment for concrete candidate issues. Expand vendors according to the coverage map, not a claimed universal compatibility target.
+6. Run catalogue cases only for relevant changes, then test additional supported models.
 
 Do not rerun everything merely to increase a count. Preserve adverse observations, source failures and unknowns. Outcome research remains a separate, optional future phase requiring an appropriate design.
