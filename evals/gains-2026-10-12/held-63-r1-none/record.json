@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-63",
+  "agent_id": "/root/held_63_r1_none",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T17:58:15.510893+00:00",
+  "wrapper": "Without loading GenX Reloaded or its references, complete the request in /workspace/scratch/32af31dce987/genx-gains/held-63-r1-none/request.txt. You may use normal document/PDF capabilities and current primary sources when needed. Read only the assigned request, relevant skill instructions and sources needed for this task; do not inspect other task folders or repository material. Save your complete answer verbatim to /workspace/scratch/32af31dce987/genx-gains/held-63-r1-none/answer.md, any requested files in /workspace/scratch/32af31dce987/genx-gains/held-63-r1-none/output/, and return the answer. Do not modify instructions, contact anyone, submit or withdraw an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "bb5bdc9bdca2f861c659749db351b75934906b6e4e623c78cd1c4de9439f1560",
+    "response.md": "77b827e1f79073acab3e2fc4de7663371e1485ba90b09d2beb8954311b479249"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

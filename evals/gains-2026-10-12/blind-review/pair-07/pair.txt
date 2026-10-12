@@ -1,0 +1,89 @@
+# pair-07
+
+## Request
+
+I have 20 minutes to finish this UK application. Please prepare the required application text from my notes. The employer says: "Paste a CV of no more than 260 words. Do not include name/contact details in this anonymous field. Then answer each question in its own field, maximum 70 words each." Role: Customer Resolution Administrator. Essentials are complaint handling, accurate records and calm explanations. Their two questions: "Describe a difficult customer situation" and "How have you maintained accurate records?" The portal is SmartRecruiters.
+Career: hotel receptionist, Heather Lodge, 1999–2007. When a family arrived to a double-booked room in 2004, I checked nearby availability, explained the options calmly, agreed an alternative with the family and arranged it through the duty manager. Admissions clerk, Oak College, 2008–2025. I compared submitted application forms with the supporting documents, flagged missing items to applicants and kept a dated corrections log for the admissions team. I have no rejection-rate or time-saving figures. GCSE English and Maths, 1995. Current draft starts "Jordan Reed, jordan.reed@example.invalid, Edinburgh. Motivated professional with extensive experience."
+
+## Frozen checks
+
+- Anonymous CV field omits name/contact details, retains exact roles/employers/periods and qualifications
+- CV <=260 words and each of two separate answers <=70 words
+- Both answers contain their own supported example, including 2004/earlier role context where appropriate
+- Accurate complaints explanation/records evidence visible in CV, not only in questions
+- No invented refunds, authority, percentages or modern tools; deliver all three pasteable fields before optional advice
+
+## Output A
+
+Paste each block into its matching field.
+
+**CV — under 260 words**
+
+:::writing{variant="standard" id="68301"}
+PROFILE
+Customer service and admissions administrator with experience resolving difficult customer situations, maintaining accurate records and explaining options calmly.
+
+EMPLOYMENT
+Admissions Clerk, Oak College | 2008–2025
+• Compared submitted application forms with supporting documents to check accuracy and completeness.
+• Flagged missing items to applicants so they knew what was needed.
+• Maintained a dated corrections log for the admissions team.
+
+Hotel Receptionist, Heather Lodge | 1999–2007
+• Resolved a difficult double-booking situation by checking nearby accommodation availability and calmly explaining the options to the affected family.
+• Agreed an alternative with the family and arranged it through the duty manager.
+
+EDUCATION
+GCSE English and Maths.
+:::
+
+**Describe a difficult customer situation — 52 words**
+
+:::writing{variant="standard" id="68302"}
+At Heather Lodge, a family arrived to find their room had been double-booked. I checked nearby accommodation availability and calmly explained the options. I agreed an alternative with the family and arranged it through the duty manager. This gave the family an agreed accommodation solution while keeping them involved in the decision.
+:::
+
+**How have you maintained accurate records? — 52 words**
+
+:::writing{variant="standard" id="68303"}
+As an admissions clerk at Oak College, I compared submitted application forms with the supporting documents and flagged missing items to applicants. I kept a dated corrections log for the admissions team, giving colleagues a record of what had been corrected and when. My approach combined document checks with clear, traceable records.
+:::
+
+
+## Output B
+
+Paste each block into its matching field. Word counts include the CV headings.
+
+**Anonymous CV — 116/260 words**
+
+:::writing{variant="standard" id="68101"}
+Target role: Customer Resolution Administrator
+
+Customer service and admissions administration experience relevant to complaint handling, accurate records and calm explanations. Arranged alternative accommodation following a double booking at Heather Lodge, and checked application documents and maintained a dated corrections log at Oak College.
+
+Employment
+
+Admissions clerk, Oak College, 2008–2025
+Compared submitted application forms with supporting documents. Flagged missing items to applicants and maintained a dated corrections log for the admissions team.
+
+Hotel receptionist, Heather Lodge, 1999–2007
+Handled a difficult customer situation in 2004 when a family arrived to a double-booked room. Checked nearby availability, explained the options calmly, agreed an alternative with the family and arranged it through the duty manager.
+
+Qualifications
+GCSE English and Maths.
+:::
+
+**Describe a difficult customer situation — 44/70 words**
+
+:::writing{variant="standard" id="68102"}
+In 2004, while working as a hotel receptionist at Heather Lodge, I helped a family who arrived to a double-booked room. I checked nearby availability and calmly explained the options. I agreed an alternative with the family and arranged it through the duty manager.
+:::
+
+**How have you maintained accurate records? — 46/70 words**
+
+:::writing{variant="standard" id="68103"}
+As an admissions clerk at Oak College from 2008 to 2025, I maintained accurate records by comparing submitted application forms with supporting documents. I flagged missing items to applicants and kept a dated corrections log for the admissions team, so corrections were recorded with their dates.
+:::
+
+Name, contact details and location are excluded. The 2004 example is retained because it directly supports customer resolution; no performance figures have been added.
+

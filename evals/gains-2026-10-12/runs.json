@@ -1,0 +1,219 @@
+{
+  "runs": [
+    {
+      "id": "dev-01",
+      "case_id": "GX-60",
+      "condition": "none",
+      "record": "dev-01/record.json"
+    },
+    {
+      "id": "dev-02",
+      "case_id": "GX-61",
+      "condition": "v041",
+      "record": "dev-02/record.json"
+    },
+    {
+      "id": "dev-03",
+      "case_id": "GX-62",
+      "condition": "none",
+      "record": "dev-03/record.json"
+    },
+    {
+      "id": "dev-04",
+      "case_id": "GX-60",
+      "condition": "v041",
+      "record": "dev-04/record.json"
+    },
+    {
+      "id": "dev-05",
+      "case_id": "GX-61",
+      "condition": "none",
+      "record": "dev-05/record.json"
+    },
+    {
+      "id": "dev-06",
+      "case_id": "GX-62",
+      "condition": "v041",
+      "record": "dev-06/record.json"
+    },
+    {
+      "id": "candidate-dev-60",
+      "case_id": "GX-60",
+      "condition": "candidate",
+      "record": "candidate-dev-60/record.json"
+    },
+    {
+      "id": "candidate-dev-61",
+      "case_id": "GX-61",
+      "condition": "candidate",
+      "record": "candidate-dev-61/record.json"
+    },
+    {
+      "id": "candidate-dev-62",
+      "case_id": "GX-62",
+      "condition": "candidate",
+      "record": "candidate-dev-62/record.json"
+    },
+    {
+      "id": "held-63-r1-candidate",
+      "case_id": "GX-63",
+      "condition": "candidate",
+      "record": "held-63-r1-candidate/record.json"
+    },
+    {
+      "id": "held-63-r1-none",
+      "case_id": "GX-63",
+      "condition": "none",
+      "record": "held-63-r1-none/record.json"
+    },
+    {
+      "id": "held-64-r1-none",
+      "case_id": "GX-64",
+      "condition": "none",
+      "record": "held-64-r1-none/record.json"
+    },
+    {
+      "id": "held-64-r1-candidate",
+      "case_id": "GX-64",
+      "condition": "candidate",
+      "record": "held-64-r1-candidate/record.json"
+    },
+    {
+      "id": "held-65-r1-candidate",
+      "case_id": "GX-65",
+      "condition": "candidate",
+      "record": "held-65-r1-candidate/record.json"
+    },
+    {
+      "id": "held-65-r1-none",
+      "case_id": "GX-65",
+      "condition": "none",
+      "record": "held-65-r1-none/record.json"
+    },
+    {
+      "id": "held-66-r1-none",
+      "case_id": "GX-66",
+      "condition": "none",
+      "record": "held-66-r1-none/record.json"
+    },
+    {
+      "id": "held-66-r1-candidate",
+      "case_id": "GX-66",
+      "condition": "candidate",
+      "record": "held-66-r1-candidate/record.json"
+    },
+    {
+      "id": "held-67-r1-candidate",
+      "case_id": "GX-67",
+      "condition": "candidate",
+      "record": "held-67-r1-candidate/record.json"
+    },
+    {
+      "id": "held-67-r1-none",
+      "case_id": "GX-67",
+      "condition": "none",
+      "record": "held-67-r1-none/record.json"
+    },
+    {
+      "id": "held-68-r1-none",
+      "case_id": "GX-68",
+      "condition": "none",
+      "record": "held-68-r1-none/record.json"
+    },
+    {
+      "id": "held-68-r1-candidate",
+      "case_id": "GX-68",
+      "condition": "candidate",
+      "record": "held-68-r1-candidate/record.json"
+    },
+    {
+      "id": "held-63-r2-none",
+      "case_id": "GX-63",
+      "condition": "none",
+      "record": "held-63-r2-none/record.json"
+    },
+    {
+      "id": "held-63-r2-candidate",
+      "case_id": "GX-63",
+      "condition": "candidate",
+      "record": "held-63-r2-candidate/record.json"
+    },
+    {
+      "id": "held-64-r2-candidate",
+      "case_id": "GX-64",
+      "condition": "candidate",
+      "record": "held-64-r2-candidate/record.json"
+    },
+    {
+      "id": "held-64-r2-none",
+      "case_id": "GX-64",
+      "condition": "none",
+      "record": "held-64-r2-none/record.json"
+    },
+    {
+      "id": "held-65-r2-none",
+      "case_id": "GX-65",
+      "condition": "none",
+      "record": "held-65-r2-none/record.json"
+    },
+    {
+      "id": "held-65-r2-candidate",
+      "case_id": "GX-65",
+      "condition": "candidate",
+      "record": "held-65-r2-candidate/record.json"
+    },
+    {
+      "id": "held-66-r2-candidate",
+      "case_id": "GX-66",
+      "condition": "candidate",
+      "record": "held-66-r2-candidate/record.json"
+    },
+    {
+      "id": "held-66-r2-none",
+      "case_id": "GX-66",
+      "condition": "none",
+      "record": "held-66-r2-none/record.json"
+    },
+    {
+      "id": "held-67-r2-none",
+      "case_id": "GX-67",
+      "condition": "none",
+      "record": "held-67-r2-none/record.json"
+    },
+    {
+      "id": "held-67-r2-candidate",
+      "case_id": "GX-67",
+      "condition": "candidate",
+      "record": "held-67-r2-candidate/record.json"
+    },
+    {
+      "id": "held-68-r2-candidate",
+      "case_id": "GX-68",
+      "condition": "candidate",
+      "record": "held-68-r2-candidate/record.json"
+    },
+    {
+      "id": "held-68-r2-none",
+      "case_id": "GX-68",
+      "condition": "none",
+      "record": "held-68-r2-none/record.json"
+    },
+    {
+      "id": "attribution-67-r1-v041",
+      "case_id": "GX-67",
+      "condition": "v041",
+      "record": "attribution-67-r1-v041/record.json",
+      "phase": "adaptive-attribution"
+    },
+    {
+      "id": "attribution-67-r2-v041",
+      "case_id": "GX-67",
+      "condition": "v041",
+      "record": "attribution-67-r2-v041/record.json",
+      "phase": "adaptive-attribution"
+    }
+  ],
+  "total": 35,
+  "planned_original": 33,
+  "adaptive_attribution": 2
+}

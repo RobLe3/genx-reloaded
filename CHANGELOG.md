@@ -1,5 +1,12 @@
 # Changelog
 
+## Research update, 12 October 2026
+
+- Preserve 35 new executions: 33 planned application-preparation trials and two adaptive attribution checks, with four locally inspected DOCX artifacts and a condition-blinded assessment. Generated attachment publication was withheld after automatic approval review; hashes and findings remain.
+- Record 12 substantive ties and no critical failures. The proposed 0.5.0 expansion did not meet the frozen gain gate and was not released; 0.4.1 remains unchanged.
+- Expand the authored catalogue to 68 cases and the claim register to 47 records. Bound a relevant writing-assistance field experiment to its original intervention and setting.
+- Publish failed improvement hypotheses as well as useful outputs. No ATS acceptance or hiring gain is claimed.
+
 ## 0.4.1, 12 October 2026
 
 - Publish a predeclared 27-execution comparison: six matched inputs across three historical versions and a no-skill condition, plus three controlled input variants. Preserve exact prompts, runtime snapshots, raw answers and a condition-blinded second assessment.

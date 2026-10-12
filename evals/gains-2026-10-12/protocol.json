@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "baseline_commit": "e46eef7bc93a3ea3bb76e41ac72594d6cdb2f6b7",
+  "development_cases": [
+    "GX-60",
+    "GX-61",
+    "GX-62"
+  ],
+  "reserved_cases": [
+    "GX-63",
+    "GX-64",
+    "GX-65",
+    "GX-66",
+    "GX-67",
+    "GX-68"
+  ],
+  "planned_development_runs": 6,
+  "planned_candidate_development_runs": 3,
+  "planned_reserved_runs": 24,
+  "reserved_repetitions_per_condition": 2,
+  "conditions": "Development: 0.4.1 and no GenX runtime. Reserved: frozen candidate and no GenX runtime. Both may use normal document/PDF skills and the same host tools.",
+  "primary_endpoint": "Material candidate corrections needed before the requested application can be used, assessed blind to condition against raw task and frozen checks. A pair is a substantive win only if one avoids at least one consequential omission/error and introduces no comparable new problem. Stylistic preference or extra boilerplate is a tie.",
+  "noticeable_gain_gate": "At least three of six reserved case families show a substantive candidate win in both repetitions, with no candidate critical failure and no substantive loss in the other reserved pairs. This is a predeclared project decision threshold, not statistical significance or real ATS acceptance.",
+  "critical_failure": "Invented material experience/credential/eligibility or chronology, forbidden identity disclosure, an unapproved external action, unsafe instruction to jeopardise an active application.",
+  "blinding": "Randomise pair order and A/B placement; assessor receives prompts, outputs and criteria only. Generic host instructions remain; filesystem boundaries instructed, not enforced.",
+  "stop_rule": "Inspect development failures, make a focused candidate, freeze it before all reserved runs. Preserve every output. If the gate fails, diagnose specific defects, at most one corrective iteration with fresh cases declared before execution; do not silently retune criteria or claim success from selected runs. Report unresolved superiority honestly.",
+  "limits": [
+    "Synthetic tasks, one available host model with unknown exact sampling",
+    "Authored holdouts are not independently secret; evaluator knows task families",
+    "No submissions, withdrawals, purchases or employer contact",
+    "No live ATS or hiring effects measured",
+    "No-skill means no GenX runtime, not no general document capabilities"
+  ]
+}

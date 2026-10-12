@@ -85,3 +85,11 @@ Retrieval and editorial decisions:
 - Some system1 searches returned unrelated pages despite targeted queries. Those results were rejected, and system2 plus direct primary-page retrieval used. Search-engine dates were not substituted for publication dates.
 
 No applicant accounts, employer contacts, uploaded CVs, live parsing tests or automated submissions were used. Local scenarios are fictional. The coverage map explicitly names unresearched follow-ups and does not claim to cover every ATS on the market.
+
+## Prospective application-gain investigation
+
+12 October 2026. Reopened the official Greenhouse Talent Matching, auto-reject and unsuccessful-parsing pages. Matching and configured question rules remain distinct mechanisms. Inspected the INFORMS publisher abstract and metadata for Wiles, Munyikwa and Horton (2025), DOI 10.1287/mnsc.2024.04528. Added GX-C47 and a bounded [research note](writing-and-application-evidence.md).
+
+Discovery included searches for resume writing assistance field experiments, ATS resume matching evidence and Lever candidate database search. An NBER landing-page retrieval failed and its PDF returned 403. The publisher abstract was available; the full paper's methods were not inspected. Lever's direct help pages again returned loading shells, despite official search snippets. No new parser specification or resolved Lever coverage is claimed. Some search results were irrelevant and were excluded.
+
+The proposed application-completeness method was tested against a no-GenX-skill condition with ordinary document tools available to both sides. Research motivation is not evidence of this candidate's superiority. See the prospective comparison for the frozen criteria, all outputs and release decision. No real candidate records, submissions or employer contacts were used.

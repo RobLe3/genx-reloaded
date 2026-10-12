@@ -1,0 +1,76 @@
+# pair-08
+
+## Request
+
+Please prepare the top of my CV and four dated experience bullets for this Australian Quality Documentation Officer vacancy, plus the required 120-word maximum statement "How does your experience meet our requirements?" Keep the CV part below 220 words.
+The vacancy requires controlled work instructions, staff instruction, records traceability and coordination of corrective actions. ISO 9001 internal-auditor certification is desirable, not essential. The portal is Greenhouse.
+My master history: production clerk at Seabrook Components, 1996–2008. In 2003 I numbered and maintained the approved versions of 18 work instructions, withdrew old copies, recorded who received replacements, and taught 12 operators how to record batch changes. At North Lane Logistics, office assistant, 2009–2024, I kept a register of customer-reported packing errors, sent each case to the warehouse supervisor for action and recorded the supervisor's closure response. I did not perform the corrective work or certify the process. In 2011 I took a two-day introductory ISO 9001 awareness course; I have never held auditor certification. My old CV says "Quality visionary with end-to-end compliance ownership." I have no measured savings or defect reduction figures.
+
+## Frozen checks
+
+- All four essentials have concrete source-supported evidence across final CV and statement
+- Old controlled-document and operator-training evidence visible and dated, original titles preserved
+- Corrective-action coordination stays register/referral/closure, no ownership or auditor certification invented
+- Requested CV top/four bullets and <=120-word statement delivered; CV <=220 words
+- Statement itself contains evidence, not a referral to CV or only advice; genuine desirable credential gap separately stated
+
+## Output A
+
+## CV
+
+[Full name]
+[Phone] | [Email] | [Suburb, State]
+
+**Target role: Quality Documentation Officer**
+
+**Professional profile**
+Production and logistics administrator with experience maintaining controlled work instructions, instructing operators in batch-change recording, and tracking reported packing errors through referral and closure. Offers practical experience in document control, records traceability and support for corrective-action coordination.
+
+**Relevant experience**
+
+**Production Clerk | Seabrook Components | 1996–2008**
+
+- **2003:** Numbered and maintained approved versions of 18 work instructions and withdrew superseded copies to keep instructions current.
+- **2003:** Recorded who received replacement instructions, maintaining distribution traceability, and taught 12 operators how to record batch changes.
+
+**Office Assistant | North Lane Logistics | 2009–2024**
+
+- **2009–2024:** Maintained a register of customer-reported packing errors to support case traceability and follow-up.
+- **2009–2024:** Referred each case to the warehouse supervisor for action and recorded the supervisor’s closure response, supporting corrective-action coordination.
+
+**Training**
+ISO 9001 awareness — two-day introductory course, 2011.
+
+## How does your experience meet our requirements?
+
+My experience covers controlled instructions, staff instruction, records traceability and administrative support for corrective actions. At Seabrook Components in 2003, I maintained approved versions of 18 work instructions, withdrew old copies, recorded replacement recipients and taught 12 operators to record batch changes. At North Lane Logistics, 2009–2024, I registered customer-reported packing errors, referred each case to the warehouse supervisor for action and recorded the supervisor’s closure response. My role supported coordination and recordkeeping; I did not perform corrective work or certify the process. I completed a two-day introductory ISO 9001 awareness course in 2011 and have never held internal-auditor certification.
+
+
+## Output B
+
+**CV opening and four dated experience bullets**
+
+**Target role: Quality Documentation Officer**
+
+Production and logistics administration background, with experience in document control, staff instruction, records traceability and corrective-action coordination. Relevant evidence includes maintaining 18 approved work instructions and instructing 12 operators in 2003, plus recording packing errors and supervisor-reported closure responses at North Lane Logistics.
+
+**Office assistant | North Lane Logistics | 2009–2024**
+
+- **2009–2024:** Maintained a register of customer-reported packing errors, recording cases requiring warehouse action.
+- **2009–2024:** Supported corrective-action coordination by referring each case to the warehouse supervisor and recording the supervisor’s closure response.
+
+**Production clerk | Seabrook Components | 1996–2008**
+
+- **2003:** Controlled 18 work instructions by numbering and maintaining approved versions, withdrawing old copies and recording replacement recipients for document traceability.
+- **2003:** Instructed 12 operators on recording batch changes.
+
+**Training**
+
+**2011:** Two-day introductory ISO 9001 awareness course. No ISO 9001 internal-auditor certification.
+
+**How does your experience meet our requirements?**
+
+My experience covers controlled work instructions, staff instruction, records traceability and administrative coordination of corrective actions. At Seabrook Components in 2003, I numbered and maintained approved versions of 18 work instructions, withdrew old copies and recorded replacement recipients. I also taught 12 operators to record batch changes. As an office assistant at North Lane Logistics (2009–2024), I registered customer-reported packing errors, referred each case to the warehouse supervisor and recorded their closure response. My role covered coordination and recordkeeping, without performing corrective work or certifying the process. I completed a two-day introductory ISO 9001 awareness course in 2011; I have never held auditor certification.
+
+The revised copy replaces “end-to-end compliance ownership” with your actual contribution and retains the relevant 2003 evidence. Auditor certification remains a desirable qualification you do not hold. Both sections are within the requested word limits.
+

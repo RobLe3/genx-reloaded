@@ -17,3 +17,5 @@ This release implements the desk-research and repository preparation portions of
 Research records stay outside the runtime. Only concise, decision-relevant material is promoted into references. The legacy evidence register remains available and is not falsely labelled as fully migrated or systematically reviewed.
 
 The maintainer owns prioritisation and publication. An executing agent records sources and proposed changes; an assessor records observed outcomes. In this release the developer also assesses results, so independent adjudication remains open.
+
+The [writing and application evidence note](writing-and-application-evidence.md) separates a relevant published writing intervention from the skill’s own [negative candidate comparison](../docs/application-gains.md). The register contains 47 scoped claims; counts do not establish completeness.

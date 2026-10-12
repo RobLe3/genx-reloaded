@@ -1,0 +1,58 @@
+# pair-02
+
+## Request
+
+I'm stuck with an Australian PageUp application. I uploaded my updated CV and changed my profile, but the job-specific preview still shows an old qualification and an empty selection statement. The closing time is tomorrow at 17:00 local time. I have not pressed the final Submit button. Please give me the smallest set of steps and text to fix this, no more than 250 words.
+The application preview says Education: Bachelor of Business. Correct qualification: Certificate IV in Business, completed 2002. The CV already says this correctly. The selection field allows 100 words: "Give an example of organising competing work." My facts: bookings administrator, Wattle Community Centre, 2010–2023. I maintained one shared diary for three meeting rooms, checked conflicting requests with organisers and agreed replacement slots before confirming bookings. No improvement percentage available. The general profile shows the corrected qualification but this application has not changed. I don't want to create a second account.
+
+## Frozen checks
+
+- Treat as unsubmitted job-specific draft, no withdrawal/duplicate account or assumption of submission
+- Copyable correct qualification with year, explicitly check job-specific field rather than assuming profile propagation
+- Produce <=100-word selection statement with actual shared-diary/three rooms/conflict-resolution evidence
+- Check attachment and job-specific fields, missing tasks and final receipt; no claim submission performed
+- Whole response <=250 words, focused steps and usable copy
+
+## Output A
+
+Your job-specific draft still needs correction. PageUp forms are employer-configured, so exact controls vary. genui{"citation":{"ref":"turn151view0"}}
+
+1. In your existing account, open this job’s **saved, unsubmitted application**. Look for its edit/back controls. Replace “Bachelor of Business” in its education fields with **Certificate IV in Business, completed 2002**. Keep the correct CV attached.
+2. Paste this into the selection field (under 100 words):
+
+:::writing{variant="standard" id="68192"}
+As bookings administrator at Wattle Community Centre (2010–2023), I organised competing requests for three meeting rooms using one shared diary. When requests conflicted, I checked them with organisers and agreed replacement slots before confirming bookings.
+:::
+
+3. Save, reopen the job-specific preview, and check the qualification, selection answer and attached CV. Once correct, submit before tomorrow’s advertised **17:00 local deadline**, checking the vacancy’s time zone. Keep the confirmation receipt; saving alone is not submission.
+
+If editing is unavailable or one save-and-reopen attempt fails, contact the employer’s recruitment contact today with the job reference and a screenshot. PageUp directs application questions to the hiring organisation. genui{"citation":{"ref":"turn151view0"}} Use:
+
+:::writing{variant="standard" id="68193"}
+My unsubmitted application still shows Bachelor of Business and a blank selection statement despite my corrected profile and CV. My qualification is Certificate IV in Business, completed 2002. Please advise how to correct the draft or use an approved alternative before tomorrow’s 17:00 deadline.
+:::
+
+Keep your existing account; no second account is needed.
+
+
+## Output B
+
+Your preview suggests the draft retained older answers. Keep your existing account.
+
+1. Open this job’s incomplete application (“Complete application” or equivalent). Edit its **Education** section: replace “Bachelor of Business” with **Certificate IV in Business, completed 2002**.
+2. Paste the selection response below into the job-specific field. Save each edited section using the form’s **Save and continue** control or equivalent; labels vary by employer. genui{"citation":{"ref":"turn152view0"}}
+3. Reopen the application preview. Verify the qualification, full selection response and correct attached CV. Once correct, submit before tomorrow’s **17:00 in the advert’s stated time zone** and retain the submission confirmation.
+
+**Selection response — 50 words:**
+
+:::writing{variant="standard" id="66411"}
+As bookings administrator at Wattle Community Centre (2010–2023), I organised competing requests for three meeting rooms using one shared diary. When requests conflicted, I checked the details with organisers and agreed replacement slots before confirming bookings. This meant the timing was agreed with the organisers before I finalised each booking.
+:::
+
+If either field is locked or remains wrong, screenshot the preview and contact the employer’s recruitment contact today. PageUp directs application questions to the employer. genui{"citation":{"ref":"turn150view0"}} Use:
+
+:::writing{variant="standard" id="66412"}
+My unsubmitted application for [job/reference] still shows an incorrect qualification and a blank selection response despite profile updates. Please help me correct the draft before tomorrow’s 17:00 deadline, or confirm an accepted alternative submission route.
+:::
+
+

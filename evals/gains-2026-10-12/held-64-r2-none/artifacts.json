@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "path": "application.docx",
+      "bytes": 37272,
+      "sha256": "c71de916bfe0df016f8eca9e479ce6346430cb9a0fdfa7d906fc2d76b7f133ce"
+    },
+    {
+      "path": "application.pdf",
+      "bytes": 53783,
+      "sha256": "2831a98845e4400548e8b716436e5fe856a1d9d810eb762d5e3617edff46bd00"
+    },
+    {
+      "path": "body.txt",
+      "bytes": 822,
+      "sha256": "aa40b43bdf8a962cf599dee0fa2d943cf09dffe77dc504a4249819ec2044ea0a"
+    },
+    {
+      "path": "page-1.png",
+      "bytes": 168467,
+      "sha256": "7c19fd808e03b209efac6c48942d8be65fe43ea3723950741edc04af7d030973"
+    }
+  ],
+  "page_count": 1,
+  "qa": "Maintainer inspected every saved page PNG. No clipping, overlap or unreadable text observed. Local checks only.",
+  "publication": "Artifact bytes withheld; locally verified hashes retained. See ../publication-note.md."
+}

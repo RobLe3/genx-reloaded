@@ -851,6 +851,149 @@
         "Requested check note states actual factual checks and distinguishes unperformed rendering/extraction",
         "No invented results, files or ATS pass; at most 90 words"
       ]
+    },
+    {
+      "id": "GX-60",
+      "split": "development",
+      "tags": [
+        "duration",
+        "application-readiness"
+      ],
+      "prompt": "Please help me answer an application for an operations analyst job in Canada. It asks \"How many years of SQL experience?\" and \"How many years of line management?\" I also need a short CV opening. My old CV headline says \"30 years in IT, 10 years leading teams\". The records are: IT support, Maple Services, January 1996 to December 2015, no SQL; data support, Orchard Co, January 2016 to December 2021, used SQL throughout; freelance reporting alongside that job, July 2019 to June 2022, SQL each month; office systems support, River Office, July 2022 to September 2026, Excel but no SQL. I mentored three people from 2016 to 2021, with no direct reports, hiring decisions or performance reviews. A SQL refresher course ran January to March 2024; it was study only. The form offers whole numbers and a free text note. Make this ready to paste.",
+      "checks": [
+        "SQL answer based on non-overlapping work periods, 78 months or 6.5 years, whole-number answer does not round up to seven",
+        "Line management does not convert mentoring into direct management; zero confirmed years",
+        "Useful short role-specific CV opening with bounded historical SQL experience, no current SQL job or 30 years SQL",
+        "Copyable form answers and clarifying note, source dates remain accurate"
+      ]
+    },
+    {
+      "id": "GX-61",
+      "split": "development",
+      "tags": [
+        "evidence-routing",
+        "application-readiness"
+      ],
+      "prompt": "I want to apply for Service Delivery Coordinator at Northbridge Housing in the UK. Give me a CV opening, three experience bullets and the two form answers below, ready to paste. About 350 words altogether is plenty.\nAdvert: essentials are service-desk incident handling, supplier escalation, and clear shift handovers. Desirable: ServiceNow and direct supervision. Form: \"Describe your supplier escalation experience\" (max 80 words); \"Have you used ServiceNow in a live role?\" Yes/No.\nMy notes: Helpdesk operator at Vale Telecom, 1998–2006. I recorded outages, rang the telecom supplier when contracted response times were missed and passed unresolved faults to the next shift in a written log. Warehouse administrator at Boxfield, 2007–2025, booking deliveries and keeping stock adjustment records in Excel. In 2025 I watched a ServiceNow introduction and completed a guided demo with sample tickets. I sometimes explained the warehouse routine to new colleagues but had no direct reports. Old CV draft: \"Dynamic modern service leader, expert in digital transformation and enterprise workflow tools.\" No measured improvements are available.",
+      "checks": [
+        "All three essential requirements have dated work evidence in CV copy, not only commentary",
+        "Original roles and dates retained; current warehouse work not relabelled IT service management",
+        "ServiceNow answer No with demo distinguished, supervision not invented",
+        "Supplier answer <=80 words with concrete old example and no invented outcome",
+        "Usable requested opening, three bullets, two form answers; no generic slogan replaces evidence"
+      ]
+    },
+    {
+      "id": "GX-62",
+      "split": "development",
+      "tags": [
+        "surface-correction",
+        "application-readiness"
+      ],
+      "prompt": "Help me fix my application before tomorrow, please. I am applying to a UK employer through SAP SuccessFactors. The uploaded CV is correct. The Education field is blank after import; the employer calls it a custom field. The Work Experience card still says my job at Birch Stores runs \"2015–Present\" although I left in November 2023. I changed the general profile yesterday but the submitted job-specific record still shows the old date. The invitation to an assessment is active. My actual qualification is a German Kaufmann im Einzelhandel completed in 2004, no university degree. Tell me what to do and give me text I can paste into fields or a correction request. Keep it manageable, under 220 words.",
+      "checks": [
+        "Treat blank custom field as possible parsing/configuration limit, not reason to redesign correct CV",
+        "Copyable original vocational education and ended November 2023 employment date, no degree equivalency",
+        "Distinguish general profile, job-specific submitted record and correct file",
+        "Preserve active assessment, no automatic withdrawal/duplicate application",
+        "Draft unsent employer correction with the actual two fields; no invented start month"
+      ]
+    },
+    {
+      "id": "GX-63",
+      "split": "reserved",
+      "tags": [
+        "duration",
+        "application-readiness"
+      ],
+      "prompt": "I'm applying for Business Intelligence Support in New Zealand. Please draft a 60-word CV profile and these form entries: whole years of Power BI work experience, and whole years of direct staff management, with a short note if needed.\nCareer notes: customer adviser at Fenwick, 1997–2014. Reporting assistant at Westhaven, April 2015 to March 2020, used Excel, never Power BI. Reporting coordinator at Tui Services, April 2020 to March 2024, built Power BI reports throughout. Alongside that role I did Power BI reporting for a community group from April 2022 to March 2025 as an unpaid volunteer. Office coordinator at Harbourside, April 2024 to September 2026, worked with Excel and bookings, not Power BI. Managed two direct reports at Tui from April 2021 to March 2023; before and after that I mentored colleagues without formal management responsibility. A Power BI course in 2019 was learning only. Form help says relevant paid and unpaid work both count, but overlapping months count only once. The job asks for reporting, explaining numbers to non-specialists and stakeholder support.",
+      "checks": [
+        "Power BI work duration 60 distinct months/five years, no study/Excel period included",
+        "Direct management 24 months/two years, no mentoring upgrade",
+        "Profile <=60 words, reflects reporting and dated/ bounded Power BI experience without inventing duties",
+        "Copyable entries, no inflated total by adding overlaps, truthful paid/unpaid distinction"
+      ]
+    },
+    {
+      "id": "GX-64",
+      "split": "reserved",
+      "tags": [
+        "document-delivery",
+        "application-readiness"
+      ],
+      "prompt": "Please make application.docx, a clean one-page CV for this UK job, and give me a short note about anything I still need to check. I want to upload it today.\nJob: Maintenance Planning Administrator. Essentials: maintenance scheduling, spares records, contractor coordination and safe handovers. Excel required; SAP desirable. Portal accepts DOCX only, maximum 1 MB. Do not put a cover letter in the CV.\nMy information: Alex Morgan, Leeds, alex.morgan@example.invalid, +44 7700 900123. Maintenance clerk, Ashmill Engineering, March 1998 to August 2009: kept weekly maintenance schedules and spares records, phoned contractors when a booked visit was missed, maintained a written handover book. Office coordinator, Linden Works, September 2009 to November 2025: arranged room and service bookings, kept purchase-request lists in Excel, trained two starters in the booking routine. No SAP experience. Level 3 Business Administration, completed 1997. I want a hands-on administration role. My old CV uses the headline \"Senior transformation leader\". Please use what is useful for this vacancy.",
+      "checks": [
+        "Actual valid DOCX, <=1 MB, one legible page, all core content in main-body extraction",
+        "Name, email, phone and location preserved in body",
+        "Dated maintenance evidence covers scheduling, spares, contractors and handovers; Excel purchase-request evidence included",
+        "Both exact month/year periods, actual titles/employers and qualification preserved; no current SAP or leadership inflation",
+        "CV contains no editorial gaps, placeholders or verification notes; short separate note flags SAP as desirable gap",
+        "Visible and extracted associations checked, no ATS pass guarantee"
+      ]
+    },
+    {
+      "id": "GX-65",
+      "split": "reserved",
+      "tags": [
+        "evidence-routing",
+        "application-readiness"
+      ],
+      "prompt": "Please prepare the top of my CV and four dated experience bullets for this Australian Quality Documentation Officer vacancy, plus the required 120-word maximum statement \"How does your experience meet our requirements?\" Keep the CV part below 220 words.\nThe vacancy requires controlled work instructions, staff instruction, records traceability and coordination of corrective actions. ISO 9001 internal-auditor certification is desirable, not essential. The portal is Greenhouse.\nMy master history: production clerk at Seabrook Components, 1996–2008. In 2003 I numbered and maintained the approved versions of 18 work instructions, withdrew old copies, recorded who received replacements, and taught 12 operators how to record batch changes. At North Lane Logistics, office assistant, 2009–2024, I kept a register of customer-reported packing errors, sent each case to the warehouse supervisor for action and recorded the supervisor's closure response. I did not perform the corrective work or certify the process. In 2011 I took a two-day introductory ISO 9001 awareness course; I have never held auditor certification. My old CV says \"Quality visionary with end-to-end compliance ownership.\" I have no measured savings or defect reduction figures.",
+      "checks": [
+        "All four essentials have concrete source-supported evidence across final CV and statement",
+        "Old controlled-document and operator-training evidence visible and dated, original titles preserved",
+        "Corrective-action coordination stays register/referral/closure, no ownership or auditor certification invented",
+        "Requested CV top/four bullets and <=120-word statement delivered; CV <=220 words",
+        "Statement itself contains evidence, not a referral to CV or only advice; genuine desirable credential gap separately stated"
+      ]
+    },
+    {
+      "id": "GX-66",
+      "split": "reserved",
+      "tags": [
+        "surface-correction",
+        "application-readiness"
+      ],
+      "prompt": "I'm stuck with an Australian PageUp application. I uploaded my updated CV and changed my profile, but the job-specific preview still shows an old qualification and an empty selection statement. The closing time is tomorrow at 17:00 local time. I have not pressed the final Submit button. Please give me the smallest set of steps and text to fix this, no more than 250 words.\nThe application preview says Education: Bachelor of Business. Correct qualification: Certificate IV in Business, completed 2002. The CV already says this correctly. The selection field allows 100 words: \"Give an example of organising competing work.\" My facts: bookings administrator, Wattle Community Centre, 2010–2023. I maintained one shared diary for three meeting rooms, checked conflicting requests with organisers and agreed replacement slots before confirming bookings. No improvement percentage available. The general profile shows the corrected qualification but this application has not changed. I don't want to create a second account.",
+      "checks": [
+        "Treat as unsubmitted job-specific draft, no withdrawal/duplicate account or assumption of submission",
+        "Copyable correct qualification with year, explicitly check job-specific field rather than assuming profile propagation",
+        "Produce <=100-word selection statement with actual shared-diary/three rooms/conflict-resolution evidence",
+        "Check attachment and job-specific fields, missing tasks and final receipt; no claim submission performed",
+        "Whole response <=250 words, focused steps and usable copy"
+      ]
+    },
+    {
+      "id": "GX-67",
+      "split": "reserved",
+      "tags": [
+        "screening-fit",
+        "application-readiness"
+      ],
+      "prompt": "Help me decide what to paste into this Workday application for a Canadian Inventory Control Coordinator job. Give a short CV profile, two evidence bullets and answers to the two questions.\nAdvert: inventory reconciliation and Excel essential; Dynamics 365 preferred; at least two years supervising direct reports required. Questions: \"Have you supervised direct reports for at least two years?\" Yes/No; \"Describe your ERP experience\" max 60 words.\nHistory: inventory assistant at Alder Supply, 2000–2012, checked monthly physical counts against paper ledgers and sent discrepancies to the supervisor. Warehouse coordinator at Pine Branch, 2013–2025, kept stock-movement lists in Excel, showed six starters the routines, allocated the daily task list when the supervisor was absent, never had direct reports or performance-review responsibility. I used Dynamics 365 only in a six-week training sandbox in 2025. I keep being rejected and would like this one to get through.",
+      "checks": [
+        "Question answer No, clear material mandatory management gap without fabricating authority",
+        "ERP answer <=60 words labels training/sandbox only, no production experience",
+        "Profile and two dated evidence bullets show real reconciliation and Excel; keep relevant older work",
+        "Usable draft still delivered without implying eligible or guaranteed acceptance; one reasonable employer-equivalence or alternative-role next step",
+        "Acknowledges frustration briefly if useful, no generational blame or pressure to falsify"
+      ]
+    },
+    {
+      "id": "GX-68",
+      "split": "reserved",
+      "tags": [
+        "complete-packet",
+        "application-readiness"
+      ],
+      "prompt": "I have 20 minutes to finish this UK application. Please prepare the required application text from my notes. The employer says: \"Paste a CV of no more than 260 words. Do not include name/contact details in this anonymous field. Then answer each question in its own field, maximum 70 words each.\" Role: Customer Resolution Administrator. Essentials are complaint handling, accurate records and calm explanations. Their two questions: \"Describe a difficult customer situation\" and \"How have you maintained accurate records?\" The portal is SmartRecruiters.\nCareer: hotel receptionist, Heather Lodge, 1999–2007. When a family arrived to a double-booked room in 2004, I checked nearby availability, explained the options calmly, agreed an alternative with the family and arranged it through the duty manager. Admissions clerk, Oak College, 2008–2025. I compared submitted application forms with the supporting documents, flagged missing items to applicants and kept a dated corrections log for the admissions team. I have no rejection-rate or time-saving figures. GCSE English and Maths, 1995. Current draft starts \"Jordan Reed, jordan.reed@example.invalid, Edinburgh. Motivated professional with extensive experience.\"",
+      "checks": [
+        "Anonymous CV field omits name/contact details, retains exact roles/employers/periods and qualifications",
+        "CV <=260 words and each of two separate answers <=70 words",
+        "Both answers contain their own supported example, including 2004/earlier role context where appropriate",
+        "Accurate complaints explanation/records evidence visible in CV, not only in questions",
+        "No invented refunds, authority, percentages or modern tools; deliver all three pasteable fields before optional advice"
+      ]
     }
   ]
 }

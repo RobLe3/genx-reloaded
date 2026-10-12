@@ -1,0 +1,10 @@
+{
+  "assessor": "Maintainer agent, unblinded",
+  "runs": [
+    "attribution-67-r1-v041",
+    "attribution-67-r2-v041"
+  ],
+  "result": "Both existing 0.4.1 executions keep both actual roles, employers and dates, answer No to management, label sandbox learning, deliver the requested copy and offer a realistic alternative or equivalence question.",
+  "implication": "The dated-evidence behaviour observed in the candidate is also present in the released runtime. These two adaptive runs provide no evidence that the added application-readiness module is needed.",
+  "limits": "Known case and two repetitions only; no isolated instruction ablation or causal estimate."
+}

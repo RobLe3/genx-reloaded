@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-61",
+  "agent_id": "/root/gains_dev_02",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T17:45:45.636774+00:00",
+  "wrapper": "Use the skill at /workspace/scratch/32af31dce987/genx-gains/v041/runtime/SKILL.md to complete the request in /workspace/scratch/32af31dce987/genx-gains/dev-02/request.txt. You may use normal document/PDF capabilities and current primary sources when needed. Read only the assigned request, relevant skill instructions and sources needed for this task; do not inspect other task folders or repository material. Save your complete answer verbatim to /workspace/scratch/32af31dce987/genx-gains/dev-02/answer.md, any requested files in /workspace/scratch/32af31dce987/genx-gains/dev-02/output/, and return the answer. Do not modify instructions, contact anyone, submit or withdraw an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "fda23fb25335d9ded5a6f9b0a7a83e7a7271b9d062b54159c8798fabee4bdbba",
+    "response.md": "7c93945f21d8602cc291b0624ee0bcfa9211151211ccab77adbfc250325c8c13"
+  },
+  "skill_condition": "captured-runtime",
+  "runtime_inventory_sha256": "2acc46bc65cc3fca8bb6b8cfc6af6061efa16a96f758fdccdb1a0e65236f6f80",
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

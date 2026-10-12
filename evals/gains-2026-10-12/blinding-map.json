@@ -1,0 +1,114 @@
+{
+  "seed": 2026101205,
+  "pairs": [
+    {
+      "pair": "pair-01",
+      "case_id": "GX-64",
+      "repetition": 1,
+      "labels": {
+        "A": "held-64-r1-none",
+        "B": "held-64-r1-candidate"
+      }
+    },
+    {
+      "pair": "pair-02",
+      "case_id": "GX-66",
+      "repetition": 1,
+      "labels": {
+        "A": "held-66-r1-candidate",
+        "B": "held-66-r1-none"
+      }
+    },
+    {
+      "pair": "pair-03",
+      "case_id": "GX-67",
+      "repetition": 2,
+      "labels": {
+        "A": "held-67-r2-none",
+        "B": "held-67-r2-candidate"
+      }
+    },
+    {
+      "pair": "pair-04",
+      "case_id": "GX-68",
+      "repetition": 2,
+      "labels": {
+        "A": "held-68-r2-none",
+        "B": "held-68-r2-candidate"
+      }
+    },
+    {
+      "pair": "pair-05",
+      "case_id": "GX-64",
+      "repetition": 2,
+      "labels": {
+        "A": "held-64-r2-none",
+        "B": "held-64-r2-candidate"
+      }
+    },
+    {
+      "pair": "pair-06",
+      "case_id": "GX-66",
+      "repetition": 2,
+      "labels": {
+        "A": "held-66-r2-none",
+        "B": "held-66-r2-candidate"
+      }
+    },
+    {
+      "pair": "pair-07",
+      "case_id": "GX-68",
+      "repetition": 1,
+      "labels": {
+        "A": "held-68-r1-none",
+        "B": "held-68-r1-candidate"
+      }
+    },
+    {
+      "pair": "pair-08",
+      "case_id": "GX-65",
+      "repetition": 2,
+      "labels": {
+        "A": "held-65-r2-none",
+        "B": "held-65-r2-candidate"
+      }
+    },
+    {
+      "pair": "pair-09",
+      "case_id": "GX-63",
+      "repetition": 1,
+      "labels": {
+        "A": "held-63-r1-candidate",
+        "B": "held-63-r1-none"
+      }
+    },
+    {
+      "pair": "pair-10",
+      "case_id": "GX-65",
+      "repetition": 1,
+      "labels": {
+        "A": "held-65-r1-none",
+        "B": "held-65-r1-candidate"
+      }
+    },
+    {
+      "pair": "pair-11",
+      "case_id": "GX-63",
+      "repetition": 2,
+      "labels": {
+        "A": "held-63-r2-candidate",
+        "B": "held-63-r2-none"
+      }
+    },
+    {
+      "pair": "pair-12",
+      "case_id": "GX-67",
+      "repetition": 1,
+      "labels": {
+        "A": "held-67-r1-candidate",
+        "B": "held-67-r1-none"
+      }
+    }
+  ],
+  "transforms": "Only local artifact link paths replaced in assessor copies. Raw answers unmodified. Conditions may remain inferable from prose; this is label blinding only."
+}

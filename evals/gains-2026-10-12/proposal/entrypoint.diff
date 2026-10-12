@@ -1,0 +1,22 @@
+diff --git a/skills/genx-reloaded/SKILL.md b/skills/genx-reloaded/SKILL.md
+index c511855..baa6d91 100644
+--- a/skills/genx-reloaded/SKILL.md
++++ b/skills/genx-reloaded/SKILL.md
+@@ -23,6 +23,8 @@ Read [support and strengths](references/support-and-strengths.md) for confidence
+ 
+ Load only the additional reference needed:
+ 
++- [Complete application preparation](references/application-readiness.md) when a vacancy and career notes must become a CV, separate form answers or an upload. Use it to place evidence in the actual deliverables, calculate experience without overlap, and check each submission constraint.
++
+ - [Low-effort use and resuming](references/accessibility-and-resume.md) for voice input, one-question help, no-table requests, stopping and handovers.
+ - [Opportunity and learning decisions](references/opportunities-and-learning.md) for whether to apply, qualification gaps, targeted practice, or suspicious offers.
+ - [Interviews and outreach](references/interview-and-outreach.md) for rehearsal, work samples, contact drafts and negotiation.
+@@ -90,6 +92,8 @@ When facts are thin, ask targeted questions about what changed, the person's dec
+ 
+ ## 3. Map the role before matching words
+ 
++For a targeted application, establish the requested files and individual fields first. Follow [complete application preparation](references/application-readiness.md) to distinguish eligibility, evidence visibility and delivery. Put supported evidence in the CV and each required answer; a review map alone does not make it visible in the application.
++
+ Create a compact requirement map:
+ 
+ **Requirement | mandatory/preferred/unclear | CV evidence and date | direct/transferable/missing | edit or question.**

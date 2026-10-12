@@ -1,0 +1,51 @@
+# pair-05
+
+## Request
+
+Please make application.docx, a clean one-page CV for this UK job, and give me a short note about anything I still need to check. I want to upload it today.
+Job: Maintenance Planning Administrator. Essentials: maintenance scheduling, spares records, contractor coordination and safe handovers. Excel required; SAP desirable. Portal accepts DOCX only, maximum 1 MB. Do not put a cover letter in the CV.
+My information: Alex Morgan, Leeds, alex.morgan@example.invalid, +44 7700 900123. Maintenance clerk, Ashmill Engineering, March 1998 to August 2009: kept weekly maintenance schedules and spares records, phoned contractors when a booked visit was missed, maintained a written handover book. Office coordinator, Linden Works, September 2009 to November 2025: arranged room and service bookings, kept purchase-request lists in Excel, trained two starters in the booking routine. No SAP experience. Level 3 Business Administration, completed 1997. I want a hands-on administration role. My old CV uses the headline "Senior transformation leader". Please use what is useful for this vacancy.
+
+## Frozen checks
+
+- Actual valid DOCX, <=1 MB, one legible page, all core content in main-body extraction
+- Name, email, phone and location preserved in body
+- Dated maintenance evidence covers scheduling, spares, contractors and handovers; Excel purchase-request evidence included
+- Both exact month/year periods, actual titles/employers and qualification preserved; no current SAP or leadership inflation
+- CV contains no editorial gaps, placeholders or verification notes; short separate note flags SAP as desirable gap
+- Visible and extracted associations checked, no ATS pass guarantee
+
+## Output A
+
+Created and visually checked your one-page CV: DOCX, 37 KB, below the 1 MB limit. It uses a maintenance administration headline and contains no cover letter.
+
+[application.docx](artifacts/A/application.docx)
+
+Before uploading:
+
+- Replace the `.invalid` email address with your working email and confirm the phone number.
+- Check employment dates and qualification details. Explain the period since November 2025 if the application asks.
+- Answer SAP questions with **no experience**. Your stated Excel evidence is maintaining purchase-request lists; check that this meets the vacancy’s expected level.
+- Prepare a specific example of how your handover book supported safe work. The CV describes the written handovers without inventing safety responsibilities.
+- Review the portal’s preview and any autofilled fields after upload.
+
+
+Actual artifact and rendered page for A: /workspace/scratch/32af31dce987/genx-gains/blind-assessment/pair-05/artifacts/A/
+
+## Output B
+
+[application.docx](artifacts/B/application.docx)
+
+**Ready for candidate review, listed checks completed:** one page, DOCX, 37,320 bytes, comfortably below 1 MB. Layout and text extraction checked; no cover letter included.
+
+The CV replaces “Senior transformation leader” with the target role and retains your dated maintenance experience alongside recent Excel use.
+
+Before uploading:
+
+- Replace the `.invalid` email with a working address and verify your phone number.
+- Check the vacancy’s meaning of **safe handovers**. Your written handover book is included, but specific safety procedures have not been confirmed.
+- SAP is a desirable gap; answer honestly that you have no experience if asked.
+- Review the portal’s extracted fields and mandatory questions. Local checks cannot guarantee its parsing.
+
+
+Actual artifact and rendered page for B: /workspace/scratch/32af31dce987/genx-gains/blind-assessment/pair-05/artifacts/B/

@@ -1,0 +1,8 @@
+{
+  "version": "0.5.0 candidate",
+  "runtime_inventory_sha256": "952e79acee78c5adaca583664608c38565e2f743ef1b7be7a9ea6e0403938ed3",
+  "runtime_files": 39,
+  "planned_candidate_development_runs": 3,
+  "planned_reserved_runs": 24,
+  "no_runtime_changes_during_reserved_runs": true
+}

@@ -1,0 +1,9 @@
+{
+  "declared_before_execution": true,
+  "purpose": "Determine whether the observed dated-evidence difference needs the new candidate module or is already produced by released 0.4.1. This is an adaptive explanatory follow-up, not additional reserved evidence.",
+  "case": "GX-67",
+  "condition": "0.4.1",
+  "repetitions": 2,
+  "checks": "Use original frozen GX-67 checks and inspect whether both evidence bullets keep source role titles and dates.",
+  "limits": "Known prompt, two more executions of the same model; cannot isolate the causal contribution of one instruction. Does not change original noticeable-gain gate or repair a failed result."
+}

@@ -4,9 +4,9 @@
 
 ATS-aware CV and career support for people with a long career and plenty left to offer. Recover the strengths you have stopped noticing, translate historical knowledge into present relevance, and produce a focused, truthful application.
 
-**Version 0.4.1, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. A matched comparison of three earlier versions and a no-skill assistant found useful results, a specific ATS warning improvement, and small usability weaknesses. The latest patch reduces unnecessary review boilerplate and respects a pause without inventing future work. Hiring effectiveness and human usability have not been established.
+**Version 0.4.1, research preview.** Supports eight markets and scoped troubleshooting for 14 ATS products. A matched comparison of three earlier versions and a no-skill assistant found useful results, a specific ATS warning improvement, and small usability weaknesses. The latest patch reduces unnecessary review boilerplate and respects a pause without inventing future work. A further 35-execution investigation did not justify a proposed expansion, so the released runtime remains lean. Hiring effectiveness and human usability have not been established.
 
-[Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Version comparison](docs/skill-comparison.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
+[Start here](#quick-start) · [Install](docs/installation.md) · [Examples](examples/README.md) · [Evidence](skills/genx-reloaded/references/evidence.md) · [Validation](docs/validation.md) · [Version comparison](docs/skill-comparison.md) · [Application-gain study](docs/application-gains.md) · [Research roadmap](docs/research-roadmap.md) · [Changes](CHANGELOG.md)
 
 ## What it feels like
 
@@ -89,7 +89,9 @@ The full [workflow](docs/workflow.md) adapts to the request. It never makes a mo
 | Repeatable repository checks | Manifest, links, metadata and Python syntax validator | Structural consistency, not hiring effectiveness |
 | Country-specific starting points | Eight separate market cards, including US, UK, CA, AU/AUS and NZ | Narrow sourced guidance, not complete legal or credential-recognition advice |
 | ATS-specific troubleshooting | [14-product coverage map](research/ats-coverage.md), documented symptoms and correction routes | Lever retrieval and Taleo version limits; no live tenant tests |
-| Research and reproducible trials | 46 claim records, 59 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
+| Research and reproducible trials | 47 claim records, 68 authored scenarios, immutable runtime snapshots and raw artifacts | Catalogue size is not the number of executed or passed trials |
+
+The [prospective application-gain study](docs/application-gains.md) adds 33 planned executions and two adaptive follow-ups. Its blinded review found 12 substantive ties and no critical failures. A longer application-preparation module was preserved as experimental evidence and was not promoted. This is a negative result against adding those instructions, not proof of real-world equivalence.
 
 The [matched comparison](docs/skill-comparison.md) contains 27 planned executions across versions 0.2.0, 0.3.0, 0.4.0 and a no-skill condition, followed by three focused 0.4.1 repair checks. It does not establish general superiority over an assistant without the skill. Read the [validation record](docs/validation.md) for methods, adverse observations, exact scope, and remaining work. Do not infer a measured interview uplift from these checks.
 

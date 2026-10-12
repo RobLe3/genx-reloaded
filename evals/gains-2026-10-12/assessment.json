@@ -1,0 +1,122 @@
+{
+  "original_planned_executions": 33,
+  "adaptive_attribution_executions": 2,
+  "reserved_pairs": 12,
+  "substantive_candidate_wins": 0,
+  "substantive_candidate_losses": 0,
+  "ties": 12,
+  "candidate_critical_failures": 0,
+  "no_skill_critical_failures": 0,
+  "repeated_winning_families": 0,
+  "noticeable_gain_gate_met": false,
+  "criterion_ratings": {
+    "none": {
+      "pass": 52,
+      "partial": 8
+    },
+    "candidate": {
+      "pass": 58,
+      "partial": 2
+    }
+  },
+  "release_decision": "Retain 0.4.1 unchanged; do not promote the 0.5.0 candidate. Preserve candidate additions and exact snapshots as experimental evidence.",
+  "maintainer_adjudication": "Accept all twelve tie decisions. More complete optional date/SAP wording is not a demonstrated reduction in consequential correction work. No second corrective candidate was justified by a material defect.",
+  "pairs": [
+    {
+      "case_id": "GX-63",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both calculate the same correct experience durations and give accurate 60-word profiles with usable entries. Differences in phrasing and whether \u201c60 unique months\u201d is repeated explicitly do not change correctness or usability."
+    },
+    {
+      "case_id": "GX-63",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both provide accurate durations, profiles and copyable entries. A includes dates directly in the profile while B places them in the adjacent form note; with no recency misrepresentation, that is not a substantive defect."
+    },
+    {
+      "case_id": "GX-64",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both deliver usable, accurate, legible DOCX content with the same material evidence and employment chronology. The year, duplicated skills section, and more explicit desirable-SAP/local-parsing wording in B do not avoid a consequential defect in A. The supplied invalid email requires the same candidate action in both."
+    },
+    {
+      "case_id": "GX-64",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both produce a clean one-page CV with the same essential evidence and correct chronology. B\u2019s qualification year and more explicit desirable-SAP label are not consequential gains. Both accurately avoid inventing safe-handover procedures and require the same working-email replacement."
+    },
+    {
+      "case_id": "GX-65",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both meet the requested content, date, truthfulness and length constraints. B\u2019s extra explanatory note repeats a credential limitation A already states plainly; it does not repair a consequential omission."
+    },
+    {
+      "case_id": "GX-65",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both fully represent the four essentials, retain dated older evidence and original titles, and distinguish awareness training from certification. A\u2019s optional identity template needs completion/removal if used, but the task requested a CV opening from notes with no identity supplied, rather than a submission-ready file. B\u2019s extra explanatory note and ordering do not avoid a consequential evidence or eligibility error."
+    },
+    {
+      "case_id": "GX-66",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both address the two known draft defects accurately, preserve the existing account, supply supported text, and provide a timely employer-contact fallback. They share the same minor incomplete-task-check omission; the longer repeated sentence in B is a style issue."
+    },
+    {
+      "case_id": "GX-66",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both safely correct the same job-specific draft, retain the existing account, include the right evidence and confirmation step, and give a deadline-aware escalation route. They share the same missing-task-review omission. B\u2019s shorter phrasing and timestamped-screenshot detail are optional refinements."
+    },
+    {
+      "case_id": "GX-67",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "A more fully meets the frozen chronology detail, but B still provides truthful employer-associated examples, the correct eligibility answer, training-only ERP disclosure and a reasonable next step. Since the request did not require dates on these standalone bullets and B implies no false chronology, the omission alone is not consequential enough to establish a substantive winner."
+    },
+    {
+      "case_id": "GX-67",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "B more fully satisfies two frozen details: dates on the bullets and an optional employer-equivalence next step. A nevertheless provides accurate usable text, the correct No, training-only ERP disclosure, and an explicit mandatory-gap warning. As the user did not require dated bullets and A makes no false recency or eligibility claim, these omissions do not establish a consequential submission error under the specified winner threshold."
+    },
+    {
+      "case_id": "GX-68",
+      "repetition": 1,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "B preserves more explicit event context in the standalone customer answer. The request did not require dates in that answer, and A retains the hotel/employer association and correctly dated employment in its CV without any claim of recency. The same concrete, supported customer-resolution actions are present, so this literal frozen-check shortfall is not enough for a substantive winner."
+    },
+    {
+      "case_id": "GX-68",
+      "repetition": 2,
+      "winner": "tie",
+      "critical_candidate": false,
+      "critical_none": false,
+      "reason": "Both meet the field, anonymity, evidence and truthfulness requirements. The additional CV-level event date and records-answer employment dates in B are useful context but do not fix a substantive defect in A, whose separate customer answer already preserves 2004."
+    }
+  ]
+}

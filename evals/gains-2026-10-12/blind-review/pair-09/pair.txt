@@ -1,0 +1,48 @@
+# pair-09
+
+## Request
+
+I'm applying for Business Intelligence Support in New Zealand. Please draft a 60-word CV profile and these form entries: whole years of Power BI work experience, and whole years of direct staff management, with a short note if needed.
+Career notes: customer adviser at Fenwick, 1997–2014. Reporting assistant at Westhaven, April 2015 to March 2020, used Excel, never Power BI. Reporting coordinator at Tui Services, April 2020 to March 2024, built Power BI reports throughout. Alongside that role I did Power BI reporting for a community group from April 2022 to March 2025 as an unpaid volunteer. Office coordinator at Harbourside, April 2024 to September 2026, worked with Excel and bookings, not Power BI. Managed two direct reports at Tui from April 2021 to March 2023; before and after that I mentored colleagues without formal management responsibility. A Power BI course in 2019 was learning only. Form help says relevant paid and unpaid work both count, but overlapping months count only once. The job asks for reporting, explaining numbers to non-specialists and stakeholder support.
+
+## Frozen checks
+
+- Power BI work duration 60 distinct months/five years, no study/Excel period included
+- Direct management 24 months/two years, no mentoring upgrade
+- Profile <=60 words, reflects reporting and dated/ bounded Power BI experience without inventing duties
+- Copyable entries, no inflated total by adding overlaps, truthful paid/unpaid distinction
+
+## Output A
+
+**CV profile — 60 words**
+
+Reporting professional seeking Business Intelligence Support work, with five years of Power BI experience across paid and volunteer roles. Built reports at Tui Services and delivered community reporting. Brings Excel experience, a customer adviser background and colleague mentoring, plus two years managing two direct reports. Keen to apply this experience to reporting, stakeholder support and explaining numbers to diverse audiences.
+
+| Form entry | Whole years | Short note |
+| --- | ---: | --- |
+| Power BI work experience | **5** | April 2020–March 2025: 60 unique months across paid work at Tui Services and unpaid community reporting. Overlapping months count once; the 2019 course and Excel-only roles are excluded. |
+| Direct staff management | **2** | Managed two direct reports at Tui Services, April 2021–March 2023: 24 months. Mentoring outside this period is excluded. |
+
+
+## Output B
+
+**CV profile — 60 words**
+
+:::writing{variant="standard" id="63101"}
+Reporting and customer support professional with five years of Power BI experience across paid and voluntary roles. Experienced in building reports, working with Excel and supporting colleagues and stakeholders. Combines a long customer advisory background with office coordination experience and two years managing two direct reports. Keen to help non-specialists understand numbers and use reporting confidently to inform everyday decisions.
+:::
+
+**Form entries**
+
+:::writing{variant="standard" id="63102"}
+Whole years of Power BI work experience: 5
+
+Note: Paid and voluntary Power BI work covers April 2020 to March 2025, counting overlapping months only once. Excel-only roles and the 2019 training course are excluded.
+:::
+
+:::writing{variant="standard" id="63103"}
+Whole years of direct staff management: 2
+
+Note: Managed two direct reports from April 2021 to March 2023. Mentoring outside that period is excluded.
+:::
+

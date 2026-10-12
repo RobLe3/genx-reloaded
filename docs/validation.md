@@ -2,6 +2,12 @@
 
 Version 0.4.1, 12 October 2026. This patch follows a matched historical-version comparison. **Useful fictional outputs are demonstrated; human confidence, live ATS acceptance and hiring benefit are not.** Read the [comparison report](skill-comparison.md) for task-level results and limits. Historical records remain available for [0.4.0](validation-v0.4.0.md), [0.3.0](validation-v0.3.0.md) and [0.2.0](validation-v0.2.0.md).
 
+## New prospective comparison, runtime unchanged
+
+A further [application-gain investigation](application-gains.md) ran 33 planned executions and two adaptive follow-ups across nine new fictional cases. The condition-blinded review found 12 substantive ties, no wins or losses, and no critical failures. The proposed expansion failed its predeclared gain gate and was not promoted. Four actual DOCX files were inspected along with their rendered pages. Raw answers, exact candidate snapshots, blind review and the release decision are preserved in the [run index](../evals/gains-2026-10-12/runs.json).
+
+The catalogue now contains 68 authored cases, of which 33 distinct cases have recorded executions across the three recorded evaluation series and this new study. This is not a reliability or acceptance rate. The runtime remains exactly 0.4.1, with unchanged helper code. See the new [integrity check](../evals/gains-2026-10-12/integrity-check.json), [repository check](../evals/gains-2026-10-12/repository-check.json), [research check](../evals/gains-2026-10-12/research-check.json) and [frontmatter check](../evals/gains-2026-10-12/frontmatter-check.txt).
+
 ## Matched comparison and repair
 
 Six new requests across 0.2.0, 0.3.0, 0.4.0 and no loaded skill produced 24 fresh-context answers. Three one-fact variants under 0.4.0 brought the planned comparison to 27 executions and nine distinct cases. The runtime remained frozen during these runs. See the [protocol](../evals/comparison-2026-10-12/protocol.md), [run index](../evals/comparison-2026-10-12/runs.json), [final assessment](../evals/comparison-2026-10-12/assessment.json) and [adjudication](../evals/comparison-2026-10-12/adjudication.md).
@@ -16,7 +22,7 @@ Version 0.4.1 changes three instruction files to remove unagreed next tasks from
 
 Repository structure, links, runtime manifest, frontmatter, research-record structure and recorded artifact integrity were checked for this patch. See [repository check](../evals/comparison-2026-10-12/repository-check.json), [research check](../evals/comparison-2026-10-12/research-check.json), [frontmatter check](../evals/comparison-2026-10-12/frontmatter-check.txt) and [integrity check](../evals/comparison-2026-10-12/integrity-check.json).
 
-No executable helper changed. The 27 passing helper unit tests belong to the preserved [0.4.0 run](../evals/v0.4.0/unit-tests.txt); they are not represented as rerun for 0.4.1. The current catalogue has 59 authored cases. Across the 0.3.0, 0.4.0 and this comparison, 24 distinct catalogue cases have recorded executions. Case count is not pass count, and most catalogue cases have not run.
+No executable helper changed. The 27 passing helper unit tests belong to the preserved [0.4.0 run](../evals/v0.4.0/unit-tests.txt); they are not represented as rerun for 0.4.1. At that patch, the catalogue had 59 authored cases. Across the 0.3.0, 0.4.0 and historical-version comparison, 24 distinct catalogue cases had recorded executions. Case count is not pass count, and most catalogue cases have not run.
 
 ## Remaining boundaries
 

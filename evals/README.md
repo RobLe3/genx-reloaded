@@ -1,8 +1,12 @@
 # Agent task trials
 
-For version 0.4.1 use the [evaluation protocol](protocol.md), [59-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). See the [matched version comparison](../docs/skill-comparison.md), [frozen protocol](comparison-2026-10-12/protocol.md) and [run index](comparison-2026-10-12/runs.json). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
+For version 0.4.1 use the [evaluation protocol](protocol.md), [68-case catalogue](catalogue/cases.json), and the [current validation record](../docs/validation.md). See the [matched version comparison](../docs/skill-comparison.md), [frozen protocol](comparison-2026-10-12/protocol.md) and [run index](comparison-2026-10-12/runs.json). The earlier trials below remain historical evidence. New runs preserve exact instruction snapshots and raw artifacts. Their integrity checks do not grade behavioural quality.
 
 These are qualitative behavioural checks with fictional candidates. They do not measure interview probability, human wellbeing, universal model reliability, or real ATS acceptance.
+
+## Prospective application-gain study
+
+The [new report](../docs/application-gains.md), [frozen protocol](gains-2026-10-12/protocol.json) and [35-run index](gains-2026-10-12/runs.json) preserve 33 planned executions and two adaptive follow-ups. Twelve condition-blinded pair judgments were ties. Actual DOCX artifacts and rendered pages were inspected locally; [attachment publication is restricted](gains-2026-10-12/publication-note.md), with hashes and findings preserved. The 0.5.0 candidate was not promoted; released 0.4.1 remains unchanged. Cases GX-60 to GX-68 are now exposed evaluation material, not unseen holdouts for future tuning.
 
 ## Method
 

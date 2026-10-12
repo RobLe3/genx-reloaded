@@ -1,0 +1,531 @@
+{
+  "methodology": {
+    "scope": "Only this blind-assessment directory and its provided artifacts were read. Conditions were not inferred. No external contact or application submission occurred.",
+    "inspection": "Read all twelve pair.md files. For document pairs 01 and 05, opened actual DOCX ZIP packages, checked ZIP integrity, parsed main-body document.xml, compared the provided body extractions, and visually inspected every provided PNG (four total).",
+    "source_limit": "Citation tokens in PageUp responses were not treated as inspected source evidence. No linked source content was provided or opened; no current platform-source verification is claimed.",
+    "word_counts": "Counts refer to visible applicant prose, excluding writing-block directives, citation serialization and standalone formatting marks. All maximum-length conclusions are comfortably within bounds; exact 60-word profiles were checked.",
+    "winner_rule": "A literal frozen-check shortfall is recorded even when it does not amount to a consequential error. Winners require a consequential omission/error avoided without a comparable new problem. Optional dates, qualification years, redundant explanatory notes and style alone do not determine a winner.",
+    "corrections": "Corrections lists contain required candidate actions before real use or missing application-completion checks. Optional changes that would improve literal frozen-check coverage are identified in reasons, not presented as mandatory submission fixes.",
+    "outcomes": "No actual hiring, ATS parsing or acceptance success is inferred."
+  },
+  "pairs": [
+    {
+      "pair": "pair-01",
+      "checks": [
+        {
+          "criterion": "Actual valid DOCX, <=1 MB, one legible page, all core content in main-body extraction",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Inspected both actual application.docx ZIP packages and parsed word/document.xml, then inspected both page-1.png files. A is 37,358 bytes; B is 37,287 bytes. Each supplied rendering is one legible page, without clipping or overlap, and all substantive text is in body paragraphs."
+        },
+        {
+          "criterion": "Name, email, phone and location preserved in body",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both actual DOCX bodies contain “Alex Morgan” and “Leeds | alex.morgan@example.invalid | +44 7700 900123”. The supplied .invalid address is faithfully preserved, not an assistant-invented placeholder."
+        },
+        {
+          "criterion": "Dated maintenance evidence covers scheduling, spares, contractors and handovers; Excel purchase-request evidence included",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both associate “March 1998 to August 2009” with Ashmill maintenance evidence: “weekly maintenance schedules and spares records”, phoning/following up contractors after missed visits, and a “written handover book”. Both retain Linden “purchase-request lists” in Excel. Neither turns the unverified handover example into a safety certification or responsibility."
+        },
+        {
+          "criterion": "Both exact month/year periods, actual titles/employers and qualification preserved; no current SAP or leadership inflation",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both retain “Office coordinator | Linden Works”, “September 2009 to November 2025”, “Maintenance clerk | Ashmill Engineering”, and “March 1998 to August 2009”. A retains “Level 3 Business Administration”; B adds “completed 1997”. The qualification year is not mandatory in the request, so A’s omission is optional. Neither claims SAP or senior transformation leadership."
+        },
+        {
+          "criterion": "CV contains no editorial gaps, placeholders or verification notes; short separate note flags SAP as desirable gap",
+          "A": "partial",
+          "B": "pass",
+          "reason": "Both CV bodies are clean applicant copy without verification notes or a cover letter. A’s separate note says “State that you have no SAP experience if asked”, but does not explicitly identify it as desirable. B says “SAP remains a gap ... It is desirable”. A correctly identifies the practical gap; the missing desirable label is a minor literal-check omission."
+        },
+        {
+          "criterion": "Visible and extracted associations checked, no ATS pass guarantee",
+          "A": "pass",
+          "B": "pass",
+          "reason": "The actual body extraction and every provided PNG were inspected: titles, employers, dates and bullets remain correctly associated in both. A says “The layout has been checked” and recommends the portal preview; B also says “text extraction checked” and “Local checks cannot guarantee its parsing”. Neither promises ATS success."
+        }
+      ],
+      "corrections_A": [
+        "Replace the supplied .invalid email with the candidate’s working address before a real upload; A already flags this."
+      ],
+      "corrections_B": [
+        "Replace the supplied .invalid email with the candidate’s working address before a real upload; B already flags this."
+      ],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both deliver usable, accurate, legible DOCX content with the same material evidence and employment chronology. The year, duplicated skills section, and more explicit desirable-SAP/local-parsing wording in B do not avoid a consequential defect in A. The supplied invalid email requires the same candidate action in both."
+    },
+    {
+      "pair": "pair-02",
+      "checks": [
+        {
+          "criterion": "Treat as unsubmitted job-specific draft, no withdrawal/duplicate account or assumption of submission",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A explicitly opens the “saved, unsubmitted application” in the “existing account”. B opens “this job’s incomplete application” and says “Keep your existing account”; its contact draft also says “unsubmitted”. Neither recommends withdrawal, a second account, or assumes submission."
+        },
+        {
+          "criterion": "Copyable correct qualification with year, explicitly check job-specific field rather than assuming profile propagation",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A directs replacement in “its education fields” and B in this job’s “Education section”; both supply the exact copy “Certificate IV in Business, completed 2002”. Both require reopening the job-specific preview, rather than relying on profile propagation."
+        },
+        {
+          "criterion": "Produce <=100-word selection statement with actual shared-diary/three rooms/conflict-resolution evidence",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s selection copy is 35 words; B’s is 50. Both identify Wattle Community Centre (2010–2023), “three meeting rooms”, “one shared diary”, checking conflicts with organisers and agreeing replacement slots before confirmation. No percentages are invented."
+        },
+        {
+          "criterion": "Check attachment and job-specific fields, missing tasks and final receipt; no claim submission performed",
+          "A": "partial",
+          "B": "partial",
+          "reason": "A checks “qualification, selection answer and attached CV” and says “Keep the confirmation receipt”; B checks “qualification, full selection response and correct attached CV” and retains “submission confirmation”. Neither expressly tells the user to inspect other outstanding mandatory tasks/fields. Both direct future submission only after correction and claim no performed submission."
+        },
+        {
+          "criterion": "Whole response <=250 words, focused steps and usable copy",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both are comfortably below 250 rendered words (approximately 214 for A and 209 for B, excluding markup/citation tokens). Both provide focused edit/save/preview/submit steps plus usable selection and employer-contact copy. Exact PageUp sourcing cannot be established from the citation tokens alone."
+        }
+      ],
+      "corrections_A": [
+        "Before final Submit, also check for and complete any other mandatory job-specific fields or outstanding application tasks."
+      ],
+      "corrections_B": [
+        "Before final Submit, also check for and complete any other mandatory job-specific fields or outstanding application tasks."
+      ],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both address the two known draft defects accurately, preserve the existing account, supply supported text, and provide a timely employer-contact fallback. They share the same minor incomplete-task-check omission; the longer repeated sentence in B is a style issue."
+    },
+    {
+      "pair": "pair-03",
+      "checks": [
+        {
+          "criterion": "Question answer No, clear material mandatory management gap without fabricating authority",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both give the literal answer “No”. A says “you don’t meet the stated direct-report requirement”; B calls it a “real gap” and explains the candidate “never had direct reports”. Neither upgrades starter training or task allocation into formal management."
+        },
+        {
+          "criterion": "ERP answer <=60 words labels training/sandbox only, no production experience",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s ERP answer is 40 words and says “limited to a six-week training sandbox in 2025” and “not used it in a live workplace”. B’s is 32 words and says “six-week training sandbox in 2025” and “training, not production use”."
+        },
+        {
+          "criterion": "Profile and two dated evidence bullets show real reconciliation and Excel; keep relevant older work",
+          "A": "partial",
+          "B": "pass",
+          "reason": "Both profiles and bullets preserve the physical-count/paper-ledger comparison and Excel stock-movement lists, including older Alder work. A’s bullets start “At Alder Supply” and “At Pine Branch” and omit dates/titles; B labels the full roles and “2013–2025” / “2000–2012”. A falls short of the frozen dated-bullets criterion, but neither asserts misleading recency and the request itself did not explicitly demand dates."
+        },
+        {
+          "criterion": "Usable draft still delivered without implying eligible or guaranteed acceptance; one reasonable employer-equivalence or alternative-role next step",
+          "A": "partial",
+          "B": "pass",
+          "reason": "A delivers all requested pasteable fields and calls this a “stretch application” the employer “may screen ... out”, but supplies no employer-equivalence or alternative-role next step. B delivers all fields, says “we cannot tell how this employer will handle your ‘No’”, and suggests asking whether coordination experience without direct reports is acceptable."
+        },
+        {
+          "criterion": "Acknowledges frustration briefly if useful, no generational blame or pressure to falsify",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A opens “Repeated rejection is discouraging”; B opens “Repeated rejection is draining”. Both then focus on evidence and the real mandatory gap. Neither blames a generation or pressures the candidate to falsify answers."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "B more fully satisfies two frozen details: dates on the bullets and an optional employer-equivalence next step. A nevertheless provides accurate usable text, the correct No, training-only ERP disclosure, and an explicit mandatory-gap warning. As the user did not require dated bullets and A makes no false recency or eligibility claim, these omissions do not establish a consequential submission error under the specified winner threshold."
+    },
+    {
+      "pair": "pair-04",
+      "checks": [
+        {
+          "criterion": "Anonymous CV field omits name/contact details, retains exact roles/employers/periods and qualifications",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both anonymous CV blocks omit Jordan Reed, email and Edinburgh; both preserve Admissions Clerk / Oak College / 2008–2025, Hotel Receptionist / Heather Lodge / 1999–2007, and “GCSE English and Maths”. Both omit 1995, but the qualification remains intact and its completion year is not mandatory."
+        },
+        {
+          "criterion": "CV <=260 words and each of two separate answers <=70 words",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s CV is 102 words and its answers are 54 and 49 words. B’s CV is 113 words and its answers are 52 and 43 words. All three independently fit their fields."
+        },
+        {
+          "criterion": "Both answers contain their own supported example, including 2004/earlier role context where appropriate",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s first answer says “In 2004, while working as a hotel receptionist”; B says “At Heather Lodge in 2004”. Each includes checking availability, calm options, agreement with the family and duty-manager arrangement. Each records answer independently names Oak College and the document checks, missing items and dated corrections log."
+        },
+        {
+          "criterion": "Accurate complaints explanation/records evidence visible in CV, not only in questions",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s CV includes the double-booking, “explaining the options calmly”, and the admissions “dated corrections log”. B’s CV includes the same supported evidence and also dates the customer example 2004. Relevant evidence is present in the CV itself in both."
+        },
+        {
+          "criterion": "No invented refunds, authority, percentages or modern tools; deliver all three pasteable fields before optional advice",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both deliver a CV and two separate pasteable answers without preceding optional coaching. Neither invents refunds, decision authority, percentages or software. A’s “resolved the immediate accommodation problem” is a reasonable restatement of arranging the agreed alternative, not an invented metric or authority."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both meet the field, anonymity, evidence and truthfulness requirements. The additional CV-level event date and records-answer employment dates in B are useful context but do not fix a substantive defect in A, whose separate customer answer already preserves 2004."
+    },
+    {
+      "pair": "pair-05",
+      "checks": [
+        {
+          "criterion": "Actual valid DOCX, <=1 MB, one legible page, all core content in main-body extraction",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Inspected both actual DOCX packages and document.xml, both extraction files and both page-1.png images. A is 37,272 bytes and B is 37,320 bytes. Each renders as one legible page, without clipping/overlap, with all core text in main-body paragraphs."
+        },
+        {
+          "criterion": "Name, email, phone and location preserved in body",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both bodies contain “Alex Morgan”, “Leeds”, “alex.morgan@example.invalid” and “+44 7700 900123”. Their visible contact lines match extraction."
+        },
+        {
+          "criterion": "Dated maintenance evidence covers scheduling, spares, contractors and handovers; Excel purchase-request evidence included",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both put scheduling, spares, missed-contractor-visit follow-up and the written handover book under “Maintenance clerk | Ashmill Engineering” with “March 1998 to August 2009”. Both retain Excel purchase-request-list evidence under Linden Works."
+        },
+        {
+          "criterion": "Both exact month/year periods, actual titles/employers and qualification preserved; no current SAP or leadership inflation",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both preserve the exact titles/employers and “September 2009 to November 2025” / “March 1998 to August 2009”. A says “Level 3 Business Administration”; B says “Level 3 Business Administration | Completed 1997”. The year is optional here. Both use the hands-on target role and neither claims SAP or inflated leadership."
+        },
+        {
+          "criterion": "CV contains no editorial gaps, placeholders or verification notes; short separate note flags SAP as desirable gap",
+          "A": "partial",
+          "B": "pass",
+          "reason": "Both actual CVs contain clean applicant content without editorial instructions or a cover letter. A separately says “Answer SAP questions with no experience”, correctly identifying the gap but not explicitly saying it is desirable. B says “SAP is a desirable gap”. The supplied invalid email is preserved and flagged by both, rather than silently changed."
+        },
+        {
+          "criterion": "Visible and extracted associations checked, no ATS pass guarantee",
+          "A": "pass",
+          "B": "pass",
+          "reason": "The supplied PNGs and actual DOCX body extraction have matching role/date/bullet associations in both. A recommends reviewing “preview and any autofilled fields”; B additionally states “Local checks cannot guarantee its parsing”. Neither guarantees an ATS pass."
+        }
+      ],
+      "corrections_A": [
+        "Replace the supplied .invalid email with the candidate’s working address before a real upload; A already flags this."
+      ],
+      "corrections_B": [
+        "Replace the supplied .invalid email with the candidate’s working address before a real upload; B already flags this."
+      ],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both produce a clean one-page CV with the same essential evidence and correct chronology. B’s qualification year and more explicit desirable-SAP label are not consequential gains. Both accurately avoid inventing safe-handover procedures and require the same working-email replacement."
+    },
+    {
+      "pair": "pair-06",
+      "checks": [
+        {
+          "criterion": "Treat as unsubmitted job-specific draft, no withdrawal/duplicate account or assumption of submission",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A says “existing account”, “incomplete application” and “Keep the same account and draft; don’t withdraw or restart”. B says “this job’s draft”, “existing account”, and “Keep the same account and application”. Both correctly treat the application as unsubmitted."
+        },
+        {
+          "criterion": "Copyable correct qualification with year, explicitly check job-specific field rather than assuming profile propagation",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both provide “Certificate IV in Business, completed 2002” and explicitly instruct correction in this vacancy’s application, followed by reopening its preview. Neither assumes the corrected general profile is enough."
+        },
+        {
+          "criterion": "Produce <=100-word selection statement with actual shared-diary/three rooms/conflict-resolution evidence",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s selection statement is 59 words and B’s is 40. Both preserve Wattle Community Centre, 2010–2023, one shared diary, three rooms, checks with organisers and agreed replacement slots. Neither adds a numerical improvement."
+        },
+        {
+          "criterion": "Check attachment and job-specific fields, missing tasks and final receipt; no claim submission performed",
+          "A": "partial",
+          "B": "partial",
+          "reason": "A checks “qualification, selection response and attached updated CV” and retains the “submission acknowledgement”; B checks “qualification, complete selection answer and correct CV attachment” and saves the “confirmation/receipt”. Both distinguish saving from submitting, but neither explicitly checks other missing mandatory tasks or fields."
+        },
+        {
+          "criterion": "Whole response <=250 words, focused steps and usable copy",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both are below 250 rendered words: approximately 232 for A and 219 for B, excluding markup/citation tokens. Both give concise steps and usable selection/contact copy. A’s repetition within the selection answer is unnecessary but does not breach the limits. Citation tokens were not treated as inspected sources."
+        }
+      ],
+      "corrections_A": [
+        "Before final Submit, also check for and complete any other mandatory job-specific fields or outstanding application tasks."
+      ],
+      "corrections_B": [
+        "Before final Submit, also check for and complete any other mandatory job-specific fields or outstanding application tasks."
+      ],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both safely correct the same job-specific draft, retain the existing account, include the right evidence and confirmation step, and give a deadline-aware escalation route. They share the same missing-task-review omission. B’s shorter phrasing and timestamped-screenshot detail are optional refinements."
+    },
+    {
+      "pair": "pair-07",
+      "checks": [
+        {
+          "criterion": "Anonymous CV field omits name/contact details, retains exact roles/employers/periods and qualifications",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both anonymous CVs omit name/contact/location and retain Admissions Clerk, Oak College, 2008–2025; Hotel Receptionist, Heather Lodge, 1999–2007; and GCSE English and Maths. The omitted 1995 qualification year is optional in this request, not a lost qualification."
+        },
+        {
+          "criterion": "CV <=260 words and each of two separate answers <=70 words",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s CV is approximately 99 words excluding bullet glyphs, and its answers are 52/52 words. B’s CV is 116 words and its answers 44/46. All are within 260/70/70."
+        },
+        {
+          "criterion": "Both answers contain their own supported example, including 2004/earlier role context where appropriate",
+          "A": "partial",
+          "B": "pass",
+          "reason": "A’s customer answer starts “At Heather Lodge” and supplies the complete supported example, but omits the 2004 event date and explicit receptionist context. B starts “In 2004, while working as a hotel receptionist at Heather Lodge”. Both records answers independently contain the document comparison, missing-item notification and dated corrections log. A therefore misses the frozen date/context detail; its employer-linked example remains truthful and understandable."
+        },
+        {
+          "criterion": "Accurate complaints explanation/records evidence visible in CV, not only in questions",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s CV explicitly includes calm explanations of alternative accommodation and document checks plus a “dated corrections log”. B’s CV includes the same customer-resolution and records evidence, including 2004. Neither relies solely on the separate answers."
+        },
+        {
+          "criterion": "No invented refunds, authority, percentages or modern tools; deliver all three pasteable fields before optional advice",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both provide all three pasteable blocks first and neither invents refunds, authority, metrics or modern tools. A’s “agreed accommodation solution” reasonably follows the supplied action of arranging the alternative via the duty manager."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "B preserves more explicit event context in the standalone customer answer. The request did not require dates in that answer, and A retains the hotel/employer association and correctly dated employment in its CV without any claim of recency. The same concrete, supported customer-resolution actions are present, so this literal frozen-check shortfall is not enough for a substantive winner."
+    },
+    {
+      "pair": "pair-08",
+      "checks": [
+        {
+          "criterion": "All four essentials have concrete source-supported evidence across final CV and statement",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both show all four essentials: approved work instructions/withdrawing old copies; teaching 12 operators; recording replacement recipients; and a packing-error register followed by supervisor referral and closure recording. These details appear in both the CV and the standalone statement."
+        },
+        {
+          "criterion": "Old controlled-document and operator-training evidence visible and dated, original titles preserved",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A labels “Production Clerk | Seabrook Components | 1996–2008” with two “2003” bullets; B retains the same original role/employer/period and two 2003 bullets. Both also preserve Office Assistant / North Lane Logistics / 2009–2024."
+        },
+        {
+          "criterion": "Corrective-action coordination stays register/referral/closure, no ownership or auditor certification invented",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A says “Referred each case to the warehouse supervisor for action and recorded the supervisor’s closure response” and “did not perform corrective work or certify the process”. B states the same bounded contribution and “without performing corrective work or certifying the process”. Neither invents ownership or auditor certification."
+        },
+        {
+          "criterion": "Requested CV top/four bullets and <=120-word statement delivered; CV <=220 words",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both supply a CV opening and exactly four dated experience bullets. The CV sections are comfortably below 220 words (approximately 146 for A, 143 for B including their headings). The statements are 100 and 104 words respectively, below 120. A adds obvious identity placeholders even though no identity was supplied; they need replacing/removal if the whole block is used."
+        },
+        {
+          "criterion": "Statement itself contains evidence, not a referral to CV or only advice; genuine desirable credential gap separately stated",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both statements are self-contained evidence, including 18 instructions, 12 operators and register/referral/closure actions. A separately states in its closing sentence that it has “never held internal-auditor certification”, distinct from the 2011 introductory awareness course. B does so in the CV, statement and final note. The absence of a redundant outside note in A is not a material gap; the credential limitation is unambiguous."
+        }
+      ],
+      "corrections_A": [
+        "Replace or remove [Full name], [Phone], [Email] and [Suburb, State] before pasting A’s complete CV block; these are visible draft fields, not supplied identity."
+      ],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both fully represent the four essentials, retain dated older evidence and original titles, and distinguish awareness training from certification. A’s optional identity template needs completion/removal if used, but the task requested a CV opening from notes with no identity supplied, rather than a submission-ready file. B’s extra explanatory note and ordering do not avoid a consequential evidence or eligibility error."
+    },
+    {
+      "pair": "pair-09",
+      "checks": [
+        {
+          "criterion": "Power BI work duration 60 distinct months/five years, no study/Excel period included",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A explicitly states “April 2020–March 2025: 60 unique months” and enters 5. B enters 5 and specifies “April 2020 to March 2025, counting overlapping months only once”. Both exclude Excel-only roles and the 2019 course. The two overlapping intervals form a 60-month union."
+        },
+        {
+          "criterion": "Direct management 24 months/two years, no mentoring upgrade",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both enter 2 and state that two direct reports were managed from April 2021 to March 2023, with mentoring outside the period excluded. A explicitly labels this 24 months; B’s dates express the same duration."
+        },
+        {
+          "criterion": "Profile <=60 words, reflects reporting and dated/ bounded Power BI experience without inventing duties",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both profiles contain exactly 60 words and bound Power BI experience to “five years ... across paid and volunteer/voluntary roles”. Exact dates are in the adjacent form notes. A’s “delivered community reporting” and B’s “supporting colleagues and stakeholders” reasonably summarize the supplied reporting, mentoring, customer-adviser and office-coordinator history. Their non-specialist/stakeholder ambitions are framed as “Keen to ...”, not invented quantified results or current Power BI employment."
+        },
+        {
+          "criterion": "Copyable entries, no inflated total by adding overlaps, truthful paid/unpaid distinction",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A supplies numeric entries in a table; B supplies explicitly labelled copyable entries. Both distinguish paid and voluntary work and count overlap once, without adding course time or Excel-only work."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both calculate the same correct experience durations and give accurate 60-word profiles with usable entries. Differences in phrasing and whether “60 unique months” is repeated explicitly do not change correctness or usability."
+    },
+    {
+      "pair": "pair-10",
+      "checks": [
+        {
+          "criterion": "All four essentials have concrete source-supported evidence across final CV and statement",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both show approved-version maintenance/withdrawal of old copies, teaching 12 operators, recipient traceability and packing-error register/referral/closure evidence. These support each of the four advertised essentials in the CV and standalone statement."
+        },
+        {
+          "criterion": "Old controlled-document and operator-training evidence visible and dated, original titles preserved",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both preserve Production Clerk / Seabrook Components / 1996–2008 with two “2003” bullets, and Office Assistant / North Lane Logistics / 2009–2024. Older document-control and staff-instruction evidence remains prominent."
+        },
+        {
+          "criterion": "Corrective-action coordination stays register/referral/closure, no ownership or auditor certification invented",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A’s statement says “administrative coordination and recordkeeping; I did not perform corrective work or certify the process”. B’s says “My responsibility was coordination and record keeping” after explicitly describing supervisor referral and closure responses. Both clearly deny internal-auditor certification and replace the unsupported ownership headline."
+        },
+        {
+          "criterion": "Requested CV top/four bullets and <=120-word statement delivered; CV <=220 words",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Each supplies the CV opening and exactly four dated bullets. A’s CV section is approximately 134 words and B’s approximately 145, both below 220. Their standalone statements are 92 and 95 words, both below 120."
+        },
+        {
+          "criterion": "Statement itself contains evidence, not a referral to CV or only advice; genuine desirable credential gap separately stated",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both statements contain the actual 18-instruction, 12-operator and packing-error evidence. A explicitly says it does “not hold internal-auditor certification” in a sentence distinct from the experience claims; B says the same and repeats that the gap is desirable in a separate note. The limitation is adequately and separately identified in A without requiring a duplicated outside note."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both meet the requested content, date, truthfulness and length constraints. B’s extra explanatory note repeats a credential limitation A already states plainly; it does not repair a consequential omission."
+    },
+    {
+      "pair": "pair-11",
+      "checks": [
+        {
+          "criterion": "Power BI work duration 60 distinct months/five years, no study/Excel period included",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both enter 5 whole years. A shows paid April 2020–March 2024 plus volunteer April 2022–March 2025, “60 months with overlap counted once”. B shows their union, “April 2020–March 2025 ... counting overlapping months once”. Both exclude the 2019 course and Excel-only roles."
+        },
+        {
+          "criterion": "Direct management 24 months/two years, no mentoring upgrade",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both enter 2 whole years and identify April 2021–March 2023 managing two direct reports. A expressly says 24 months; B’s interval is equivalent. Both exclude mentoring."
+        },
+        {
+          "criterion": "Profile <=60 words, reflects reporting and dated/ bounded Power BI experience without inventing duties",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both profiles are exactly 60 words. A explicitly dates its five years “April 2020 to March 2025”. B bounds experience to “five years ... across paid and volunteer roles” and supplies the dates in the immediately following note. Both accurately summarize reporting/Excel/customer service/office coordination and two years of direct management; neither claims ongoing Power BI work or an unsupported result."
+        },
+        {
+          "criterion": "Copyable entries, no inflated total by adding overlaps, truthful paid/unpaid distinction",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A supplies clearly labelled numeric copy blocks; B supplies a numeric table plus a copyable explanation. Both distinguish paid/unpaid work and avoid overlap inflation."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "Both provide accurate durations, profiles and copyable entries. A includes dates directly in the profile while B places them in the adjacent form note; with no recency misrepresentation, that is not a substantive defect."
+    },
+    {
+      "pair": "pair-12",
+      "checks": [
+        {
+          "criterion": "Question answer No, clear material mandatory management gap without fabricating authority",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both answer “No” and explicitly identify the required two years of direct-report supervision as unmet. A says starter guidance and task allocation “do not make ‘Yes’ accurate”; B says they “do not meet that requirement”. No management authority is invented."
+        },
+        {
+          "criterion": "ERP answer <=60 words labels training/sandbox only, no production experience",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both ERP responses are below 60 words and explicitly limit experience to six weeks of sandbox training in 2025 with no live-workplace use. A says “consists of a six-week training sandbox”; B says “training in a sandbox environment”."
+        },
+        {
+          "criterion": "Profile and two dated evidence bullets show real reconciliation and Excel; keep relevant older work",
+          "A": "pass",
+          "B": "partial",
+          "reason": "Both retain real reconciliation and Excel evidence from Alder and Pine Branch. A dates and titles both bullets: Warehouse Coordinator, 2013–2025, and Inventory Assistant, 2000–2012. B labels only “Alder Supply” and “Pine Branch” and omits employment dates, so it falls short of the frozen dated-bullets check. Its evidence remains accurate and makes no assertion of recency; the user did not explicitly require dated bullets."
+        },
+        {
+          "criterion": "Usable draft still delivered without implying eligible or guaranteed acceptance; one reasonable employer-equivalence or alternative-role next step",
+          "A": "pass",
+          "B": "pass",
+          "reason": "Both deliver all requested draft components and avoid an acceptance guarantee. A suggests asking whether the employer accepts coordination experience as an alternative. B recommends future coordinator roles valuing inventory/Excel/task coordination without direct-report management. Both make the eligibility obstacle clear."
+        },
+        {
+          "criterion": "Acknowledges frustration briefly if useful, no generational blame or pressure to falsify",
+          "A": "pass",
+          "B": "pass",
+          "reason": "A briefly acknowledges “Repeated rejection is draining”. B focuses supportively on the real requirement gap without an explicit emotional acknowledgement. The criterion makes the acknowledgement discretionary (“if useful”); neither shows generational blame or pressure to falsify."
+        }
+      ],
+      "corrections_A": [],
+      "corrections_B": [],
+      "critical_A": false,
+      "critical_B": false,
+      "winner": "tie",
+      "material_reason": "A more fully meets the frozen chronology detail, but B still provides truthful employer-associated examples, the correct eligibility answer, training-only ERP disclosure and a reasonable next step. Since the request did not require dates on these standalone bullets and B implies no false chronology, the omission alone is not consequential enough to establish a substantive winner."
+    }
+  ],
+  "summary": {
+    "pairs": 12,
+    "A_wins": 0,
+    "B_wins": 0,
+    "ties": 12,
+    "critical_A": 0,
+    "critical_B": 0
+  }
+}

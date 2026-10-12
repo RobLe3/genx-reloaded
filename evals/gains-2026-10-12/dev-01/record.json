@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "GX-60",
+  "agent_id": "/root/gains_dev_01",
+  "model": "unknown",
+  "sampling_settings": "unknown",
+  "host": "Codex Work Mode fresh agent context",
+  "execution_started_at": null,
+  "recorded_at": "2026-10-12T17:45:45.633658+00:00",
+  "wrapper": "Without loading GenX Reloaded or its references, complete the request in /workspace/scratch/32af31dce987/genx-gains/dev-01/request.txt. You may use normal document/PDF capabilities and current primary sources when needed. Read only the assigned request, relevant skill instructions and sources needed for this task; do not inspect other task folders or repository material. Save your complete answer verbatim to /workspace/scratch/32af31dce987/genx-gains/dev-01/answer.md, any requested files in /workspace/scratch/32af31dce987/genx-gains/dev-01/output/, and return the answer. Do not modify instructions, contact anyone, submit or withdraw an application.",
+  "tools": "Host tools available; complete tool transcript not archived.",
+  "data_kind": "fictional",
+  "assessment": "unassessed",
+  "files": {
+    "prompt.txt": "d74a0df51e781289ee331f67be570c9864dcc9f6c7fa978e7c60b7ef0f084554",
+    "response.md": "651bab2f55cd68dd293ecfeb9a0fea80c03417663f651b5270d52f608875520b"
+  },
+  "skill_condition": "no-skill",
+  "runtime_inventory_sha256": null,
+  "limits": "Artifact capture, not automatic grading, independent adjudication, or deterministic model reproduction."
+}

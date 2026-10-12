@@ -1,0 +1,70 @@
+# pair-10
+
+## Request
+
+Please prepare the top of my CV and four dated experience bullets for this Australian Quality Documentation Officer vacancy, plus the required 120-word maximum statement "How does your experience meet our requirements?" Keep the CV part below 220 words.
+The vacancy requires controlled work instructions, staff instruction, records traceability and coordination of corrective actions. ISO 9001 internal-auditor certification is desirable, not essential. The portal is Greenhouse.
+My master history: production clerk at Seabrook Components, 1996–2008. In 2003 I numbered and maintained the approved versions of 18 work instructions, withdrew old copies, recorded who received replacements, and taught 12 operators how to record batch changes. At North Lane Logistics, office assistant, 2009–2024, I kept a register of customer-reported packing errors, sent each case to the warehouse supervisor for action and recorded the supervisor's closure response. I did not perform the corrective work or certify the process. In 2011 I took a two-day introductory ISO 9001 awareness course; I have never held auditor certification. My old CV says "Quality visionary with end-to-end compliance ownership." I have no measured savings or defect reduction figures.
+
+## Frozen checks
+
+- All four essentials have concrete source-supported evidence across final CV and statement
+- Old controlled-document and operator-training evidence visible and dated, original titles preserved
+- Corrective-action coordination stays register/referral/closure, no ownership or auditor certification invented
+- Requested CV top/four bullets and <=120-word statement delivered; CV <=220 words
+- Statement itself contains evidence, not a referral to CV or only advice; genuine desirable credential gap separately stated
+
+## Output A
+
+**Quality Documentation Officer**
+
+Production and logistics administration professional with practical experience maintaining controlled work instructions, instructing operators and keeping traceable records. Brings careful version control, clear staff guidance and accurate tracking of customer-reported issues and supervisor responses.
+
+**Relevant experience**
+
+**North Lane Logistics — Office Assistant | 2009–2024**
+
+- **2009–2024:** Maintained a register of customer-reported packing errors, keeping a clear record of each reported issue.
+- **2009–2024:** Referred each case to the warehouse supervisor for action and recorded the supervisor’s closure response, supporting corrective-action coordination.
+
+**Seabrook Components — Production Clerk | 1996–2008**
+
+- **2003:** Numbered and maintained approved versions of 18 work instructions, withdrew old copies and recorded who received replacements to support document traceability.
+- **2003:** Taught 12 operators how to record batch changes, supporting consistent production recordkeeping.
+
+**Training**
+
+Two-day introductory ISO 9001 awareness course, 2011.
+
+**How does your experience meet our requirements?**
+
+My experience covers document control, staff instruction, records traceability and corrective-action coordination. At Seabrook Components in 2003, I maintained approved versions of 18 work instructions, withdrew outdated copies, recorded replacement recipients and taught 12 operators to record batch changes. At North Lane Logistics, I registered customer-reported packing errors, referred cases to the warehouse supervisor and recorded closure responses. My contribution was administrative coordination and recordkeeping; I did not perform corrective work or certify the process. I completed a two-day introductory ISO 9001 awareness course in 2011 and do not hold internal-auditor certification.
+
+
+
+## Output B
+
+**CV opening and experience**
+
+Target role: Quality Documentation Officer
+
+Production and office administration experience covering controlled work instructions, staff instruction, records traceability and coordination of corrective actions. Maintained 18 approved work instructions and instructed 12 operators in 2003; subsequently maintained packing-error records and documented supervisor responses.
+
+Office Assistant | North Lane Logistics | 2009–2024
+
+- 2009–2024: Maintained a register of customer-reported packing errors, keeping a record of reported issues.
+- 2009–2024: Coordinated corrective-action records by referring each case to the warehouse supervisor for action and recording the supervisor’s closure response.
+
+Production Clerk | Seabrook Components | 1996–2008
+
+- 2003: Numbered and maintained approved versions of 18 controlled work instructions, withdrew old copies and recorded who received replacements to support document traceability.
+- 2003: Taught 12 operators how to record batch changes, providing staff instruction in production record keeping.
+
+Training: Two-day introductory ISO 9001 awareness course, 2011. No internal-auditor certification.
+
+**How does your experience meet our requirements?**
+
+My experience covers document control, staff instruction, records traceability and coordination of corrective actions. At Seabrook Components in 2003, I maintained approved versions of 18 work instructions, withdrew old copies and recorded replacement recipients. I also taught 12 operators how to record batch changes. At North Lane Logistics (2009–2024), I maintained a register of customer-reported packing errors, referred cases to the warehouse supervisor for action and recorded the supervisor’s closure responses. My responsibility was coordination and record keeping. I completed a two-day introductory ISO 9001 awareness course in 2011; I do not hold internal-auditor certification.
+
+The unsupported compliance-ownership claim is removed. Your 2003 evidence remains prominent because it directly meets the documentation and staff-instruction requirements. Auditor certification remains a desirable qualification gap, distinct from your awareness course.
+

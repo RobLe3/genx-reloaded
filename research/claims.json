@@ -1019,6 +1019,29 @@
       "related_cases": [
         "GX-46"
       ]
+    },
+    {
+      "id": "GX-C47",
+      "workstream": "R05",
+      "statement": "A published field experiment reports hiring gains from nongenerative resume-writing assistance in an online labour market.",
+      "source_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04528",
+      "source_title": "Algorithmic Writing Assistance on Jobseekers’ Resumes Increases Hires",
+      "publisher": "INFORMS, Management Science",
+      "publication_date": "2025-04-18",
+      "checked_on": "2026-10-12",
+      "evidence_type": "study",
+      "scope": "Nearly half a million online labour-market jobseekers; different intervention from this skill.",
+      "inspection": "Publisher abstract and publication metadata inspected; full methods and subgroup results not reviewed.",
+      "limitations": "Does not estimate a Gen X effect, a generative-CV effect or ATS acceptance uplift.",
+      "candidate_action": "Write clearly and preserve truthful evidence.",
+      "mitigation_tested": "Original nongenerative writing intervention only. GenX Reloaded hiring effects untested.",
+      "status": "supported-within-scope",
+      "review_trigger": "Full methods review or a correction to the published paper",
+      "reviewer": "Maintainer agent; no independent human adjudication",
+      "related_cases": [
+        "GX-61",
+        "GX-65"
+      ]
     }
   ]
 }

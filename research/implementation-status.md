@@ -12,10 +12,12 @@
 | GX-R06, occupation examples | Six fictional fact-ledger transformations spanning office and non-office work | No human reviewer comparison or hiring-effect measurement |
 | GX-R07, ATS matrix | Fourteen scoped product cards, cross-surface troubleshooting, official candidate/admin/API sources | Lever retrieval and Taleo release limits remain; no employer-side environment tested |
 | GX-R08, country cards | Eight separate cards: US, UK, Canada, Australia, New Zealand, Germany, Austria and Switzerland | No comprehensive legal/recognition review; Australian AHRC page retrieval incomplete; further markets pending |
-| GX-R09, scenario expansion | 59 authored cases, reserved designations, matched version comparisons and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
+| GX-R09, scenario expansion | 68 authored cases, reserved designations, matched version comparisons and versioned raw execution records | See current validation for executed scope; negative triggers, paired fairness cases and additional models remain pending |
 | GX-R10, privacy and end-to-end support | Data-flow/threat inventory, opportunity and learning aid, interview/outreach/work-sample patterns | Full threat-case execution, human usability and prospective outcome tracking not performed |
 
 The [October version comparison](../docs/skill-comparison.md) adds 27 planned executions and three focused 0.4.1 checks. It compares output quality and input sensitivity; it does not close the human-usefulness or hiring-effect gates.
+
+The [prospective application-gain investigation](../docs/application-gains.md) adds 35 executions, including two explicitly adaptive follow-ups. All 12 reserved pairs were substantive ties. The longer candidate was not promoted, and 0.4.1 remains the runtime. The claim register now has 47 entries, including a bounded original writing-assistance study; this does not close the hiring-effect gate.
 
 ## Workstream coverage
 
